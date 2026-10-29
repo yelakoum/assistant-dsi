@@ -33,13 +33,3 @@ def mettre_a_jour_pile(pile: list[str], niveau: int, titre: str) -> list[str]:
     """
     # TODO : une seule ligne suffit (slicing + ajout du titre)
     return pile[:niveau - 1] + [titre]
-
-
-    if __name__ == "__main__":
-        assert parse_titre("# Moodle") == (1, "Moodle")
-        assert parse_titre("## Se connecter à Moodle") == (2, "Se connecter à Moodle")
-        assert parse_titre("### Inscrire les étudiants") == (3, "Inscrire les étudiants")
-        assert parse_titre("- Ouvrez un ticket") is None
-        assert parse_titre("#hashtag") is None
-        assert parse_titre("") is None
-        print("Tous les tests passent ✅")
