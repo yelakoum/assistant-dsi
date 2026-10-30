@@ -1,1 +1,7 @@
-pip install python-dotenv
+# torch en version CPU (évite de télécharger plusieurs Go de version GPU)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.14.1+cpu
+sentence-transformers==6.2.0
+pandas==2.3.3
+pytest==9.2.0

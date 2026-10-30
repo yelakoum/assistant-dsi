@@ -1,5 +1,5 @@
+DSI/
 .env
 data/index/
 __pycache__/
-git add .gitignore
-git commit -m "chore: add gitignore"
+.Rhistory
