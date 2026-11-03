@@ -19,3 +19,4 @@ scores = vecteurs @ q
 meilleurs = scores.argsort()[::-1][:3]
 for i in meilleurs:
     print(f"{scores[i]:.3f}  {chunks[i]['fil_ariane']}")
+print(q)
