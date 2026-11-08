@@ -1,0 +1,42 @@
+{
+  "fps": 60,
+  "voice": "en-US-AndrewNeural",
+  "rate": "+12%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 1327,
+  "totalDurationSeconds": 22.117,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Stop writing Python loops like this! There's a one-liner the pros use instead.",
+      "audioFile": "audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 250,
+      "durationSeconds": 4.152
+    },
+    {
+      "id": 2,
+      "text": "The for loop way: create an empty list, loop over your numbers, and append each square. Three lines, just to build a list.",
+      "audioFile": "audio/segment_02.mp3",
+      "startFrame": 256,
+      "durationInFrames": 438,
+      "durationSeconds": 7.296
+    },
+    {
+      "id": 3,
+      "text": "The list comprehension way: squares equals x squared, for x in numbers. One line. Same result.",
+      "audioFile": "audio/segment_03.mp3",
+      "startFrame": 700,
+      "durationInFrames": 402,
+      "durationSeconds": 6.696
+    },
+    {
+      "id": 4,
+      "text": "Cleaner, and usually faster too. Follow for more Python tips!",
+      "audioFile": "audio/segment_04.mp3",
+      "startFrame": 1108,
+      "durationInFrames": 219,
+      "durationSeconds": 3.648
+    }
+  ]
+}
