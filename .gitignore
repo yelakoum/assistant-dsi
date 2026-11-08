@@ -3,3 +3,6 @@ DSI/
 data/index/
 __pycache__/
 .Rhistory
+.venv/
+node_modules/
+out/
