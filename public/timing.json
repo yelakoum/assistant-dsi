@@ -3,40 +3,308 @@
   "voice": "en-US-AndrewNeural",
   "rate": "+12%",
   "gapFrames": 6,
-  "totalDurationInFrames": 1327,
-  "totalDurationSeconds": 22.117,
+  "totalDurationInFrames": 1165,
+  "totalDurationSeconds": 19.417,
   "segments": [
     {
       "id": 1,
-      "text": "Stop writing Python loops like this! There's a one-liner the pros use instead.",
+      "text": "Stop writing Python loops like this! Four lines, just to double a list?",
       "audioFile": "audio/segment_01.mp3",
       "startFrame": 0,
-      "durationInFrames": 250,
-      "durationSeconds": 4.152
+      "durationInFrames": 247,
+      "durationSeconds": 4.104,
+      "words": [
+        {
+          "text": "Stop",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "writing",
+          "startFrame": 22,
+          "endFrame": 37
+        },
+        {
+          "text": "Python",
+          "startFrame": 36,
+          "endFrame": 59
+        },
+        {
+          "text": "loops",
+          "startFrame": 59,
+          "endFrame": 72
+        },
+        {
+          "text": "like",
+          "startFrame": 72,
+          "endFrame": 83
+        },
+        {
+          "text": "this",
+          "startFrame": 83,
+          "endFrame": 103
+        },
+        {
+          "text": "Four",
+          "startFrame": 125,
+          "endFrame": 131
+        },
+        {
+          "text": "lines",
+          "startFrame": 131,
+          "endFrame": 161
+        },
+        {
+          "text": "just",
+          "startFrame": 170,
+          "endFrame": 181
+        },
+        {
+          "text": "to",
+          "startFrame": 181,
+          "endFrame": 186
+        },
+        {
+          "text": "double",
+          "startFrame": 186,
+          "endFrame": 200
+        },
+        {
+          "text": "a",
+          "startFrame": 200,
+          "endFrame": 203
+        },
+        {
+          "text": "list",
+          "startFrame": 202,
+          "endFrame": 227
+        }
+      ]
     },
     {
       "id": 2,
-      "text": "The for loop way: create an empty list, loop over your numbers, and append each square. Three lines, just to build a list.",
+      "text": "Watch. Collapse it into one list comprehension: x times two, for x in nums.",
       "audioFile": "audio/segment_02.mp3",
-      "startFrame": 256,
-      "durationInFrames": 438,
-      "durationSeconds": 7.296
+      "startFrame": 253,
+      "durationInFrames": 316,
+      "durationSeconds": 5.256,
+      "words": [
+        {
+          "text": "Watch",
+          "startFrame": 5,
+          "endFrame": 28
+        },
+        {
+          "text": "Collapse",
+          "startFrame": 49,
+          "endFrame": 71
+        },
+        {
+          "text": "it",
+          "startFrame": 70,
+          "endFrame": 75
+        },
+        {
+          "text": "into",
+          "startFrame": 75,
+          "endFrame": 89
+        },
+        {
+          "text": "one",
+          "startFrame": 89,
+          "endFrame": 106
+        },
+        {
+          "text": "list",
+          "startFrame": 106,
+          "endFrame": 121
+        },
+        {
+          "text": "comprehension",
+          "startFrame": 121,
+          "endFrame": 162
+        },
+        {
+          "text": "x",
+          "startFrame": 169,
+          "endFrame": 179
+        },
+        {
+          "text": "times",
+          "startFrame": 179,
+          "endFrame": 199
+        },
+        {
+          "text": "two",
+          "startFrame": 199,
+          "endFrame": 219
+        },
+        {
+          "text": "for",
+          "startFrame": 234,
+          "endFrame": 246
+        },
+        {
+          "text": "x",
+          "startFrame": 246,
+          "endFrame": 260
+        },
+        {
+          "text": "in",
+          "startFrame": 259,
+          "endFrame": 268
+        },
+        {
+          "text": "nums",
+          "startFrame": 267,
+          "endFrame": 295
+        }
+      ]
     },
     {
       "id": 3,
-      "text": "The list comprehension way: squares equals x squared, for x in numbers. One line. Same result.",
+      "text": "Run it, and you get the exact same output. Two, four, six, eight, ten.",
       "audioFile": "audio/segment_03.mp3",
-      "startFrame": 700,
-      "durationInFrames": 402,
-      "durationSeconds": 6.696
+      "startFrame": 575,
+      "durationInFrames": 304,
+      "durationSeconds": 5.064,
+      "words": [
+        {
+          "text": "Run",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "it",
+          "startFrame": 14,
+          "endFrame": 23
+        },
+        {
+          "text": "and",
+          "startFrame": 38,
+          "endFrame": 43
+        },
+        {
+          "text": "you",
+          "startFrame": 42,
+          "endFrame": 48
+        },
+        {
+          "text": "get",
+          "startFrame": 48,
+          "endFrame": 58
+        },
+        {
+          "text": "the",
+          "startFrame": 58,
+          "endFrame": 62
+        },
+        {
+          "text": "exact",
+          "startFrame": 62,
+          "endFrame": 86
+        },
+        {
+          "text": "same",
+          "startFrame": 86,
+          "endFrame": 100
+        },
+        {
+          "text": "output",
+          "startFrame": 99,
+          "endFrame": 126
+        },
+        {
+          "text": "Two",
+          "startFrame": 148,
+          "endFrame": 164
+        },
+        {
+          "text": "four",
+          "startFrame": 174,
+          "endFrame": 195
+        },
+        {
+          "text": "six",
+          "startFrame": 206,
+          "endFrame": 230
+        },
+        {
+          "text": "eight",
+          "startFrame": 239,
+          "endFrame": 255
+        },
+        {
+          "text": "ten",
+          "startFrame": 265,
+          "endFrame": 284
+        }
+      ]
     },
     {
       "id": 4,
-      "text": "Cleaner, and usually faster too. Follow for more Python tips!",
+      "text": "Cleaner, more Pythonic, and usually faster. Follow for more Python tips!",
       "audioFile": "audio/segment_04.mp3",
-      "startFrame": 1108,
-      "durationInFrames": 219,
-      "durationSeconds": 3.648
+      "startFrame": 885,
+      "durationInFrames": 280,
+      "durationSeconds": 4.656,
+      "words": [
+        {
+          "text": "Cleaner",
+          "startFrame": 5,
+          "endFrame": 24
+        },
+        {
+          "text": "more",
+          "startFrame": 46,
+          "endFrame": 55
+        },
+        {
+          "text": "Pythonic",
+          "startFrame": 54,
+          "endFrame": 89
+        },
+        {
+          "text": "and",
+          "startFrame": 103,
+          "endFrame": 108
+        },
+        {
+          "text": "usually",
+          "startFrame": 107,
+          "endFrame": 130
+        },
+        {
+          "text": "faster",
+          "startFrame": 130,
+          "endFrame": 161
+        },
+        {
+          "text": "Follow",
+          "startFrame": 184,
+          "endFrame": 196
+        },
+        {
+          "text": "for",
+          "startFrame": 196,
+          "endFrame": 203
+        },
+        {
+          "text": "more",
+          "startFrame": 203,
+          "endFrame": 213
+        },
+        {
+          "text": "Python",
+          "startFrame": 213,
+          "endFrame": 236
+        },
+        {
+          "text": "tips",
+          "startFrame": 235,
+          "endFrame": 260
+        }
+      ]
     }
   ]
 }
