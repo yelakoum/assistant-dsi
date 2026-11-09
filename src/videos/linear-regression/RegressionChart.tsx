@@ -26,6 +26,8 @@ export type ChartState = {
   interceptIn: number;
   chip: { text: string; amount: number } | null;
   predictionIn: number;
+  /** Optional: spotlight one data point (ring) and its prediction on the line. */
+  focus?: { index: number; ringIn: number; predictedIn: number };
 };
 
 export const RegressionChart: React.FC<{
@@ -230,6 +232,33 @@ export const RegressionChart: React.FC<{
             />
           );
         })}
+
+        {/* Focused point: ring on the real value, dot on the line (prediction) */}
+        {state.focus && line ? (
+          <g>
+            {state.focus.ringIn > 0 ? (
+              <circle
+                cx={sx(X[state.focus.index])}
+                cy={sy(Y[state.focus.index])}
+                r={30 + 8 * (1 - state.focus.ringIn)}
+                fill="none"
+                stroke={POINT_COLOR}
+                strokeWidth={5}
+                opacity={state.focus.ringIn}
+              />
+            ) : null}
+            {state.focus.predictedIn > 0 ? (
+              <circle
+                cx={sx(X[state.focus.index])}
+                cy={sy(lineY(X[state.focus.index]))}
+                r={16 * state.focus.predictedIn}
+                fill={COLORS.yellow}
+                stroke="black"
+                strokeWidth={4}
+              />
+            ) : null}
+          </g>
+        ) : null}
 
         {/* Prediction for 75 m² */}
         {state.predictionIn > 0 ? (

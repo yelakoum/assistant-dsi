@@ -5,9 +5,10 @@
   "description": "Remotion project for TikTok videos (1080x1920, 60fps, H.264)",
   "scripts": {
     "dev": "remotion studio",
-    "build": "npm run build:list-comprehension && npm run build:linear-regression",
+    "build": "npm run build:list-comprehension && npm run build:linear-regression && npm run build:gradient-descent",
     "build:list-comprehension": "remotion render ListComprehension out/list-comprehension.mp4",
     "build:linear-regression": "remotion render LinearRegression out/linear-regression.mp4",
+    "build:gradient-descent": "remotion render GradientDescent out/gradient-descent.mp4",
     "upgrade": "remotion upgrade",
     "lint": "tsc --noEmit"
   },

@@ -31,6 +31,8 @@ PUBLIC_DIR = ROOT / "public"
 
 FPS = 60
 GAP_FRAMES = 6  # 0.1 s breath between segments
+# edge-tts leaves ~0.6 s of silence after the last word; keep only this much.
+TAIL_SILENCE_SECONDS = 0.25
 TICKS_PER_SECOND = 10_000_000  # edge-tts offsets are in 100 ns units
 
 # One entry per video; one segment per visual scene of its composition.
@@ -71,7 +73,53 @@ VIDEOS: dict[str, dict] = {
             "mais seulement si la relation est vraiment linéaire. Abonne-toi pour la suite !",
         ],
     },
+    # src/videos/gradient-descent (part 2, beginner-friendly): 1 hook, 2 formula in
+    # plain words, 3 guess vs reality, 4 error score, 5 fog / valley,
+    # 6 small steps (gradient descent), 7 cliffhanger (steps too big), 8 quiz.
+    "gradient-descent": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+20%",
+        "segments": [
+            "Une machine qui apprend toute seule, ça a l'air magique. "
+            "En vrai, elle fait exactement comme toi : elle se trompe… et elle corrige. Je te montre.",
+            "Pour estimer le prix d'un appart, le modèle fait un calcul tout simple : "
+            "le prix au mètre carré, fois la surface, plus un prix de départ. C'est tout. "
+            "Ça, c'est la fameuse formule : y égale a fois x, plus b.",
+            "Au début, la machine ne connaît pas les bons nombres. Alors elle devine. "
+            "Elle compare son prix avec le vrai prix… et regarde de combien elle s'est trompée.",
+            "Elle fait ça pour tous les apparts, et elle calcule un score d'erreur. Plus il est bas, mieux c'est. "
+            "Petite astuce : les grosses erreurs comptent beaucoup plus que les petites. "
+            "Se tromper de 2, ça coûte 4. Se tromper de 10, ça coûte 100.",
+            "Le but : trouver les nombres qui donnent le score le plus bas. "
+            "Imagine un randonneur perdu dans le brouillard, qui cherche le fond de la vallée. "
+            "Il ne voit rien… mais il sent la pente sous ses pieds.",
+            "Alors il fait un petit pas vers le bas. Puis un autre. Et encore un autre. "
+            "À chaque pas, la droite s'améliore et l'erreur baisse. "
+            "C'est ce que les pros appellent la descente de gradient.",
+            "Mais attention : s'il fait des pas trop grands, il saute par-dessus la vallée… "
+            "et se perd complètement. Alors comment choisir la bonne taille de pas ? "
+            "Réponse dans la prochaine vidéo.",
+            "Petit défi : tu es dans le brouillard, et le sol monte vers la droite. "
+            "Tu fais ton pas à gauche ou à droite ? "
+            "Réponds A ou B en commentaire, et abonne-toi pour avoir la réponse !",
+        ],
+    },
 }
+
+
+def trim_trailing_silence(path: Path) -> None:
+    """Cut silence after the last word (word timings are unaffected)."""
+    if not shutil.which("ffmpeg"):
+        return
+    tmp = path.with_suffix(".trim.mp3")
+    subprocess.run(
+        ["ffmpeg", "-v", "error", "-y", "-i", str(path), "-af",
+         "areverse,silenceremove=start_periods=1:start_threshold=-50dB:"
+         f"start_silence={TAIL_SILENCE_SECONDS},areverse",
+         "-c:a", "libmp3lame", "-b:a", "96k", str(tmp)],
+        check=True,
+    )
+    tmp.replace(path)
 
 
 def audio_duration_seconds(path: Path) -> float:
@@ -86,7 +134,22 @@ def audio_duration_seconds(path: Path) -> float:
     return float(MP3(path).info.length)
 
 
-async def synthesize(text: str, voice: str, rate: str, out_path: Path) -> list[dict]:
+async def synthesize(text: str, voice: str, rate: str, out_path: Path,
+                     attempts: int = 4) -> list[dict]:
+    """Like _synthesize_once, retrying transient edge-tts / network failures."""
+    for attempt in range(1, attempts + 1):
+        try:
+            return await _synthesize_once(text, voice, rate, out_path)
+        except Exception as exc:  # aiohttp / edge-tts raise various error types
+            if attempt == attempts:
+                raise
+            delay = 2 ** attempt
+            print(f"  edge-tts failed ({type(exc).__name__}), retrying in {delay}s...")
+            await asyncio.sleep(delay)
+    raise AssertionError("unreachable")
+
+
+async def _synthesize_once(text: str, voice: str, rate: str, out_path: Path) -> list[dict]:
     """Write the MP3 and return word timings (frames, relative to segment start)."""
     # edge-tts ignores HTTPS_PROXY by default; pass it through when set.
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
@@ -125,6 +188,7 @@ async def generate(video_id: str) -> None:
         filename = f"segment_{i:02d}.mp3"
         out_path = audio_dir / filename
         words = await synthesize(text, config["voice"], config["rate"], out_path)
+        trim_trailing_silence(out_path)
 
         seconds = audio_duration_seconds(out_path)
         duration_frames = math.ceil(seconds * FPS)

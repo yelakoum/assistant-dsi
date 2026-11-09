@@ -1,0 +1,1470 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+20%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 4716,
+  "totalDurationSeconds": 78.6,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Une machine qui apprend toute seule, ça a l'air magique. En vrai, elle fait exactement comme toi : elle se trompe… et elle corrige. Je te montre.",
+      "audioFile": "gradient-descent/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 484,
+      "durationSeconds": 8.064,
+      "words": [
+        {
+          "text": "Une",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "machine",
+          "startFrame": 15,
+          "endFrame": 34
+        },
+        {
+          "text": "qui",
+          "startFrame": 34,
+          "endFrame": 44
+        },
+        {
+          "text": "apprend",
+          "startFrame": 44,
+          "endFrame": 57
+        },
+        {
+          "text": "toute",
+          "startFrame": 57,
+          "endFrame": 68
+        },
+        {
+          "text": "seule",
+          "startFrame": 68,
+          "endFrame": 82
+        },
+        {
+          "text": "ça",
+          "startFrame": 96,
+          "endFrame": 105
+        },
+        {
+          "text": "a",
+          "startFrame": 104,
+          "endFrame": 107
+        },
+        {
+          "text": "l'air",
+          "startFrame": 107,
+          "endFrame": 115
+        },
+        {
+          "text": "magique",
+          "startFrame": 115,
+          "endFrame": 145
+        },
+        {
+          "text": "En",
+          "startFrame": 186,
+          "endFrame": 196
+        },
+        {
+          "text": "vrai",
+          "startFrame": 196,
+          "endFrame": 212
+        },
+        {
+          "text": "elle",
+          "startFrame": 228,
+          "endFrame": 237
+        },
+        {
+          "text": "fait",
+          "startFrame": 237,
+          "endFrame": 245
+        },
+        {
+          "text": "exactement",
+          "startFrame": 244,
+          "endFrame": 272
+        },
+        {
+          "text": "comme",
+          "startFrame": 272,
+          "endFrame": 284
+        },
+        {
+          "text": "toi",
+          "startFrame": 284,
+          "endFrame": 300
+        },
+        {
+          "text": "elle",
+          "startFrame": 308,
+          "endFrame": 315
+        },
+        {
+          "text": "se",
+          "startFrame": 315,
+          "endFrame": 321
+        },
+        {
+          "text": "trompe",
+          "startFrame": 321,
+          "endFrame": 339
+        },
+        {
+          "text": "et",
+          "startFrame": 348,
+          "endFrame": 352
+        },
+        {
+          "text": "elle",
+          "startFrame": 351,
+          "endFrame": 357
+        },
+        {
+          "text": "corrige",
+          "startFrame": 356,
+          "endFrame": 385
+        },
+        {
+          "text": "Je",
+          "startFrame": 427,
+          "endFrame": 439
+        },
+        {
+          "text": "te",
+          "startFrame": 439,
+          "endFrame": 445
+        },
+        {
+          "text": "montre",
+          "startFrame": 444,
+          "endFrame": 468
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Pour estimer le prix d'un appart, le modèle fait un calcul tout simple : le prix au mètre carré, fois la surface, plus un prix de départ. C'est tout. Ça, c'est la fameuse formule : y égale a fois x, plus b.",
+      "audioFile": "gradient-descent/audio/segment_02.mp3",
+      "startFrame": 490,
+      "durationInFrames": 672,
+      "durationSeconds": 11.184,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "estimer",
+          "startFrame": 16,
+          "endFrame": 34
+        },
+        {
+          "text": "le",
+          "startFrame": 34,
+          "endFrame": 40
+        },
+        {
+          "text": "prix",
+          "startFrame": 39,
+          "endFrame": 48
+        },
+        {
+          "text": "d'un",
+          "startFrame": 48,
+          "endFrame": 54
+        },
+        {
+          "text": "appart",
+          "startFrame": 54,
+          "endFrame": 76
+        },
+        {
+          "text": "le",
+          "startFrame": 93,
+          "endFrame": 99
+        },
+        {
+          "text": "modèle",
+          "startFrame": 99,
+          "endFrame": 115
+        },
+        {
+          "text": "fait",
+          "startFrame": 114,
+          "endFrame": 123
+        },
+        {
+          "text": "un",
+          "startFrame": 123,
+          "endFrame": 128
+        },
+        {
+          "text": "calcul",
+          "startFrame": 128,
+          "endFrame": 150
+        },
+        {
+          "text": "tout",
+          "startFrame": 149,
+          "endFrame": 160
+        },
+        {
+          "text": "simple",
+          "startFrame": 159,
+          "endFrame": 176
+        },
+        {
+          "text": "le",
+          "startFrame": 184,
+          "endFrame": 191
+        },
+        {
+          "text": "prix",
+          "startFrame": 191,
+          "endFrame": 202
+        },
+        {
+          "text": "au",
+          "startFrame": 201,
+          "endFrame": 205
+        },
+        {
+          "text": "mètre",
+          "startFrame": 204,
+          "endFrame": 220
+        },
+        {
+          "text": "carré",
+          "startFrame": 219,
+          "endFrame": 238
+        },
+        {
+          "text": "fois",
+          "startFrame": 252,
+          "endFrame": 260
+        },
+        {
+          "text": "la",
+          "startFrame": 260,
+          "endFrame": 265
+        },
+        {
+          "text": "surface",
+          "startFrame": 265,
+          "endFrame": 298
+        },
+        {
+          "text": "plus",
+          "startFrame": 310,
+          "endFrame": 325
+        },
+        {
+          "text": "un",
+          "startFrame": 324,
+          "endFrame": 328
+        },
+        {
+          "text": "prix",
+          "startFrame": 328,
+          "endFrame": 337
+        },
+        {
+          "text": "de",
+          "startFrame": 337,
+          "endFrame": 343
+        },
+        {
+          "text": "départ",
+          "startFrame": 342,
+          "endFrame": 372
+        },
+        {
+          "text": "C'est",
+          "startFrame": 414,
+          "endFrame": 429
+        },
+        {
+          "text": "tout",
+          "startFrame": 428,
+          "endFrame": 443
+        },
+        {
+          "text": "Ça",
+          "startFrame": 485,
+          "endFrame": 502
+        },
+        {
+          "text": "c'est",
+          "startFrame": 515,
+          "endFrame": 522
+        },
+        {
+          "text": "la",
+          "startFrame": 521,
+          "endFrame": 527
+        },
+        {
+          "text": "fameuse",
+          "startFrame": 527,
+          "endFrame": 545
+        },
+        {
+          "text": "formule",
+          "startFrame": 545,
+          "endFrame": 567
+        },
+        {
+          "text": "y",
+          "startFrame": 575,
+          "endFrame": 579
+        },
+        {
+          "text": "égale",
+          "startFrame": 579,
+          "endFrame": 593
+        },
+        {
+          "text": "a",
+          "startFrame": 593,
+          "endFrame": 596
+        },
+        {
+          "text": "fois",
+          "startFrame": 596,
+          "endFrame": 607
+        },
+        {
+          "text": "x",
+          "startFrame": 606,
+          "endFrame": 621
+        },
+        {
+          "text": "plus",
+          "startFrame": 632,
+          "endFrame": 641
+        },
+        {
+          "text": "b",
+          "startFrame": 641,
+          "endFrame": 655
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Au début, la machine ne connaît pas les bons nombres. Alors elle devine. Elle compare son prix avec le vrai prix… et regarde de combien elle s'est trompée.",
+      "audioFile": "gradient-descent/audio/segment_03.mp3",
+      "startFrame": 1168,
+      "durationInFrames": 473,
+      "durationSeconds": 7.872,
+      "words": [
+        {
+          "text": "Au",
+          "startFrame": 5,
+          "endFrame": 13
+        },
+        {
+          "text": "début",
+          "startFrame": 13,
+          "endFrame": 30
+        },
+        {
+          "text": "la",
+          "startFrame": 46,
+          "endFrame": 53
+        },
+        {
+          "text": "machine",
+          "startFrame": 53,
+          "endFrame": 72
+        },
+        {
+          "text": "ne",
+          "startFrame": 71,
+          "endFrame": 77
+        },
+        {
+          "text": "connaît",
+          "startFrame": 77,
+          "endFrame": 91
+        },
+        {
+          "text": "pas",
+          "startFrame": 91,
+          "endFrame": 98
+        },
+        {
+          "text": "les",
+          "startFrame": 97,
+          "endFrame": 103
+        },
+        {
+          "text": "bons",
+          "startFrame": 102,
+          "endFrame": 111
+        },
+        {
+          "text": "nombres",
+          "startFrame": 111,
+          "endFrame": 135
+        },
+        {
+          "text": "Alors",
+          "startFrame": 177,
+          "endFrame": 195
+        },
+        {
+          "text": "elle",
+          "startFrame": 195,
+          "endFrame": 201
+        },
+        {
+          "text": "devine",
+          "startFrame": 201,
+          "endFrame": 228
+        },
+        {
+          "text": "Elle",
+          "startFrame": 270,
+          "endFrame": 280
+        },
+        {
+          "text": "compare",
+          "startFrame": 279,
+          "endFrame": 298
+        },
+        {
+          "text": "son",
+          "startFrame": 298,
+          "endFrame": 306
+        },
+        {
+          "text": "prix",
+          "startFrame": 306,
+          "endFrame": 317
+        },
+        {
+          "text": "avec",
+          "startFrame": 316,
+          "endFrame": 328
+        },
+        {
+          "text": "le",
+          "startFrame": 328,
+          "endFrame": 334
+        },
+        {
+          "text": "vrai",
+          "startFrame": 333,
+          "endFrame": 344
+        },
+        {
+          "text": "prix",
+          "startFrame": 343,
+          "endFrame": 359
+        },
+        {
+          "text": "et",
+          "startFrame": 373,
+          "endFrame": 376
+        },
+        {
+          "text": "regarde",
+          "startFrame": 376,
+          "endFrame": 395
+        },
+        {
+          "text": "de",
+          "startFrame": 394,
+          "endFrame": 400
+        },
+        {
+          "text": "combien",
+          "startFrame": 400,
+          "endFrame": 419
+        },
+        {
+          "text": "elle",
+          "startFrame": 418,
+          "endFrame": 424
+        },
+        {
+          "text": "s'est",
+          "startFrame": 424,
+          "endFrame": 431
+        },
+        {
+          "text": "trompée",
+          "startFrame": 431,
+          "endFrame": 457
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Elle fait ça pour tous les apparts, et elle calcule un score d'erreur. Plus il est bas, mieux c'est. Petite astuce : les grosses erreurs comptent beaucoup plus que les petites. Se tromper de 2, ça coûte 4. Se tromper de 10, ça coûte 100.",
+      "audioFile": "gradient-descent/audio/segment_04.mp3",
+      "startFrame": 1647,
+      "durationInFrames": 798,
+      "durationSeconds": 13.296,
+      "words": [
+        {
+          "text": "Elle",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "fait",
+          "startFrame": 16,
+          "endFrame": 24
+        },
+        {
+          "text": "ça",
+          "startFrame": 24,
+          "endFrame": 32
+        },
+        {
+          "text": "pour",
+          "startFrame": 31,
+          "endFrame": 42
+        },
+        {
+          "text": "tous",
+          "startFrame": 42,
+          "endFrame": 50
+        },
+        {
+          "text": "les",
+          "startFrame": 49,
+          "endFrame": 55
+        },
+        {
+          "text": "apparts",
+          "startFrame": 55,
+          "endFrame": 77
+        },
+        {
+          "text": "et",
+          "startFrame": 94,
+          "endFrame": 98
+        },
+        {
+          "text": "elle",
+          "startFrame": 98,
+          "endFrame": 103
+        },
+        {
+          "text": "calcule",
+          "startFrame": 103,
+          "endFrame": 123
+        },
+        {
+          "text": "un",
+          "startFrame": 123,
+          "endFrame": 127
+        },
+        {
+          "text": "score",
+          "startFrame": 127,
+          "endFrame": 139
+        },
+        {
+          "text": "d'erreur",
+          "startFrame": 139,
+          "endFrame": 167
+        },
+        {
+          "text": "Plus",
+          "startFrame": 209,
+          "endFrame": 220
+        },
+        {
+          "text": "il",
+          "startFrame": 219,
+          "endFrame": 230
+        },
+        {
+          "text": "est",
+          "startFrame": 229,
+          "endFrame": 232
+        },
+        {
+          "text": "bas",
+          "startFrame": 232,
+          "endFrame": 243
+        },
+        {
+          "text": "mieux",
+          "startFrame": 254,
+          "endFrame": 265
+        },
+        {
+          "text": "c'est",
+          "startFrame": 264,
+          "endFrame": 281
+        },
+        {
+          "text": "Petite",
+          "startFrame": 323,
+          "endFrame": 341
+        },
+        {
+          "text": "astuce",
+          "startFrame": 341,
+          "endFrame": 369
+        },
+        {
+          "text": "les",
+          "startFrame": 376,
+          "endFrame": 382
+        },
+        {
+          "text": "grosses",
+          "startFrame": 382,
+          "endFrame": 398
+        },
+        {
+          "text": "erreurs",
+          "startFrame": 398,
+          "endFrame": 411
+        },
+        {
+          "text": "comptent",
+          "startFrame": 411,
+          "endFrame": 424
+        },
+        {
+          "text": "beaucoup",
+          "startFrame": 423,
+          "endFrame": 439
+        },
+        {
+          "text": "plus",
+          "startFrame": 439,
+          "endFrame": 453
+        },
+        {
+          "text": "que",
+          "startFrame": 453,
+          "endFrame": 458
+        },
+        {
+          "text": "les",
+          "startFrame": 458,
+          "endFrame": 462
+        },
+        {
+          "text": "petites",
+          "startFrame": 462,
+          "endFrame": 490
+        },
+        {
+          "text": "Se",
+          "startFrame": 533,
+          "endFrame": 545
+        },
+        {
+          "text": "tromper",
+          "startFrame": 544,
+          "endFrame": 562
+        },
+        {
+          "text": "de",
+          "startFrame": 562,
+          "endFrame": 570
+        },
+        {
+          "text": "2",
+          "startFrame": 570,
+          "endFrame": 583
+        },
+        {
+          "text": "ça",
+          "startFrame": 594,
+          "endFrame": 602
+        },
+        {
+          "text": "coûte",
+          "startFrame": 602,
+          "endFrame": 613
+        },
+        {
+          "text": "4",
+          "startFrame": 613,
+          "endFrame": 637
+        },
+        {
+          "text": "Se",
+          "startFrame": 679,
+          "endFrame": 692
+        },
+        {
+          "text": "tromper",
+          "startFrame": 691,
+          "endFrame": 709
+        },
+        {
+          "text": "de",
+          "startFrame": 709,
+          "endFrame": 716
+        },
+        {
+          "text": "10",
+          "startFrame": 716,
+          "endFrame": 737
+        },
+        {
+          "text": "ça",
+          "startFrame": 747,
+          "endFrame": 756
+        },
+        {
+          "text": "coûte",
+          "startFrame": 756,
+          "endFrame": 768
+        },
+        {
+          "text": "100",
+          "startFrame": 768,
+          "endFrame": 781
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Le but : trouver les nombres qui donnent le score le plus bas. Imagine un randonneur perdu dans le brouillard, qui cherche le fond de la vallée. Il ne voit rien… mais il sent la pente sous ses pieds.",
+      "audioFile": "gradient-descent/audio/segment_05.mp3",
+      "startFrame": 2451,
+      "durationInFrames": 542,
+      "durationSeconds": 9.024,
+      "words": [
+        {
+          "text": "Le",
+          "startFrame": 5,
+          "endFrame": 17
+        },
+        {
+          "text": "but",
+          "startFrame": 17,
+          "endFrame": 27
+        },
+        {
+          "text": "trouver",
+          "startFrame": 34,
+          "endFrame": 50
+        },
+        {
+          "text": "les",
+          "startFrame": 50,
+          "endFrame": 55
+        },
+        {
+          "text": "nombres",
+          "startFrame": 55,
+          "endFrame": 73
+        },
+        {
+          "text": "qui",
+          "startFrame": 72,
+          "endFrame": 80
+        },
+        {
+          "text": "donnent",
+          "startFrame": 80,
+          "endFrame": 90
+        },
+        {
+          "text": "le",
+          "startFrame": 90,
+          "endFrame": 97
+        },
+        {
+          "text": "score",
+          "startFrame": 97,
+          "endFrame": 110
+        },
+        {
+          "text": "le",
+          "startFrame": 109,
+          "endFrame": 115
+        },
+        {
+          "text": "plus",
+          "startFrame": 115,
+          "endFrame": 125
+        },
+        {
+          "text": "bas",
+          "startFrame": 124,
+          "endFrame": 139
+        },
+        {
+          "text": "Imagine",
+          "startFrame": 181,
+          "endFrame": 207
+        },
+        {
+          "text": "un",
+          "startFrame": 207,
+          "endFrame": 210
+        },
+        {
+          "text": "randonneur",
+          "startFrame": 210,
+          "endFrame": 234
+        },
+        {
+          "text": "perdu",
+          "startFrame": 233,
+          "endFrame": 249
+        },
+        {
+          "text": "dans",
+          "startFrame": 248,
+          "endFrame": 254
+        },
+        {
+          "text": "le",
+          "startFrame": 254,
+          "endFrame": 260
+        },
+        {
+          "text": "brouillard",
+          "startFrame": 259,
+          "endFrame": 284
+        },
+        {
+          "text": "qui",
+          "startFrame": 298,
+          "endFrame": 307
+        },
+        {
+          "text": "cherche",
+          "startFrame": 306,
+          "endFrame": 324
+        },
+        {
+          "text": "le",
+          "startFrame": 323,
+          "endFrame": 330
+        },
+        {
+          "text": "fond",
+          "startFrame": 330,
+          "endFrame": 339
+        },
+        {
+          "text": "de",
+          "startFrame": 338,
+          "endFrame": 344
+        },
+        {
+          "text": "la",
+          "startFrame": 343,
+          "endFrame": 349
+        },
+        {
+          "text": "vallée",
+          "startFrame": 349,
+          "endFrame": 367
+        },
+        {
+          "text": "Il",
+          "startFrame": 409,
+          "endFrame": 418
+        },
+        {
+          "text": "ne",
+          "startFrame": 418,
+          "endFrame": 423
+        },
+        {
+          "text": "voit",
+          "startFrame": 423,
+          "endFrame": 432
+        },
+        {
+          "text": "rien",
+          "startFrame": 431,
+          "endFrame": 447
+        },
+        {
+          "text": "mais",
+          "startFrame": 455,
+          "endFrame": 462
+        },
+        {
+          "text": "il",
+          "startFrame": 461,
+          "endFrame": 469
+        },
+        {
+          "text": "sent",
+          "startFrame": 469,
+          "endFrame": 477
+        },
+        {
+          "text": "la",
+          "startFrame": 476,
+          "endFrame": 482
+        },
+        {
+          "text": "pente",
+          "startFrame": 482,
+          "endFrame": 494
+        },
+        {
+          "text": "sous",
+          "startFrame": 493,
+          "endFrame": 500
+        },
+        {
+          "text": "ses",
+          "startFrame": 500,
+          "endFrame": 507
+        },
+        {
+          "text": "pieds",
+          "startFrame": 507,
+          "endFrame": 526
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Alors il fait un petit pas vers le bas. Puis un autre. Et encore un autre. À chaque pas, la droite s'améliore et l'erreur baisse. C'est ce que les pros appellent la descente de gradient.",
+      "audioFile": "gradient-descent/audio/segment_06.mp3",
+      "startFrame": 2999,
+      "durationInFrames": 620,
+      "durationSeconds": 10.32,
+      "words": [
+        {
+          "text": "Alors",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "il",
+          "startFrame": 22,
+          "endFrame": 28
+        },
+        {
+          "text": "fait",
+          "startFrame": 27,
+          "endFrame": 37
+        },
+        {
+          "text": "un",
+          "startFrame": 36,
+          "endFrame": 43
+        },
+        {
+          "text": "petit",
+          "startFrame": 42,
+          "endFrame": 57
+        },
+        {
+          "text": "pas",
+          "startFrame": 56,
+          "endFrame": 64
+        },
+        {
+          "text": "vers",
+          "startFrame": 64,
+          "endFrame": 73
+        },
+        {
+          "text": "le",
+          "startFrame": 73,
+          "endFrame": 78
+        },
+        {
+          "text": "bas",
+          "startFrame": 78,
+          "endFrame": 92
+        },
+        {
+          "text": "Puis",
+          "startFrame": 134,
+          "endFrame": 145
+        },
+        {
+          "text": "un",
+          "startFrame": 144,
+          "endFrame": 151
+        },
+        {
+          "text": "autre",
+          "startFrame": 151,
+          "endFrame": 173
+        },
+        {
+          "text": "Et",
+          "startFrame": 216,
+          "endFrame": 224
+        },
+        {
+          "text": "encore",
+          "startFrame": 224,
+          "endFrame": 241
+        },
+        {
+          "text": "un",
+          "startFrame": 241,
+          "endFrame": 243
+        },
+        {
+          "text": "autre",
+          "startFrame": 243,
+          "endFrame": 265
+        },
+        {
+          "text": "À",
+          "startFrame": 308,
+          "endFrame": 317
+        },
+        {
+          "text": "chaque",
+          "startFrame": 316,
+          "endFrame": 330
+        },
+        {
+          "text": "pas",
+          "startFrame": 330,
+          "endFrame": 343
+        },
+        {
+          "text": "la",
+          "startFrame": 360,
+          "endFrame": 369
+        },
+        {
+          "text": "droite",
+          "startFrame": 369,
+          "endFrame": 384
+        },
+        {
+          "text": "s'améliore",
+          "startFrame": 383,
+          "endFrame": 407
+        },
+        {
+          "text": "et",
+          "startFrame": 407,
+          "endFrame": 409
+        },
+        {
+          "text": "l'erreur",
+          "startFrame": 409,
+          "endFrame": 423
+        },
+        {
+          "text": "baisse",
+          "startFrame": 423,
+          "endFrame": 450
+        },
+        {
+          "text": "C'est",
+          "startFrame": 493,
+          "endFrame": 505
+        },
+        {
+          "text": "ce",
+          "startFrame": 505,
+          "endFrame": 513
+        },
+        {
+          "text": "que",
+          "startFrame": 513,
+          "endFrame": 519
+        },
+        {
+          "text": "les",
+          "startFrame": 518,
+          "endFrame": 524
+        },
+        {
+          "text": "pros",
+          "startFrame": 524,
+          "endFrame": 535
+        },
+        {
+          "text": "appellent",
+          "startFrame": 534,
+          "endFrame": 549
+        },
+        {
+          "text": "la",
+          "startFrame": 549,
+          "endFrame": 554
+        },
+        {
+          "text": "descente",
+          "startFrame": 554,
+          "endFrame": 574
+        },
+        {
+          "text": "de",
+          "startFrame": 573,
+          "endFrame": 579
+        },
+        {
+          "text": "gradient",
+          "startFrame": 578,
+          "endFrame": 602
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Mais attention : s'il fait des pas trop grands, il saute par-dessus la vallée… et se perd complètement. Alors comment choisir la bonne taille de pas ? Réponse dans la prochaine vidéo.",
+      "audioFile": "gradient-descent/audio/segment_07.mp3",
+      "startFrame": 3625,
+      "durationInFrames": 536,
+      "durationSeconds": 8.928,
+      "words": [
+        {
+          "text": "Mais",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "attention",
+          "startFrame": 14,
+          "endFrame": 42
+        },
+        {
+          "text": "s'il",
+          "startFrame": 51,
+          "endFrame": 63
+        },
+        {
+          "text": "fait",
+          "startFrame": 63,
+          "endFrame": 70
+        },
+        {
+          "text": "des",
+          "startFrame": 69,
+          "endFrame": 76
+        },
+        {
+          "text": "pas",
+          "startFrame": 76,
+          "endFrame": 83
+        },
+        {
+          "text": "trop",
+          "startFrame": 82,
+          "endFrame": 93
+        },
+        {
+          "text": "grands",
+          "startFrame": 93,
+          "endFrame": 108
+        },
+        {
+          "text": "il",
+          "startFrame": 124,
+          "endFrame": 132
+        },
+        {
+          "text": "saute",
+          "startFrame": 131,
+          "endFrame": 142
+        },
+        {
+          "text": "par-dessus",
+          "startFrame": 142,
+          "endFrame": 165
+        },
+        {
+          "text": "la",
+          "startFrame": 164,
+          "endFrame": 170
+        },
+        {
+          "text": "vallée",
+          "startFrame": 170,
+          "endFrame": 188
+        },
+        {
+          "text": "et",
+          "startFrame": 198,
+          "endFrame": 202
+        },
+        {
+          "text": "se",
+          "startFrame": 202,
+          "endFrame": 210
+        },
+        {
+          "text": "perd",
+          "startFrame": 209,
+          "endFrame": 219
+        },
+        {
+          "text": "complètement",
+          "startFrame": 219,
+          "endFrame": 252
+        },
+        {
+          "text": "Alors",
+          "startFrame": 294,
+          "endFrame": 312
+        },
+        {
+          "text": "comment",
+          "startFrame": 312,
+          "endFrame": 327
+        },
+        {
+          "text": "choisir",
+          "startFrame": 326,
+          "endFrame": 348
+        },
+        {
+          "text": "la",
+          "startFrame": 348,
+          "endFrame": 353
+        },
+        {
+          "text": "bonne",
+          "startFrame": 353,
+          "endFrame": 365
+        },
+        {
+          "text": "taille",
+          "startFrame": 365,
+          "endFrame": 376
+        },
+        {
+          "text": "de",
+          "startFrame": 376,
+          "endFrame": 383
+        },
+        {
+          "text": "pas",
+          "startFrame": 383,
+          "endFrame": 397
+        },
+        {
+          "text": "Réponse",
+          "startFrame": 439,
+          "endFrame": 465
+        },
+        {
+          "text": "dans",
+          "startFrame": 465,
+          "endFrame": 470
+        },
+        {
+          "text": "la",
+          "startFrame": 470,
+          "endFrame": 475
+        },
+        {
+          "text": "prochaine",
+          "startFrame": 475,
+          "endFrame": 495
+        },
+        {
+          "text": "vidéo",
+          "startFrame": 495,
+          "endFrame": 522
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Petit défi : tu es dans le brouillard, et le sol monte vers la droite. Tu fais ton pas à gauche ou à droite ? Réponds A ou B en commentaire, et abonne-toi pour avoir la réponse !",
+      "audioFile": "gradient-descent/audio/segment_08.mp3",
+      "startFrame": 4167,
+      "durationInFrames": 549,
+      "durationSeconds": 9.144,
+      "words": [
+        {
+          "text": "Petit",
+          "startFrame": 5,
+          "endFrame": 20
+        },
+        {
+          "text": "défi",
+          "startFrame": 19,
+          "endFrame": 40
+        },
+        {
+          "text": "tu",
+          "startFrame": 50,
+          "endFrame": 58
+        },
+        {
+          "text": "es",
+          "startFrame": 58,
+          "endFrame": 62
+        },
+        {
+          "text": "dans",
+          "startFrame": 61,
+          "endFrame": 68
+        },
+        {
+          "text": "le",
+          "startFrame": 67,
+          "endFrame": 73
+        },
+        {
+          "text": "brouillard",
+          "startFrame": 72,
+          "endFrame": 96
+        },
+        {
+          "text": "et",
+          "startFrame": 112,
+          "endFrame": 114
+        },
+        {
+          "text": "le",
+          "startFrame": 114,
+          "endFrame": 120
+        },
+        {
+          "text": "sol",
+          "startFrame": 120,
+          "endFrame": 132
+        },
+        {
+          "text": "monte",
+          "startFrame": 131,
+          "endFrame": 142
+        },
+        {
+          "text": "vers",
+          "startFrame": 142,
+          "endFrame": 151
+        },
+        {
+          "text": "la",
+          "startFrame": 151,
+          "endFrame": 156
+        },
+        {
+          "text": "droite",
+          "startFrame": 156,
+          "endFrame": 183
+        },
+        {
+          "text": "Tu",
+          "startFrame": 225,
+          "endFrame": 234
+        },
+        {
+          "text": "fais",
+          "startFrame": 234,
+          "endFrame": 242
+        },
+        {
+          "text": "ton",
+          "startFrame": 241,
+          "endFrame": 250
+        },
+        {
+          "text": "pas",
+          "startFrame": 249,
+          "endFrame": 259
+        },
+        {
+          "text": "à",
+          "startFrame": 258,
+          "endFrame": 262
+        },
+        {
+          "text": "gauche",
+          "startFrame": 262,
+          "endFrame": 276
+        },
+        {
+          "text": "ou",
+          "startFrame": 276,
+          "endFrame": 281
+        },
+        {
+          "text": "à",
+          "startFrame": 281,
+          "endFrame": 284
+        },
+        {
+          "text": "droite",
+          "startFrame": 283,
+          "endFrame": 309
+        },
+        {
+          "text": "Réponds",
+          "startFrame": 351,
+          "endFrame": 372
+        },
+        {
+          "text": "A",
+          "startFrame": 372,
+          "endFrame": 377
+        },
+        {
+          "text": "ou",
+          "startFrame": 376,
+          "endFrame": 381
+        },
+        {
+          "text": "B",
+          "startFrame": 381,
+          "endFrame": 389
+        },
+        {
+          "text": "en",
+          "startFrame": 389,
+          "endFrame": 394
+        },
+        {
+          "text": "commentaire",
+          "startFrame": 394,
+          "endFrame": 429
+        },
+        {
+          "text": "et",
+          "startFrame": 444,
+          "endFrame": 449
+        },
+        {
+          "text": "abonne-toi",
+          "startFrame": 448,
+          "endFrame": 473
+        },
+        {
+          "text": "pour",
+          "startFrame": 473,
+          "endFrame": 484
+        },
+        {
+          "text": "avoir",
+          "startFrame": 483,
+          "endFrame": 494
+        },
+        {
+          "text": "la",
+          "startFrame": 494,
+          "endFrame": 499
+        },
+        {
+          "text": "réponse",
+          "startFrame": 498,
+          "endFrame": 532
+        }
+      ]
+    }
+  ]
+}
