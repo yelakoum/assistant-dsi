@@ -11,7 +11,8 @@ export const SceneTitle: React.FC<{
   start: number;
   end: number;
   isLast?: boolean;
-}> = ({ parts, start, end, isLast }) => {
+  fontSize?: number;
+}> = ({ parts, start, end, isLast, fontSize = 76 }) => {
   const frame = useCurrentFrame();
   if (frame < start || frame >= end + (isLast ? 1e9 : 0)) return null;
 
@@ -29,7 +30,7 @@ export const SceneTitle: React.FC<{
         textAlign: "center",
         fontFamily: FONT_UI,
         fontWeight: 900,
-        fontSize: 76,
+        fontSize,
         lineHeight: 1.05,
         letterSpacing: -1.5,
         textTransform: "uppercase",

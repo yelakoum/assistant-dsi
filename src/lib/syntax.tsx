@@ -25,6 +25,7 @@ export const tokenizePython = (code: string): Token[] => {
     else if (m[4]) {
       const next = code.slice(re.lastIndex).trimStart()[0];
       if (KEYWORDS.has(t)) color = COLORS.keyword;
+      else if (/^[A-Z][a-z]/.test(t)) color = COLORS.cls; // PascalCase -> class
       else if (next === "(") color = COLORS.func;
       else color = COLORS.variable;
     } else if (m[5]) {

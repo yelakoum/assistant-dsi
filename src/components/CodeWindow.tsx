@@ -34,7 +34,12 @@ const PythonIcon: React.FC = () => (
   </svg>
 );
 
-const CodeRow: React.FC<{ line: CodeLineState; frame: number }> = ({ line, frame }) => {
+const CodeRow: React.FC<{ line: CodeLineState; frame: number; fontSize: number; lineHeight: number }> = ({
+  line,
+  frame,
+  fontSize,
+  lineHeight,
+}) => {
   const height = line.height ?? 1;
   const highlight = line.highlight?.amount ?? 0;
   const badge = line.badge;
@@ -44,7 +49,7 @@ const CodeRow: React.FC<{ line: CodeLineState; frame: number }> = ({ line, frame
     <div
       style={{
         position: "relative",
-        height: CODE_LINE_HEIGHT * height,
+        height: lineHeight * height,
         opacity: line.opacity ?? 1,
         overflow: "hidden",
         filter: line.blur ? `blur(${line.blur}px)` : undefined,
@@ -65,7 +70,7 @@ const CodeRow: React.FC<{ line: CodeLineState; frame: number }> = ({ line, frame
           position: "relative",
           display: "flex",
           alignItems: "center",
-          height: CODE_LINE_HEIGHT,
+          height: lineHeight,
           transform: `translateX(${line.offsetX ?? 0}px)`,
         }}
       >
@@ -87,7 +92,7 @@ const CodeRow: React.FC<{ line: CodeLineState; frame: number }> = ({ line, frame
               style={{
                 display: "inline-block",
                 width: 4,
-                height: CODE_FONT_SIZE * 1.15,
+                height: fontSize * 1.15,
                 marginLeft: 2,
                 backgroundColor: "#aeafad",
                 opacity: cursorOn ? 1 : 0,
@@ -124,8 +129,17 @@ export const CodeWindow: React.FC<{
   lines: CodeLineState[];
   fileName?: string;
   statusText?: string;
+  fontSize?: number;
+  lineHeight?: number;
   style?: React.CSSProperties;
-}> = ({ lines, fileName = "main.py", statusText = "", style }) => {
+}> = ({
+  lines,
+  fileName = "main.py",
+  statusText = "",
+  fontSize = CODE_FONT_SIZE,
+  lineHeight = CODE_LINE_HEIGHT,
+  style,
+}) => {
   const frame = useCurrentFrame();
 
   return (
@@ -180,12 +194,12 @@ export const CodeWindow: React.FC<{
         style={{
           padding: "26px 0",
           fontFamily: FONT_CODE,
-          fontSize: CODE_FONT_SIZE,
+          fontSize,
           color: COLORS.text,
         }}
       >
         {lines.map((line) => (
-          <CodeRow key={line.key} line={line} frame={frame} />
+          <CodeRow key={line.key} line={line} frame={frame} fontSize={fontSize} lineHeight={lineHeight} />
         ))}
       </div>
 

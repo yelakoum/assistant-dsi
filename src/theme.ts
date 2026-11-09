@@ -16,6 +16,7 @@ export const COLORS = {
   keyword: "#c586c0",
   variable: "#9cdcfe",
   func: "#dcdcaa",
+  cls: "#4ec9b0",
   number: "#b5cea8",
   string: "#ce9178",
   brackets: ["#ffd700", "#da70d6", "#179fff"],

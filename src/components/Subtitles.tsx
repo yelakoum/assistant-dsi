@@ -30,7 +30,7 @@ const buildChunks = (words: Word[]): Chunk[] => {
     current = [];
   };
   for (const raw of words) {
-    const w = { ...raw, text: raw.text.replace(/^[^\w']+|[^\w']+$/g, "") };
+    const w = { ...raw, text: raw.text.replace(/^[^\p{L}\p{N}'’]+|[^\p{L}\p{N}'’]+$/gu, "") };
     if (!w.text) continue;
     const prev = current[current.length - 1];
     const chars = current.reduce((n, x) => n + x.text.length + 1, 0) + w.text.length;

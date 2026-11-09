@@ -9,7 +9,7 @@
     {
       "id": 1,
       "text": "Stop writing Python loops like this! Four lines, just to double a list?",
-      "audioFile": "audio/segment_01.mp3",
+      "audioFile": "list-comprehension/audio/segment_01.mp3",
       "startFrame": 0,
       "durationInFrames": 247,
       "durationSeconds": 4.104,
@@ -84,7 +84,7 @@
     {
       "id": 2,
       "text": "Watch. Collapse it into one list comprehension: x times two, for x in nums.",
-      "audioFile": "audio/segment_02.mp3",
+      "audioFile": "list-comprehension/audio/segment_02.mp3",
       "startFrame": 253,
       "durationInFrames": 316,
       "durationSeconds": 5.256,
@@ -164,7 +164,7 @@
     {
       "id": 3,
       "text": "Run it, and you get the exact same output. Two, four, six, eight, ten.",
-      "audioFile": "audio/segment_03.mp3",
+      "audioFile": "list-comprehension/audio/segment_03.mp3",
       "startFrame": 575,
       "durationInFrames": 304,
       "durationSeconds": 5.064,
@@ -244,7 +244,7 @@
     {
       "id": 4,
       "text": "Cleaner, more Pythonic, and usually faster. Follow for more Python tips!",
-      "audioFile": "audio/segment_04.mp3",
+      "audioFile": "list-comprehension/audio/segment_04.mp3",
       "startFrame": 885,
       "durationInFrames": 280,
       "durationSeconds": 4.656,

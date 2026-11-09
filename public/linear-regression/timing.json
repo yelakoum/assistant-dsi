@@ -1,0 +1,950 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+10%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 3446,
+  "totalDurationSeconds": 57.433,
+  "segments": [
+    {
+      "id": 1,
+      "text": "La régression linéaire, c'est le premier algo de machine learning à connaître. Je t'explique tout en une minute !",
+      "audioFile": "linear-regression/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 407,
+      "durationSeconds": 6.768,
+      "words": [
+        {
+          "text": "La",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "régression",
+          "startFrame": 16,
+          "endFrame": 43
+        },
+        {
+          "text": "linéaire",
+          "startFrame": 43,
+          "endFrame": 74
+        },
+        {
+          "text": "c'est",
+          "startFrame": 88,
+          "endFrame": 96
+        },
+        {
+          "text": "le",
+          "startFrame": 95,
+          "endFrame": 102
+        },
+        {
+          "text": "premier",
+          "startFrame": 101,
+          "endFrame": 117
+        },
+        {
+          "text": "algo",
+          "startFrame": 117,
+          "endFrame": 133
+        },
+        {
+          "text": "de",
+          "startFrame": 133,
+          "endFrame": 139
+        },
+        {
+          "text": "machine",
+          "startFrame": 139,
+          "endFrame": 159
+        },
+        {
+          "text": "learning",
+          "startFrame": 159,
+          "endFrame": 181
+        },
+        {
+          "text": "à",
+          "startFrame": 180,
+          "endFrame": 184
+        },
+        {
+          "text": "connaître",
+          "startFrame": 184,
+          "endFrame": 216
+        },
+        {
+          "text": "Je",
+          "startFrame": 262,
+          "endFrame": 275
+        },
+        {
+          "text": "t'explique",
+          "startFrame": 274,
+          "endFrame": 300
+        },
+        {
+          "text": "tout",
+          "startFrame": 300,
+          "endFrame": 311
+        },
+        {
+          "text": "en",
+          "startFrame": 310,
+          "endFrame": 320
+        },
+        {
+          "text": "une",
+          "startFrame": 319,
+          "endFrame": 328
+        },
+        {
+          "text": "minute",
+          "startFrame": 328,
+          "endFrame": 358
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "On part de données : par exemple, la surface d'un appartement et son prix. Le but : prédire le prix à partir de la surface.",
+      "audioFile": "linear-regression/audio/segment_02.mp3",
+      "startFrame": 413,
+      "durationInFrames": 454,
+      "durationSeconds": 7.56,
+      "words": [
+        {
+          "text": "On",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "part",
+          "startFrame": 15,
+          "endFrame": 25
+        },
+        {
+          "text": "de",
+          "startFrame": 25,
+          "endFrame": 32
+        },
+        {
+          "text": "données",
+          "startFrame": 32,
+          "endFrame": 51
+        },
+        {
+          "text": "par",
+          "startFrame": 63,
+          "endFrame": 72
+        },
+        {
+          "text": "exemple",
+          "startFrame": 72,
+          "endFrame": 97
+        },
+        {
+          "text": "la",
+          "startFrame": 116,
+          "endFrame": 125
+        },
+        {
+          "text": "surface",
+          "startFrame": 125,
+          "endFrame": 148
+        },
+        {
+          "text": "d'un",
+          "startFrame": 148,
+          "endFrame": 156
+        },
+        {
+          "text": "appartement",
+          "startFrame": 155,
+          "endFrame": 185
+        },
+        {
+          "text": "et",
+          "startFrame": 185,
+          "endFrame": 189
+        },
+        {
+          "text": "son",
+          "startFrame": 189,
+          "endFrame": 198
+        },
+        {
+          "text": "prix",
+          "startFrame": 198,
+          "endFrame": 215
+        },
+        {
+          "text": "Le",
+          "startFrame": 261,
+          "endFrame": 273
+        },
+        {
+          "text": "but",
+          "startFrame": 273,
+          "endFrame": 283
+        },
+        {
+          "text": "prédire",
+          "startFrame": 293,
+          "endFrame": 313
+        },
+        {
+          "text": "le",
+          "startFrame": 313,
+          "endFrame": 320
+        },
+        {
+          "text": "prix",
+          "startFrame": 319,
+          "endFrame": 331
+        },
+        {
+          "text": "à",
+          "startFrame": 331,
+          "endFrame": 335
+        },
+        {
+          "text": "partir",
+          "startFrame": 335,
+          "endFrame": 355
+        },
+        {
+          "text": "de",
+          "startFrame": 355,
+          "endFrame": 360
+        },
+        {
+          "text": "la",
+          "startFrame": 360,
+          "endFrame": 366
+        },
+        {
+          "text": "surface",
+          "startFrame": 366,
+          "endFrame": 406
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Le modèle, c'est une droite : y égale a fois x, plus b. a, c'est la pente, et b, l'ordonnée à l'origine.",
+      "audioFile": "linear-regression/audio/segment_03.mp3",
+      "startFrame": 873,
+      "durationInFrames": 396,
+      "durationSeconds": 6.6,
+      "words": [
+        {
+          "text": "Le",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "modèle",
+          "startFrame": 16,
+          "endFrame": 40
+        },
+        {
+          "text": "c'est",
+          "startFrame": 56,
+          "endFrame": 64
+        },
+        {
+          "text": "une",
+          "startFrame": 64,
+          "endFrame": 74
+        },
+        {
+          "text": "droite",
+          "startFrame": 74,
+          "endFrame": 94
+        },
+        {
+          "text": "y",
+          "startFrame": 104,
+          "endFrame": 108
+        },
+        {
+          "text": "égale",
+          "startFrame": 108,
+          "endFrame": 122
+        },
+        {
+          "text": "a",
+          "startFrame": 122,
+          "endFrame": 126
+        },
+        {
+          "text": "fois",
+          "startFrame": 125,
+          "endFrame": 137
+        },
+        {
+          "text": "x",
+          "startFrame": 137,
+          "endFrame": 152
+        },
+        {
+          "text": "plus",
+          "startFrame": 163,
+          "endFrame": 173
+        },
+        {
+          "text": "b",
+          "startFrame": 172,
+          "endFrame": 181
+        },
+        {
+          "text": "a",
+          "startFrame": 187,
+          "endFrame": 194
+        },
+        {
+          "text": "c'est",
+          "startFrame": 209,
+          "endFrame": 216
+        },
+        {
+          "text": "la",
+          "startFrame": 216,
+          "endFrame": 222
+        },
+        {
+          "text": "pente",
+          "startFrame": 222,
+          "endFrame": 241
+        },
+        {
+          "text": "et",
+          "startFrame": 257,
+          "endFrame": 261
+        },
+        {
+          "text": "b",
+          "startFrame": 261,
+          "endFrame": 273
+        },
+        {
+          "text": "l'ordonnée",
+          "startFrame": 288,
+          "endFrame": 312
+        },
+        {
+          "text": "à",
+          "startFrame": 311,
+          "endFrame": 314
+        },
+        {
+          "text": "l'origine",
+          "startFrame": 314,
+          "endFrame": 349
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Pour juger la droite, on mesure l'erreur entre chaque point et la droite. On met ces erreurs au carré, on fait la moyenne : c'est la MSE.",
+      "audioFile": "linear-regression/audio/segment_04.mp3",
+      "startFrame": 1275,
+      "durationInFrames": 450,
+      "durationSeconds": 7.488,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "juger",
+          "startFrame": 18,
+          "endFrame": 33
+        },
+        {
+          "text": "la",
+          "startFrame": 33,
+          "endFrame": 38
+        },
+        {
+          "text": "droite",
+          "startFrame": 38,
+          "endFrame": 58
+        },
+        {
+          "text": "on",
+          "startFrame": 73,
+          "endFrame": 76
+        },
+        {
+          "text": "mesure",
+          "startFrame": 76,
+          "endFrame": 93
+        },
+        {
+          "text": "l'erreur",
+          "startFrame": 93,
+          "endFrame": 106
+        },
+        {
+          "text": "entre",
+          "startFrame": 106,
+          "endFrame": 119
+        },
+        {
+          "text": "chaque",
+          "startFrame": 118,
+          "endFrame": 132
+        },
+        {
+          "text": "point",
+          "startFrame": 131,
+          "endFrame": 144
+        },
+        {
+          "text": "et",
+          "startFrame": 144,
+          "endFrame": 146
+        },
+        {
+          "text": "la",
+          "startFrame": 146,
+          "endFrame": 151
+        },
+        {
+          "text": "droite",
+          "startFrame": 151,
+          "endFrame": 180
+        },
+        {
+          "text": "On",
+          "startFrame": 227,
+          "endFrame": 236
+        },
+        {
+          "text": "met",
+          "startFrame": 235,
+          "endFrame": 244
+        },
+        {
+          "text": "ces",
+          "startFrame": 244,
+          "endFrame": 251
+        },
+        {
+          "text": "erreurs",
+          "startFrame": 251,
+          "endFrame": 267
+        },
+        {
+          "text": "au",
+          "startFrame": 267,
+          "endFrame": 271
+        },
+        {
+          "text": "carré",
+          "startFrame": 271,
+          "endFrame": 292
+        },
+        {
+          "text": "on",
+          "startFrame": 308,
+          "endFrame": 312
+        },
+        {
+          "text": "fait",
+          "startFrame": 312,
+          "endFrame": 320
+        },
+        {
+          "text": "la",
+          "startFrame": 320,
+          "endFrame": 326
+        },
+        {
+          "text": "moyenne",
+          "startFrame": 325,
+          "endFrame": 351
+        },
+        {
+          "text": "c'est",
+          "startFrame": 363,
+          "endFrame": 371
+        },
+        {
+          "text": "la",
+          "startFrame": 370,
+          "endFrame": 376
+        },
+        {
+          "text": "MSE",
+          "startFrame": 376,
+          "endFrame": 401
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "L'entraînement, c'est trouver le a et le b qui rendent cette erreur la plus petite possible. C'est la méthode des moindres carrés.",
+      "audioFile": "linear-regression/audio/segment_05.mp3",
+      "startFrame": 1731,
+      "durationInFrames": 395,
+      "durationSeconds": 6.576,
+      "words": [
+        {
+          "text": "L'entraînement",
+          "startFrame": 5,
+          "endFrame": 43
+        },
+        {
+          "text": "c'est",
+          "startFrame": 58,
+          "endFrame": 65
+        },
+        {
+          "text": "trouver",
+          "startFrame": 65,
+          "endFrame": 82
+        },
+        {
+          "text": "le",
+          "startFrame": 82,
+          "endFrame": 89
+        },
+        {
+          "text": "a",
+          "startFrame": 88,
+          "endFrame": 93
+        },
+        {
+          "text": "et",
+          "startFrame": 93,
+          "endFrame": 96
+        },
+        {
+          "text": "le",
+          "startFrame": 96,
+          "endFrame": 103
+        },
+        {
+          "text": "b",
+          "startFrame": 103,
+          "endFrame": 111
+        },
+        {
+          "text": "qui",
+          "startFrame": 110,
+          "endFrame": 121
+        },
+        {
+          "text": "rendent",
+          "startFrame": 120,
+          "endFrame": 132
+        },
+        {
+          "text": "cette",
+          "startFrame": 131,
+          "endFrame": 143
+        },
+        {
+          "text": "erreur",
+          "startFrame": 143,
+          "endFrame": 155
+        },
+        {
+          "text": "la",
+          "startFrame": 155,
+          "endFrame": 160
+        },
+        {
+          "text": "plus",
+          "startFrame": 160,
+          "endFrame": 170
+        },
+        {
+          "text": "petite",
+          "startFrame": 170,
+          "endFrame": 186
+        },
+        {
+          "text": "possible",
+          "startFrame": 186,
+          "endFrame": 218
+        },
+        {
+          "text": "C'est",
+          "startFrame": 263,
+          "endFrame": 277
+        },
+        {
+          "text": "la",
+          "startFrame": 276,
+          "endFrame": 281
+        },
+        {
+          "text": "méthode",
+          "startFrame": 281,
+          "endFrame": 300
+        },
+        {
+          "text": "des",
+          "startFrame": 300,
+          "endFrame": 307
+        },
+        {
+          "text": "moindres",
+          "startFrame": 307,
+          "endFrame": 324
+        },
+        {
+          "text": "carrés",
+          "startFrame": 324,
+          "endFrame": 348
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Avec scikit-learn, c'est trois lignes : on importe LinearRegression, on crée le modèle, et on l'entraîne avec fit.",
+      "audioFile": "linear-regression/audio/segment_06.mp3",
+      "startFrame": 2132,
+      "durationInFrames": 368,
+      "durationSeconds": 6.12,
+      "words": [
+        {
+          "text": "Avec",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "scikit-learn",
+          "startFrame": 22,
+          "endFrame": 55
+        },
+        {
+          "text": "c'est",
+          "startFrame": 71,
+          "endFrame": 79
+        },
+        {
+          "text": "trois",
+          "startFrame": 79,
+          "endFrame": 91
+        },
+        {
+          "text": "lignes",
+          "startFrame": 91,
+          "endFrame": 108
+        },
+        {
+          "text": "on",
+          "startFrame": 116,
+          "endFrame": 119
+        },
+        {
+          "text": "importe",
+          "startFrame": 119,
+          "endFrame": 141
+        },
+        {
+          "text": "LinearRegression",
+          "startFrame": 140,
+          "endFrame": 190
+        },
+        {
+          "text": "on",
+          "startFrame": 203,
+          "endFrame": 207
+        },
+        {
+          "text": "crée",
+          "startFrame": 207,
+          "endFrame": 219
+        },
+        {
+          "text": "le",
+          "startFrame": 219,
+          "endFrame": 224
+        },
+        {
+          "text": "modèle",
+          "startFrame": 223,
+          "endFrame": 247
+        },
+        {
+          "text": "et",
+          "startFrame": 264,
+          "endFrame": 268
+        },
+        {
+          "text": "on",
+          "startFrame": 268,
+          "endFrame": 272
+        },
+        {
+          "text": "l'entraîne",
+          "startFrame": 272,
+          "endFrame": 294
+        },
+        {
+          "text": "avec",
+          "startFrame": 294,
+          "endFrame": 305
+        },
+        {
+          "text": "fit",
+          "startFrame": 305,
+          "endFrame": 320
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Ensuite, predict donne le prix d'un appartement de 75 mètres carrés, et score donne le R carré : plus il est proche de 1, mieux c'est.",
+      "audioFile": "linear-regression/audio/segment_07.mp3",
+      "startFrame": 2506,
+      "durationInFrames": 445,
+      "durationSeconds": 7.416,
+      "words": [
+        {
+          "text": "Ensuite",
+          "startFrame": 5,
+          "endFrame": 34
+        },
+        {
+          "text": "predict",
+          "startFrame": 49,
+          "endFrame": 73
+        },
+        {
+          "text": "donne",
+          "startFrame": 73,
+          "endFrame": 84
+        },
+        {
+          "text": "le",
+          "startFrame": 84,
+          "endFrame": 91
+        },
+        {
+          "text": "prix",
+          "startFrame": 90,
+          "endFrame": 101
+        },
+        {
+          "text": "d'un",
+          "startFrame": 101,
+          "endFrame": 107
+        },
+        {
+          "text": "appartement",
+          "startFrame": 107,
+          "endFrame": 136
+        },
+        {
+          "text": "de",
+          "startFrame": 136,
+          "endFrame": 144
+        },
+        {
+          "text": "75 mètres",
+          "startFrame": 144,
+          "endFrame": 192
+        },
+        {
+          "text": "carrés",
+          "startFrame": 191,
+          "endFrame": 212
+        },
+        {
+          "text": "et",
+          "startFrame": 230,
+          "endFrame": 235
+        },
+        {
+          "text": "score",
+          "startFrame": 234,
+          "endFrame": 250
+        },
+        {
+          "text": "donne",
+          "startFrame": 249,
+          "endFrame": 260
+        },
+        {
+          "text": "le",
+          "startFrame": 260,
+          "endFrame": 266
+        },
+        {
+          "text": "R",
+          "startFrame": 266,
+          "endFrame": 273
+        },
+        {
+          "text": "carré",
+          "startFrame": 273,
+          "endFrame": 293
+        },
+        {
+          "text": "plus",
+          "startFrame": 305,
+          "endFrame": 313
+        },
+        {
+          "text": "il",
+          "startFrame": 313,
+          "endFrame": 319
+        },
+        {
+          "text": "est",
+          "startFrame": 319,
+          "endFrame": 322
+        },
+        {
+          "text": "proche",
+          "startFrame": 322,
+          "endFrame": 338
+        },
+        {
+          "text": "de",
+          "startFrame": 337,
+          "endFrame": 346
+        },
+        {
+          "text": "1",
+          "startFrame": 346,
+          "endFrame": 353
+        },
+        {
+          "text": "mieux",
+          "startFrame": 369,
+          "endFrame": 381
+        },
+        {
+          "text": "c'est",
+          "startFrame": 380,
+          "endFrame": 398
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "À retenir : c'est simple, rapide et facile à interpréter, mais seulement si la relation est vraiment linéaire. Abonne-toi pour la suite !",
+      "audioFile": "linear-regression/audio/segment_08.mp3",
+      "startFrame": 2957,
+      "durationInFrames": 489,
+      "durationSeconds": 8.136,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 46
+        },
+        {
+          "text": "c'est",
+          "startFrame": 56,
+          "endFrame": 64
+        },
+        {
+          "text": "simple",
+          "startFrame": 64,
+          "endFrame": 83
+        },
+        {
+          "text": "rapide",
+          "startFrame": 99,
+          "endFrame": 119
+        },
+        {
+          "text": "et",
+          "startFrame": 119,
+          "endFrame": 123
+        },
+        {
+          "text": "facile",
+          "startFrame": 122,
+          "endFrame": 145
+        },
+        {
+          "text": "à",
+          "startFrame": 144,
+          "endFrame": 148
+        },
+        {
+          "text": "interpréter",
+          "startFrame": 148,
+          "endFrame": 186
+        },
+        {
+          "text": "mais",
+          "startFrame": 202,
+          "endFrame": 211
+        },
+        {
+          "text": "seulement",
+          "startFrame": 210,
+          "endFrame": 228
+        },
+        {
+          "text": "si",
+          "startFrame": 228,
+          "endFrame": 237
+        },
+        {
+          "text": "la",
+          "startFrame": 237,
+          "endFrame": 242
+        },
+        {
+          "text": "relation",
+          "startFrame": 242,
+          "endFrame": 267
+        },
+        {
+          "text": "est",
+          "startFrame": 266,
+          "endFrame": 271
+        },
+        {
+          "text": "vraiment",
+          "startFrame": 270,
+          "endFrame": 288
+        },
+        {
+          "text": "linéaire",
+          "startFrame": 288,
+          "endFrame": 321
+        },
+        {
+          "text": "Abonne-toi",
+          "startFrame": 366,
+          "endFrame": 398
+        },
+        {
+          "text": "pour",
+          "startFrame": 398,
+          "endFrame": 408
+        },
+        {
+          "text": "la",
+          "startFrame": 407,
+          "endFrame": 413
+        },
+        {
+          "text": "suite",
+          "startFrame": 413,
+          "endFrame": 440
+        }
+      ]
+    }
+  ]
+}

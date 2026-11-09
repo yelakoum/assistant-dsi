@@ -1,22 +1,20 @@
-import "./fonts";
+import "../../fonts";
 import React from "react";
 import { AbsoluteFill, Html5Audio, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { Background } from "./components/Background";
-import { CodeLineState, CodeWindow } from "./components/CodeWindow";
-import { SceneTitle } from "./components/SceneTitle";
-import { Subtitles } from "./components/Subtitles";
-import { TakeawayCard } from "./components/TakeawayCard";
-import { Terminal } from "./components/Terminal";
-import { TikTokSafeArea } from "./components/TikTokSafeArea";
-import { clampLerp, springIn } from "./lib/anim";
-import { getSegmentWindows, Timing } from "./lib/timing";
-import { COLORS } from "./theme";
+import { Background } from "../../components/Background";
+import { CodeLineState, CodeWindow } from "../../components/CodeWindow";
+import { SceneTitle } from "../../components/SceneTitle";
+import { Subtitles } from "../../components/Subtitles";
+import { TakeawayCard } from "../../components/TakeawayCard";
+import { Terminal } from "../../components/Terminal";
+import { TikTokSafeArea } from "../../components/TikTokSafeArea";
+import { clampLerp, springIn } from "../../lib/anim";
+import { getSegmentWindows, TimedVideoProps } from "../../lib/timing";
+import { COLORS } from "../../theme";
 
-export type MainProps = {
-  showTikTokOverlay: boolean;
-  /** Injected by calculateMetadata from public/timing.json. */
-  timing: Timing | null;
-};
+export const LIST_COMPREHENSION_ID = "list-comprehension";
+
+export type ListComprehensionProps = TimedVideoProps;
 
 const LOOP_LINES = [
   "nums = [1, 2, 3, 4, 5]",
@@ -34,7 +32,7 @@ const CONTENT_TOP = 220;
 
 const indentOf = (s: string) => s.length - s.trimStart().length;
 
-export const Main: React.FC<MainProps> = ({ showTikTokOverlay, timing }) => {
+export const ListComprehension: React.FC<ListComprehensionProps> = ({ showTikTokOverlay, timing }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
 
@@ -181,8 +179,7 @@ export const Main: React.FC<MainProps> = ({ showTikTokOverlay, timing }) => {
             <Terminal
               command={TERMINAL_COMMAND}
               commandChars={commandChars}
-              output={TERMINAL_OUTPUT}
-              outputAmount={outputIn}
+              output={[{ text: TERMINAL_OUTPUT, amount: outputIn }]}
               style={{
                 opacity: Math.min(1, terminalIn * 1.5),
                 transform: `translateY(${(1 - terminalIn) * 120}px)`,
