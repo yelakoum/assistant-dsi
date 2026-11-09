@@ -38,6 +38,8 @@ export const loadTiming = async (videoId: string): Promise<Timing> => {
 
 export type TimedVideoProps = {
   showTikTokOverlay: boolean;
+  /** Creator watermark shown in the video ("" to hide it). */
+  watermark: string;
   /** Injected by calculateMetadata from public/<videoId>/timing.json. */
   timing: Timing | null;
 };

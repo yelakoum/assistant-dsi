@@ -29,6 +29,9 @@ npm run build                    # toutes les vidéos
   sa sortie réelle est recopiée dans `src/videos/linear-regression/code.ts`.
 - `src/videos/gradient-descent/descent.ts` : vraie descente de gradient sur les données des appartements
   (seul `a` est appris, `b` est fixé à sa meilleure valeur). Les pas montrés et les scores affichés en sortent.
+- Watermark « ML avec Youssef » sur toutes les vidéos (`src/components/Watermark.tsx`) : il change de coin
+  toutes les 10 s pour ne pas pouvoir être masqué d'un seul coup. Texte modifiable via la prop `watermark`
+  (dans `src/Root.tsx` ou le panneau Props du Studio ; vide = pas de watermark).
 - Composants partagés dans `src/components/` (`TikTokSafeArea`, éditeur, terminal, sous-titres…).
   Les zones rouges de l'interface TikTok ne s'affichent que dans le Studio, jamais dans le rendu.
 - Durées : `.venv/bin/python scripts/video/audio_duration.py public/<video>/audio/*.mp3`

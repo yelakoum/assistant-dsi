@@ -16,6 +16,7 @@ import { Subtitles } from "../../components/Subtitles";
 import { TakeawayCard } from "../../components/TakeawayCard";
 import { Terminal } from "../../components/Terminal";
 import { TikTokSafeArea } from "../../components/TikTokSafeArea";
+import { Watermark } from "../../components/Watermark";
 import { clampLerp, springIn } from "../../lib/anim";
 import { getSegmentWindows, SegmentWindow, TimedVideoProps } from "../../lib/timing";
 import { COLORS, FONT_CODE, FONT_UI } from "../../theme";
@@ -50,7 +51,7 @@ const TERMINAL_PREDICTION = parseFloat(TERMINAL_OUTPUT[1].replace(/[[\]]/g, ""))
 const lerp = (from: number, to: number, t: number) => from + (to - from) * t;
 const indentOf = (s: string) => s.length - s.trimStart().length;
 
-export const LinearRegression: React.FC<LinearRegressionProps> = ({ showTikTokOverlay, timing }) => {
+export const LinearRegression: React.FC<LinearRegressionProps> = ({ showTikTokOverlay, watermark, timing }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
 
@@ -492,6 +493,7 @@ export const LinearRegression: React.FC<LinearRegressionProps> = ({ showTikTokOv
           </div>
         ) : null}
 
+        <Watermark text={watermark} />
         <Subtitles timing={timing} />
       </TikTokSafeArea>
     </AbsoluteFill>

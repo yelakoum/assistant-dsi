@@ -8,6 +8,7 @@ import { Subtitles } from "../../components/Subtitles";
 import { TakeawayCard } from "../../components/TakeawayCard";
 import { Terminal } from "../../components/Terminal";
 import { TikTokSafeArea } from "../../components/TikTokSafeArea";
+import { Watermark } from "../../components/Watermark";
 import { clampLerp, springIn } from "../../lib/anim";
 import { getSegmentWindows, TimedVideoProps } from "../../lib/timing";
 import { COLORS } from "../../theme";
@@ -32,7 +33,7 @@ const CONTENT_TOP = 220;
 
 const indentOf = (s: string) => s.length - s.trimStart().length;
 
-export const ListComprehension: React.FC<ListComprehensionProps> = ({ showTikTokOverlay, timing }) => {
+export const ListComprehension: React.FC<ListComprehensionProps> = ({ showTikTokOverlay, watermark, timing }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
 
@@ -196,6 +197,7 @@ export const ListComprehension: React.FC<ListComprehensionProps> = ({ showTikTok
           ) : null}
         </div>
 
+        <Watermark text={watermark} />
         <Subtitles timing={timing} />
       </TikTokSafeArea>
     </AbsoluteFill>

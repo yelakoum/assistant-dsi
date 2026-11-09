@@ -13,6 +13,7 @@ import { Background } from "../../components/Background";
 import { SceneTitle, TitlePart } from "../../components/SceneTitle";
 import { Subtitles } from "../../components/Subtitles";
 import { TikTokSafeArea } from "../../components/TikTokSafeArea";
+import { Watermark } from "../../components/Watermark";
 import { clampLerp, springIn } from "../../lib/anim";
 import { getSegmentWindows, SegmentWindow, TimedVideoProps } from "../../lib/timing";
 import { COLORS, FONT_CODE, FONT_UI } from "../../theme";
@@ -62,7 +63,7 @@ const emptyChart = (): ChartState => ({
   predictionIn: 0,
 });
 
-export const GradientDescent: React.FC<GradientDescentProps> = ({ showTikTokOverlay, timing }) => {
+export const GradientDescent: React.FC<GradientDescentProps> = ({ showTikTokOverlay, watermark, timing }) => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
 
@@ -540,6 +541,7 @@ export const GradientDescent: React.FC<GradientDescentProps> = ({ showTikTokOver
           </div>
         ) : null}
 
+        <Watermark text={watermark} />
         <Subtitles timing={timing} />
       </TikTokSafeArea>
     </AbsoluteFill>
