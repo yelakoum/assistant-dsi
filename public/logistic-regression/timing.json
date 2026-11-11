@@ -1,0 +1,780 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+12%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 3022,
+  "totalDurationSeconds": 50.367,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Ce mail, c'est un spam ou pas ? Ton IA répond avec un seul algo : la régression logistique. Je t'explique en une minute !",
+      "audioFile": "logistic-regression/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 456,
+      "durationSeconds": 7.584,
+      "words": [
+        {
+          "text": "Ce",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "mail",
+          "startFrame": 18,
+          "endFrame": 32
+        },
+        {
+          "text": "c'est",
+          "startFrame": 49,
+          "endFrame": 56
+        },
+        {
+          "text": "un",
+          "startFrame": 56,
+          "endFrame": 65
+        },
+        {
+          "text": "spam",
+          "startFrame": 65,
+          "endFrame": 81
+        },
+        {
+          "text": "ou",
+          "startFrame": 80,
+          "endFrame": 85
+        },
+        {
+          "text": "pas",
+          "startFrame": 85,
+          "endFrame": 100
+        },
+        {
+          "text": "Ton",
+          "startFrame": 145,
+          "endFrame": 155
+        },
+        {
+          "text": "IA",
+          "startFrame": 155,
+          "endFrame": 164
+        },
+        {
+          "text": "répond",
+          "startFrame": 164,
+          "endFrame": 181
+        },
+        {
+          "text": "avec",
+          "startFrame": 180,
+          "endFrame": 195
+        },
+        {
+          "text": "un",
+          "startFrame": 194,
+          "endFrame": 200
+        },
+        {
+          "text": "seul",
+          "startFrame": 200,
+          "endFrame": 211
+        },
+        {
+          "text": "algo",
+          "startFrame": 211,
+          "endFrame": 232
+        },
+        {
+          "text": "la",
+          "startFrame": 241,
+          "endFrame": 247
+        },
+        {
+          "text": "régression",
+          "startFrame": 247,
+          "endFrame": 272
+        },
+        {
+          "text": "logistique",
+          "startFrame": 271,
+          "endFrame": 313
+        },
+        {
+          "text": "Je",
+          "startFrame": 358,
+          "endFrame": 371
+        },
+        {
+          "text": "t'explique",
+          "startFrame": 370,
+          "endFrame": 398
+        },
+        {
+          "text": "en",
+          "startFrame": 397,
+          "endFrame": 402
+        },
+        {
+          "text": "une",
+          "startFrame": 401,
+          "endFrame": 410
+        },
+        {
+          "text": "minute",
+          "startFrame": 410,
+          "endFrame": 439
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Exemple : pour chaque mail, on compte les liens. En bas, les vrais mails. En haut, les spams.",
+      "audioFile": "logistic-regression/audio/segment_02.mp3",
+      "startFrame": 462,
+      "durationInFrames": 379,
+      "durationSeconds": 6.312,
+      "words": [
+        {
+          "text": "Exemple",
+          "startFrame": 5,
+          "endFrame": 38
+        },
+        {
+          "text": "pour",
+          "startFrame": 47,
+          "endFrame": 58
+        },
+        {
+          "text": "chaque",
+          "startFrame": 58,
+          "endFrame": 72
+        },
+        {
+          "text": "mail",
+          "startFrame": 71,
+          "endFrame": 87
+        },
+        {
+          "text": "on",
+          "startFrame": 100,
+          "endFrame": 104
+        },
+        {
+          "text": "compte",
+          "startFrame": 104,
+          "endFrame": 118
+        },
+        {
+          "text": "les",
+          "startFrame": 118,
+          "endFrame": 123
+        },
+        {
+          "text": "liens",
+          "startFrame": 122,
+          "endFrame": 139
+        },
+        {
+          "text": "En",
+          "startFrame": 184,
+          "endFrame": 195
+        },
+        {
+          "text": "bas",
+          "startFrame": 194,
+          "endFrame": 207
+        },
+        {
+          "text": "les",
+          "startFrame": 220,
+          "endFrame": 227
+        },
+        {
+          "text": "vrais",
+          "startFrame": 227,
+          "endFrame": 238
+        },
+        {
+          "text": "mails",
+          "startFrame": 237,
+          "endFrame": 253
+        },
+        {
+          "text": "En",
+          "startFrame": 298,
+          "endFrame": 309
+        },
+        {
+          "text": "haut",
+          "startFrame": 308,
+          "endFrame": 317
+        },
+        {
+          "text": "les",
+          "startFrame": 328,
+          "endFrame": 335
+        },
+        {
+          "text": "spams",
+          "startFrame": 334,
+          "endFrame": 362
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Une droite ne marche pas ici. Alors on trace une courbe en S, la sigmoïde : elle donne une probabilité, entre zéro et cent pour cent.",
+      "audioFile": "logistic-regression/audio/segment_03.mp3",
+      "startFrame": 847,
+      "durationInFrames": 444,
+      "durationSeconds": 7.392,
+      "words": [
+        {
+          "text": "Une",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "droite",
+          "startFrame": 16,
+          "endFrame": 32
+        },
+        {
+          "text": "ne",
+          "startFrame": 32,
+          "endFrame": 40
+        },
+        {
+          "text": "marche",
+          "startFrame": 39,
+          "endFrame": 52
+        },
+        {
+          "text": "pas",
+          "startFrame": 52,
+          "endFrame": 61
+        },
+        {
+          "text": "ici",
+          "startFrame": 61,
+          "endFrame": 85
+        },
+        {
+          "text": "Alors",
+          "startFrame": 129,
+          "endFrame": 147
+        },
+        {
+          "text": "on",
+          "startFrame": 147,
+          "endFrame": 151
+        },
+        {
+          "text": "trace",
+          "startFrame": 151,
+          "endFrame": 167
+        },
+        {
+          "text": "une",
+          "startFrame": 167,
+          "endFrame": 175
+        },
+        {
+          "text": "courbe",
+          "startFrame": 174,
+          "endFrame": 191
+        },
+        {
+          "text": "en",
+          "startFrame": 190,
+          "endFrame": 196
+        },
+        {
+          "text": "S",
+          "startFrame": 196,
+          "endFrame": 212
+        },
+        {
+          "text": "la",
+          "startFrame": 227,
+          "endFrame": 238
+        },
+        {
+          "text": "sigmoïde",
+          "startFrame": 238,
+          "endFrame": 266
+        },
+        {
+          "text": "elle",
+          "startFrame": 276,
+          "endFrame": 284
+        },
+        {
+          "text": "donne",
+          "startFrame": 283,
+          "endFrame": 295
+        },
+        {
+          "text": "une",
+          "startFrame": 295,
+          "endFrame": 301
+        },
+        {
+          "text": "probabilité",
+          "startFrame": 301,
+          "endFrame": 342
+        },
+        {
+          "text": "entre",
+          "startFrame": 357,
+          "endFrame": 370
+        },
+        {
+          "text": "zéro",
+          "startFrame": 370,
+          "endFrame": 386
+        },
+        {
+          "text": "et",
+          "startFrame": 385,
+          "endFrame": 390
+        },
+        {
+          "text": "cent",
+          "startFrame": 389,
+          "endFrame": 400
+        },
+        {
+          "text": "pour",
+          "startFrame": 399,
+          "endFrame": 412
+        },
+        {
+          "text": "cent",
+          "startFrame": 411,
+          "endFrame": 426
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Ensuite, on fixe un seuil à cinquante pour cent. Au-dessus, c'est un spam. En dessous, c'est un vrai mail.",
+      "audioFile": "logistic-regression/audio/segment_04.mp3",
+      "startFrame": 1297,
+      "durationInFrames": 417,
+      "durationSeconds": 6.936,
+      "words": [
+        {
+          "text": "Ensuite",
+          "startFrame": 5,
+          "endFrame": 32
+        },
+        {
+          "text": "on",
+          "startFrame": 47,
+          "endFrame": 51
+        },
+        {
+          "text": "fixe",
+          "startFrame": 51,
+          "endFrame": 66
+        },
+        {
+          "text": "un",
+          "startFrame": 65,
+          "endFrame": 70
+        },
+        {
+          "text": "seuil",
+          "startFrame": 70,
+          "endFrame": 83
+        },
+        {
+          "text": "à",
+          "startFrame": 82,
+          "endFrame": 87
+        },
+        {
+          "text": "cinquante",
+          "startFrame": 86,
+          "endFrame": 109
+        },
+        {
+          "text": "pour",
+          "startFrame": 108,
+          "endFrame": 118
+        },
+        {
+          "text": "cent",
+          "startFrame": 118,
+          "endFrame": 132
+        },
+        {
+          "text": "Au-dessus",
+          "startFrame": 178,
+          "endFrame": 207
+        },
+        {
+          "text": "c'est",
+          "startFrame": 218,
+          "endFrame": 226
+        },
+        {
+          "text": "un",
+          "startFrame": 226,
+          "endFrame": 235
+        },
+        {
+          "text": "spam",
+          "startFrame": 235,
+          "endFrame": 261
+        },
+        {
+          "text": "En",
+          "startFrame": 307,
+          "endFrame": 317
+        },
+        {
+          "text": "dessous",
+          "startFrame": 316,
+          "endFrame": 339
+        },
+        {
+          "text": "c'est",
+          "startFrame": 352,
+          "endFrame": 360
+        },
+        {
+          "text": "un",
+          "startFrame": 360,
+          "endFrame": 368
+        },
+        {
+          "text": "vrai",
+          "startFrame": 368,
+          "endFrame": 380
+        },
+        {
+          "text": "mail",
+          "startFrame": 379,
+          "endFrame": 401
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Avec scikit-learn, c'est trois lignes : on importe Logistic Regression, on crée le modèle, et on l'entraîne avec fit.",
+      "audioFile": "logistic-regression/audio/segment_05.mp3",
+      "startFrame": 1720,
+      "durationInFrames": 340,
+      "durationSeconds": 5.664,
+      "words": [
+        {
+          "text": "Avec",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "scikit-learn",
+          "startFrame": 21,
+          "endFrame": 54
+        },
+        {
+          "text": "c'est",
+          "startFrame": 70,
+          "endFrame": 78
+        },
+        {
+          "text": "trois",
+          "startFrame": 78,
+          "endFrame": 89
+        },
+        {
+          "text": "lignes",
+          "startFrame": 89,
+          "endFrame": 106
+        },
+        {
+          "text": "on",
+          "startFrame": 114,
+          "endFrame": 117
+        },
+        {
+          "text": "importe",
+          "startFrame": 117,
+          "endFrame": 137
+        },
+        {
+          "text": "Logistic",
+          "startFrame": 137,
+          "endFrame": 166
+        },
+        {
+          "text": "Regression",
+          "startFrame": 165,
+          "endFrame": 196
+        },
+        {
+          "text": "on",
+          "startFrame": 209,
+          "endFrame": 213
+        },
+        {
+          "text": "crée",
+          "startFrame": 213,
+          "endFrame": 224
+        },
+        {
+          "text": "le",
+          "startFrame": 224,
+          "endFrame": 229
+        },
+        {
+          "text": "modèle",
+          "startFrame": 229,
+          "endFrame": 252
+        },
+        {
+          "text": "et",
+          "startFrame": 268,
+          "endFrame": 273
+        },
+        {
+          "text": "on",
+          "startFrame": 272,
+          "endFrame": 277
+        },
+        {
+          "text": "l'entraîne",
+          "startFrame": 276,
+          "endFrame": 298
+        },
+        {
+          "text": "avec",
+          "startFrame": 298,
+          "endFrame": 309
+        },
+        {
+          "text": "fit",
+          "startFrame": 309,
+          "endFrame": 324
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Un mail avec sept liens ? predict répond 1 : spam ! Et predict proba donne la probabilité : quatre-vingt-seize pour cent.",
+      "audioFile": "logistic-regression/audio/segment_06.mp3",
+      "startFrame": 2066,
+      "durationInFrames": 430,
+      "durationSeconds": 7.152,
+      "words": [
+        {
+          "text": "Un",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "mail",
+          "startFrame": 15,
+          "endFrame": 25
+        },
+        {
+          "text": "avec",
+          "startFrame": 25,
+          "endFrame": 35
+        },
+        {
+          "text": "sept",
+          "startFrame": 35,
+          "endFrame": 46
+        },
+        {
+          "text": "liens",
+          "startFrame": 46,
+          "endFrame": 62
+        },
+        {
+          "text": "predict",
+          "startFrame": 107,
+          "endFrame": 131
+        },
+        {
+          "text": "répond",
+          "startFrame": 131,
+          "endFrame": 148
+        },
+        {
+          "text": "1",
+          "startFrame": 147,
+          "endFrame": 153
+        },
+        {
+          "text": "spam",
+          "startFrame": 163,
+          "endFrame": 190
+        },
+        {
+          "text": "Et",
+          "startFrame": 236,
+          "endFrame": 245
+        },
+        {
+          "text": "predict",
+          "startFrame": 245,
+          "endFrame": 269
+        },
+        {
+          "text": "proba",
+          "startFrame": 269,
+          "endFrame": 284
+        },
+        {
+          "text": "donne",
+          "startFrame": 283,
+          "endFrame": 294
+        },
+        {
+          "text": "la",
+          "startFrame": 294,
+          "endFrame": 300
+        },
+        {
+          "text": "probabilité",
+          "startFrame": 300,
+          "endFrame": 341
+        },
+        {
+          "text": "quatre-vingt-seize",
+          "startFrame": 352,
+          "endFrame": 387
+        },
+        {
+          "text": "pour",
+          "startFrame": 387,
+          "endFrame": 397
+        },
+        {
+          "text": "cent",
+          "startFrame": 397,
+          "endFrame": 412
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "À retenir : malgré son nom, c'est un algo de classification. Demain, épisode deux : le KNN. Abonne-toi pour ne pas le rater !",
+      "audioFile": "logistic-regression/audio/segment_07.mp3",
+      "startFrame": 2502,
+      "durationInFrames": 520,
+      "durationSeconds": 8.664,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 45
+        },
+        {
+          "text": "malgré",
+          "startFrame": 54,
+          "endFrame": 74
+        },
+        {
+          "text": "son",
+          "startFrame": 74,
+          "endFrame": 84
+        },
+        {
+          "text": "nom",
+          "startFrame": 84,
+          "endFrame": 97
+        },
+        {
+          "text": "c'est",
+          "startFrame": 114,
+          "endFrame": 122
+        },
+        {
+          "text": "un",
+          "startFrame": 122,
+          "endFrame": 129
+        },
+        {
+          "text": "algo",
+          "startFrame": 129,
+          "endFrame": 147
+        },
+        {
+          "text": "de",
+          "startFrame": 146,
+          "endFrame": 153
+        },
+        {
+          "text": "classification",
+          "startFrame": 153,
+          "endFrame": 203
+        },
+        {
+          "text": "Demain",
+          "startFrame": 249,
+          "endFrame": 274
+        },
+        {
+          "text": "épisode",
+          "startFrame": 287,
+          "endFrame": 311
+        },
+        {
+          "text": "deux",
+          "startFrame": 311,
+          "endFrame": 323
+        },
+        {
+          "text": "le",
+          "startFrame": 332,
+          "endFrame": 339
+        },
+        {
+          "text": "KNN",
+          "startFrame": 338,
+          "endFrame": 373
+        },
+        {
+          "text": "Abonne-toi",
+          "startFrame": 419,
+          "endFrame": 449
+        },
+        {
+          "text": "pour",
+          "startFrame": 449,
+          "endFrame": 460
+        },
+        {
+          "text": "ne",
+          "startFrame": 460,
+          "endFrame": 467
+        },
+        {
+          "text": "pas",
+          "startFrame": 466,
+          "endFrame": 475
+        },
+        {
+          "text": "le",
+          "startFrame": 474,
+          "endFrame": 480
+        },
+        {
+          "text": "rater",
+          "startFrame": 480,
+          "endFrame": 505
+        }
+      ]
+    }
+  ]
+}

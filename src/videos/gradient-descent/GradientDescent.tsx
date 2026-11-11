@@ -18,7 +18,7 @@ import { clampLerp, springIn } from "../../lib/anim";
 import { getSegmentWindows, SegmentWindow, TimedVideoProps } from "../../lib/timing";
 import { COLORS, FONT_CODE, FONT_UI } from "../../theme";
 import { X, Y, fr } from "../linear-regression/data";
-import { InfoCard } from "../linear-regression/InfoCard";
+import { InfoCard } from "../../components/InfoCard";
 import { A_COLOR, B_COLOR, ChartState, RegressionChart } from "../linear-regression/RegressionChart";
 import { B, BAD_PATH, BEST_A, GOOD_PATH, GUESS_A, cost } from "./descent";
 import { Valley, ValleyState } from "./Valley";

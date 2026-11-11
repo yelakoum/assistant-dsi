@@ -1,0 +1,710 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+12%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 2622,
+  "totalDurationSeconds": 43.7,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Chat ou chien ? Pour décider, cet algo regarde juste… tes voisins. C'est le KNN, et je te l'explique en une minute !",
+      "audioFile": "knn/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 457,
+      "durationSeconds": 7.608,
+      "words": [
+        {
+          "text": "Chat",
+          "startFrame": 5,
+          "endFrame": 20
+        },
+        {
+          "text": "ou",
+          "startFrame": 19,
+          "endFrame": 24
+        },
+        {
+          "text": "chien",
+          "startFrame": 24,
+          "endFrame": 43
+        },
+        {
+          "text": "Pour",
+          "startFrame": 89,
+          "endFrame": 100
+        },
+        {
+          "text": "décider",
+          "startFrame": 100,
+          "endFrame": 129
+        },
+        {
+          "text": "cet",
+          "startFrame": 143,
+          "endFrame": 154
+        },
+        {
+          "text": "algo",
+          "startFrame": 154,
+          "endFrame": 168
+        },
+        {
+          "text": "regarde",
+          "startFrame": 168,
+          "endFrame": 187
+        },
+        {
+          "text": "juste",
+          "startFrame": 187,
+          "endFrame": 205
+        },
+        {
+          "text": "tes",
+          "startFrame": 214,
+          "endFrame": 221
+        },
+        {
+          "text": "voisins",
+          "startFrame": 221,
+          "endFrame": 245
+        },
+        {
+          "text": "C'est",
+          "startFrame": 290,
+          "endFrame": 303
+        },
+        {
+          "text": "le",
+          "startFrame": 303,
+          "endFrame": 309
+        },
+        {
+          "text": "KNN",
+          "startFrame": 309,
+          "endFrame": 339
+        },
+        {
+          "text": "et",
+          "startFrame": 355,
+          "endFrame": 359
+        },
+        {
+          "text": "je",
+          "startFrame": 359,
+          "endFrame": 367
+        },
+        {
+          "text": "te",
+          "startFrame": 366,
+          "endFrame": 373
+        },
+        {
+          "text": "l'explique",
+          "startFrame": 373,
+          "endFrame": 400
+        },
+        {
+          "text": "en",
+          "startFrame": 399,
+          "endFrame": 404
+        },
+        {
+          "text": "une",
+          "startFrame": 403,
+          "endFrame": 412
+        },
+        {
+          "text": "minute",
+          "startFrame": 412,
+          "endFrame": 441
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Exemple : des animaux, avec leur poids et leur taille. En bleu les chats, en orange les chiens.",
+      "audioFile": "knn/audio/segment_02.mp3",
+      "startFrame": 463,
+      "durationInFrames": 323,
+      "durationSeconds": 5.376,
+      "words": [
+        {
+          "text": "Exemple",
+          "startFrame": 5,
+          "endFrame": 37
+        },
+        {
+          "text": "des",
+          "startFrame": 47,
+          "endFrame": 54
+        },
+        {
+          "text": "animaux",
+          "startFrame": 53,
+          "endFrame": 79
+        },
+        {
+          "text": "avec",
+          "startFrame": 92,
+          "endFrame": 107
+        },
+        {
+          "text": "leur",
+          "startFrame": 107,
+          "endFrame": 115
+        },
+        {
+          "text": "poids",
+          "startFrame": 115,
+          "endFrame": 127
+        },
+        {
+          "text": "et",
+          "startFrame": 127,
+          "endFrame": 129
+        },
+        {
+          "text": "leur",
+          "startFrame": 129,
+          "endFrame": 137
+        },
+        {
+          "text": "taille",
+          "startFrame": 137,
+          "endFrame": 162
+        },
+        {
+          "text": "En",
+          "startFrame": 206,
+          "endFrame": 217
+        },
+        {
+          "text": "bleu",
+          "startFrame": 216,
+          "endFrame": 226
+        },
+        {
+          "text": "les",
+          "startFrame": 226,
+          "endFrame": 233
+        },
+        {
+          "text": "chats",
+          "startFrame": 233,
+          "endFrame": 246
+        },
+        {
+          "text": "en",
+          "startFrame": 258,
+          "endFrame": 262
+        },
+        {
+          "text": "orange",
+          "startFrame": 261,
+          "endFrame": 280
+        },
+        {
+          "text": "les",
+          "startFrame": 279,
+          "endFrame": 287
+        },
+        {
+          "text": "chiens",
+          "startFrame": 287,
+          "endFrame": 306
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Un nouvel animal arrive : six kilos, vingt-huit centimètres. On cherche ses trois voisins les plus proches.",
+      "audioFile": "knn/audio/segment_03.mp3",
+      "startFrame": 792,
+      "durationInFrames": 345,
+      "durationSeconds": 5.736,
+      "words": [
+        {
+          "text": "Un",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "nouvel",
+          "startFrame": 15,
+          "endFrame": 30
+        },
+        {
+          "text": "animal",
+          "startFrame": 30,
+          "endFrame": 49
+        },
+        {
+          "text": "arrive",
+          "startFrame": 49,
+          "endFrame": 66
+        },
+        {
+          "text": "six",
+          "startFrame": 76,
+          "endFrame": 85
+        },
+        {
+          "text": "kilos",
+          "startFrame": 84,
+          "endFrame": 105
+        },
+        {
+          "text": "vingt-huit",
+          "startFrame": 116,
+          "endFrame": 135
+        },
+        {
+          "text": "centimètres",
+          "startFrame": 135,
+          "endFrame": 174
+        },
+        {
+          "text": "On",
+          "startFrame": 219,
+          "endFrame": 228
+        },
+        {
+          "text": "cherche",
+          "startFrame": 228,
+          "endFrame": 248
+        },
+        {
+          "text": "ses",
+          "startFrame": 247,
+          "endFrame": 255
+        },
+        {
+          "text": "trois",
+          "startFrame": 255,
+          "endFrame": 266
+        },
+        {
+          "text": "voisins",
+          "startFrame": 266,
+          "endFrame": 283
+        },
+        {
+          "text": "les",
+          "startFrame": 283,
+          "endFrame": 288
+        },
+        {
+          "text": "plus",
+          "startFrame": 287,
+          "endFrame": 297
+        },
+        {
+          "text": "proches",
+          "startFrame": 297,
+          "endFrame": 329
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Puis on fait voter les voisins : deux chats contre un chien. Verdict : c'est un chat !",
+      "audioFile": "knn/audio/segment_04.mp3",
+      "startFrame": 1143,
+      "durationInFrames": 274,
+      "durationSeconds": 4.56,
+      "words": [
+        {
+          "text": "Puis",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "on",
+          "startFrame": 15,
+          "endFrame": 24
+        },
+        {
+          "text": "fait",
+          "startFrame": 23,
+          "endFrame": 32
+        },
+        {
+          "text": "voter",
+          "startFrame": 31,
+          "endFrame": 46
+        },
+        {
+          "text": "les",
+          "startFrame": 45,
+          "endFrame": 51
+        },
+        {
+          "text": "voisins",
+          "startFrame": 51,
+          "endFrame": 74
+        },
+        {
+          "text": "deux",
+          "startFrame": 83,
+          "endFrame": 93
+        },
+        {
+          "text": "chats",
+          "startFrame": 93,
+          "endFrame": 101
+        },
+        {
+          "text": "contre",
+          "startFrame": 101,
+          "endFrame": 117
+        },
+        {
+          "text": "un",
+          "startFrame": 116,
+          "endFrame": 121
+        },
+        {
+          "text": "chien",
+          "startFrame": 120,
+          "endFrame": 139
+        },
+        {
+          "text": "Verdict",
+          "startFrame": 185,
+          "endFrame": 213
+        },
+        {
+          "text": "c'est",
+          "startFrame": 222,
+          "endFrame": 230
+        },
+        {
+          "text": "un",
+          "startFrame": 230,
+          "endFrame": 240
+        },
+        {
+          "text": "chat",
+          "startFrame": 239,
+          "endFrame": 257
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Avec scikit-learn : on importe K Neighbors Classifier, on choisit trois voisins, et on appelle fit.",
+      "audioFile": "knn/audio/segment_05.mp3",
+      "startFrame": 1423,
+      "durationInFrames": 290,
+      "durationSeconds": 4.824,
+      "words": [
+        {
+          "text": "Avec",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "scikit-learn",
+          "startFrame": 22,
+          "endFrame": 54
+        },
+        {
+          "text": "on",
+          "startFrame": 63,
+          "endFrame": 67
+        },
+        {
+          "text": "importe",
+          "startFrame": 67,
+          "endFrame": 88
+        },
+        {
+          "text": "K",
+          "startFrame": 88,
+          "endFrame": 95
+        },
+        {
+          "text": "Neighbors",
+          "startFrame": 94,
+          "endFrame": 112
+        },
+        {
+          "text": "Classifier",
+          "startFrame": 112,
+          "endFrame": 148
+        },
+        {
+          "text": "on",
+          "startFrame": 163,
+          "endFrame": 168
+        },
+        {
+          "text": "choisit",
+          "startFrame": 167,
+          "endFrame": 187
+        },
+        {
+          "text": "trois",
+          "startFrame": 187,
+          "endFrame": 198
+        },
+        {
+          "text": "voisins",
+          "startFrame": 197,
+          "endFrame": 220
+        },
+        {
+          "text": "et",
+          "startFrame": 234,
+          "endFrame": 238
+        },
+        {
+          "text": "on",
+          "startFrame": 238,
+          "endFrame": 241
+        },
+        {
+          "text": "appelle",
+          "startFrame": 241,
+          "endFrame": 258
+        },
+        {
+          "text": "fit",
+          "startFrame": 258,
+          "endFrame": 274
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "predict répond : chat. Et predict proba montre le vote : deux tiers chat, un tiers chien.",
+      "audioFile": "knn/audio/segment_06.mp3",
+      "startFrame": 1719,
+      "durationInFrames": 329,
+      "durationSeconds": 5.472,
+      "words": [
+        {
+          "text": "predict",
+          "startFrame": 5,
+          "endFrame": 29
+        },
+        {
+          "text": "répond",
+          "startFrame": 29,
+          "endFrame": 50
+        },
+        {
+          "text": "chat",
+          "startFrame": 60,
+          "endFrame": 89
+        },
+        {
+          "text": "Et",
+          "startFrame": 134,
+          "endFrame": 143
+        },
+        {
+          "text": "predict",
+          "startFrame": 143,
+          "endFrame": 166
+        },
+        {
+          "text": "proba",
+          "startFrame": 166,
+          "endFrame": 179
+        },
+        {
+          "text": "montre",
+          "startFrame": 179,
+          "endFrame": 195
+        },
+        {
+          "text": "le",
+          "startFrame": 194,
+          "endFrame": 200
+        },
+        {
+          "text": "vote",
+          "startFrame": 200,
+          "endFrame": 218
+        },
+        {
+          "text": "deux",
+          "startFrame": 227,
+          "endFrame": 236
+        },
+        {
+          "text": "tiers",
+          "startFrame": 235,
+          "endFrame": 248
+        },
+        {
+          "text": "chat",
+          "startFrame": 248,
+          "endFrame": 262
+        },
+        {
+          "text": "un",
+          "startFrame": 277,
+          "endFrame": 280
+        },
+        {
+          "text": "tiers",
+          "startFrame": 280,
+          "endFrame": 294
+        },
+        {
+          "text": "chien",
+          "startFrame": 293,
+          "endFrame": 312
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "À retenir : le KNN n'apprend rien, il mémorise tout. Prends un k impair, et mets tes données à la même échelle. Demain, épisode trois : l'arbre de décision !",
+      "audioFile": "knn/audio/segment_07.mp3",
+      "startFrame": 2054,
+      "durationInFrames": 568,
+      "durationSeconds": 9.456,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 46
+        },
+        {
+          "text": "le",
+          "startFrame": 55,
+          "endFrame": 62
+        },
+        {
+          "text": "KNN",
+          "startFrame": 61,
+          "endFrame": 83
+        },
+        {
+          "text": "n'apprend",
+          "startFrame": 82,
+          "endFrame": 101
+        },
+        {
+          "text": "rien",
+          "startFrame": 101,
+          "endFrame": 117
+        },
+        {
+          "text": "il",
+          "startFrame": 128,
+          "endFrame": 135
+        },
+        {
+          "text": "mémorise",
+          "startFrame": 134,
+          "endFrame": 158
+        },
+        {
+          "text": "tout",
+          "startFrame": 158,
+          "endFrame": 173
+        },
+        {
+          "text": "Prends",
+          "startFrame": 218,
+          "endFrame": 231
+        },
+        {
+          "text": "un",
+          "startFrame": 231,
+          "endFrame": 235
+        },
+        {
+          "text": "k",
+          "startFrame": 235,
+          "endFrame": 245
+        },
+        {
+          "text": "impair",
+          "startFrame": 245,
+          "endFrame": 269
+        },
+        {
+          "text": "et",
+          "startFrame": 286,
+          "endFrame": 289
+        },
+        {
+          "text": "mets",
+          "startFrame": 289,
+          "endFrame": 297
+        },
+        {
+          "text": "tes",
+          "startFrame": 297,
+          "endFrame": 304
+        },
+        {
+          "text": "données",
+          "startFrame": 304,
+          "endFrame": 319
+        },
+        {
+          "text": "à",
+          "startFrame": 318,
+          "endFrame": 321
+        },
+        {
+          "text": "la",
+          "startFrame": 321,
+          "endFrame": 327
+        },
+        {
+          "text": "même",
+          "startFrame": 326,
+          "endFrame": 337
+        },
+        {
+          "text": "échelle",
+          "startFrame": 337,
+          "endFrame": 365
+        },
+        {
+          "text": "Demain",
+          "startFrame": 410,
+          "endFrame": 435
+        },
+        {
+          "text": "épisode",
+          "startFrame": 450,
+          "endFrame": 473
+        },
+        {
+          "text": "trois",
+          "startFrame": 473,
+          "endFrame": 491
+        },
+        {
+          "text": "l'arbre",
+          "startFrame": 499,
+          "endFrame": 515
+        },
+        {
+          "text": "de",
+          "startFrame": 515,
+          "endFrame": 521
+        },
+        {
+          "text": "décision",
+          "startFrame": 520,
+          "endFrame": 550
+        }
+      ]
+    }
+  ]
+}

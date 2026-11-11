@@ -1,5 +1,5 @@
 import React from "react";
-import { FONT_UI } from "../../theme";
+import { FONT_UI } from "../theme";
 
 /** Rounded glass card with a small coloured label, used under the chart. */
 export const InfoCard: React.FC<{

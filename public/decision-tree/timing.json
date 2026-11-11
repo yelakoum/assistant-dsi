@@ -1,0 +1,760 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+12%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 2973,
+  "totalDurationSeconds": 49.55,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Akinator devine ton personnage en posant des questions. L'arbre de décision fait pareil ! Je te montre en une minute.",
+      "audioFile": "decision-tree/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 427,
+      "durationSeconds": 7.104,
+      "words": [
+        {
+          "text": "Akinator",
+          "startFrame": 5,
+          "endFrame": 39
+        },
+        {
+          "text": "devine",
+          "startFrame": 39,
+          "endFrame": 56
+        },
+        {
+          "text": "ton",
+          "startFrame": 55,
+          "endFrame": 64
+        },
+        {
+          "text": "personnage",
+          "startFrame": 64,
+          "endFrame": 93
+        },
+        {
+          "text": "en",
+          "startFrame": 93,
+          "endFrame": 98
+        },
+        {
+          "text": "posant",
+          "startFrame": 98,
+          "endFrame": 114
+        },
+        {
+          "text": "des",
+          "startFrame": 114,
+          "endFrame": 119
+        },
+        {
+          "text": "questions",
+          "startFrame": 119,
+          "endFrame": 146
+        },
+        {
+          "text": "L'arbre",
+          "startFrame": 192,
+          "endFrame": 214
+        },
+        {
+          "text": "de",
+          "startFrame": 214,
+          "endFrame": 221
+        },
+        {
+          "text": "décision",
+          "startFrame": 220,
+          "endFrame": 248
+        },
+        {
+          "text": "fait",
+          "startFrame": 247,
+          "endFrame": 257
+        },
+        {
+          "text": "pareil",
+          "startFrame": 257,
+          "endFrame": 286
+        },
+        {
+          "text": "Je",
+          "startFrame": 332,
+          "endFrame": 346
+        },
+        {
+          "text": "te",
+          "startFrame": 346,
+          "endFrame": 353
+        },
+        {
+          "text": "montre",
+          "startFrame": 353,
+          "endFrame": 369
+        },
+        {
+          "text": "en",
+          "startFrame": 369,
+          "endFrame": 372
+        },
+        {
+          "text": "une",
+          "startFrame": 372,
+          "endFrame": 381
+        },
+        {
+          "text": "minute",
+          "startFrame": 381,
+          "endFrame": 411
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Exemple : on veut prédire si un élève réussit son examen, avec ses heures de révision et de sommeil.",
+      "audioFile": "decision-tree/audio/segment_02.mp3",
+      "startFrame": 433,
+      "durationInFrames": 301,
+      "durationSeconds": 5.016,
+      "words": [
+        {
+          "text": "Exemple",
+          "startFrame": 5,
+          "endFrame": 35
+        },
+        {
+          "text": "on",
+          "startFrame": 44,
+          "endFrame": 48
+        },
+        {
+          "text": "veut",
+          "startFrame": 47,
+          "endFrame": 56
+        },
+        {
+          "text": "prédire",
+          "startFrame": 55,
+          "endFrame": 78
+        },
+        {
+          "text": "si",
+          "startFrame": 78,
+          "endFrame": 87
+        },
+        {
+          "text": "un",
+          "startFrame": 87,
+          "endFrame": 91
+        },
+        {
+          "text": "élève",
+          "startFrame": 90,
+          "endFrame": 107
+        },
+        {
+          "text": "réussit",
+          "startFrame": 106,
+          "endFrame": 128
+        },
+        {
+          "text": "son",
+          "startFrame": 128,
+          "endFrame": 136
+        },
+        {
+          "text": "examen",
+          "startFrame": 136,
+          "endFrame": 164
+        },
+        {
+          "text": "avec",
+          "startFrame": 180,
+          "endFrame": 196
+        },
+        {
+          "text": "ses",
+          "startFrame": 196,
+          "endFrame": 204
+        },
+        {
+          "text": "heures",
+          "startFrame": 203,
+          "endFrame": 214
+        },
+        {
+          "text": "de",
+          "startFrame": 214,
+          "endFrame": 220
+        },
+        {
+          "text": "révision",
+          "startFrame": 220,
+          "endFrame": 245
+        },
+        {
+          "text": "et",
+          "startFrame": 245,
+          "endFrame": 249
+        },
+        {
+          "text": "de",
+          "startFrame": 248,
+          "endFrame": 257
+        },
+        {
+          "text": "sommeil",
+          "startFrame": 256,
+          "endFrame": 287
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "L'arbre cherche la meilleure question. D'abord : as-tu révisé plus de quatre heures ? Si non : raté.",
+      "audioFile": "decision-tree/audio/segment_03.mp3",
+      "startFrame": 740,
+      "durationInFrames": 388,
+      "durationSeconds": 6.456,
+      "words": [
+        {
+          "text": "L'arbre",
+          "startFrame": 5,
+          "endFrame": 29
+        },
+        {
+          "text": "cherche",
+          "startFrame": 29,
+          "endFrame": 46
+        },
+        {
+          "text": "la",
+          "startFrame": 46,
+          "endFrame": 53
+        },
+        {
+          "text": "meilleure",
+          "startFrame": 53,
+          "endFrame": 68
+        },
+        {
+          "text": "question",
+          "startFrame": 68,
+          "endFrame": 95
+        },
+        {
+          "text": "D'abord",
+          "startFrame": 141,
+          "endFrame": 171
+        },
+        {
+          "text": "as-tu",
+          "startFrame": 181,
+          "endFrame": 193
+        },
+        {
+          "text": "révisé",
+          "startFrame": 193,
+          "endFrame": 215
+        },
+        {
+          "text": "plus",
+          "startFrame": 215,
+          "endFrame": 223
+        },
+        {
+          "text": "de",
+          "startFrame": 223,
+          "endFrame": 231
+        },
+        {
+          "text": "quatre",
+          "startFrame": 231,
+          "endFrame": 248
+        },
+        {
+          "text": "heures",
+          "startFrame": 247,
+          "endFrame": 264
+        },
+        {
+          "text": "Si",
+          "startFrame": 310,
+          "endFrame": 324
+        },
+        {
+          "text": "non",
+          "startFrame": 324,
+          "endFrame": 337
+        },
+        {
+          "text": "raté",
+          "startFrame": 346,
+          "endFrame": 371
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Si oui, deuxième question : as-tu dormi plus de cinq heures ? Si oui : réussi ! Chaque question coupe le graphique en deux.",
+      "audioFile": "decision-tree/audio/segment_04.mp3",
+      "startFrame": 1134,
+      "durationInFrames": 453,
+      "durationSeconds": 7.536,
+      "words": [
+        {
+          "text": "Si",
+          "startFrame": 5,
+          "endFrame": 20
+        },
+        {
+          "text": "oui",
+          "startFrame": 19,
+          "endFrame": 32
+        },
+        {
+          "text": "deuxième",
+          "startFrame": 47,
+          "endFrame": 66
+        },
+        {
+          "text": "question",
+          "startFrame": 65,
+          "endFrame": 91
+        },
+        {
+          "text": "as-tu",
+          "startFrame": 100,
+          "endFrame": 112
+        },
+        {
+          "text": "dormi",
+          "startFrame": 112,
+          "endFrame": 129
+        },
+        {
+          "text": "plus",
+          "startFrame": 128,
+          "endFrame": 137
+        },
+        {
+          "text": "de",
+          "startFrame": 137,
+          "endFrame": 145
+        },
+        {
+          "text": "cinq",
+          "startFrame": 145,
+          "endFrame": 159
+        },
+        {
+          "text": "heures",
+          "startFrame": 159,
+          "endFrame": 176
+        },
+        {
+          "text": "Si",
+          "startFrame": 222,
+          "endFrame": 237
+        },
+        {
+          "text": "oui",
+          "startFrame": 237,
+          "endFrame": 248
+        },
+        {
+          "text": "réussi",
+          "startFrame": 259,
+          "endFrame": 287
+        },
+        {
+          "text": "Chaque",
+          "startFrame": 333,
+          "endFrame": 351
+        },
+        {
+          "text": "question",
+          "startFrame": 350,
+          "endFrame": 373
+        },
+        {
+          "text": "coupe",
+          "startFrame": 373,
+          "endFrame": 386
+        },
+        {
+          "text": "le",
+          "startFrame": 386,
+          "endFrame": 392
+        },
+        {
+          "text": "graphique",
+          "startFrame": 392,
+          "endFrame": 416
+        },
+        {
+          "text": "en",
+          "startFrame": 415,
+          "endFrame": 420
+        },
+        {
+          "text": "deux",
+          "startFrame": 420,
+          "endFrame": 435
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Avec scikit-learn : Decision Tree Classifier, avec max depth égal 2 pour limiter le nombre de questions. Puis fit.",
+      "audioFile": "decision-tree/audio/segment_05.mp3",
+      "startFrame": 1593,
+      "durationInFrames": 389,
+      "durationSeconds": 6.48,
+      "words": [
+        {
+          "text": "Avec",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "scikit-learn",
+          "startFrame": 22,
+          "endFrame": 55
+        },
+        {
+          "text": "Decision",
+          "startFrame": 65,
+          "endFrame": 90
+        },
+        {
+          "text": "Tree",
+          "startFrame": 90,
+          "endFrame": 100
+        },
+        {
+          "text": "Classifier",
+          "startFrame": 100,
+          "endFrame": 135
+        },
+        {
+          "text": "avec",
+          "startFrame": 147,
+          "endFrame": 164
+        },
+        {
+          "text": "max",
+          "startFrame": 163,
+          "endFrame": 178
+        },
+        {
+          "text": "depth",
+          "startFrame": 178,
+          "endFrame": 192
+        },
+        {
+          "text": "égal",
+          "startFrame": 192,
+          "endFrame": 208
+        },
+        {
+          "text": "2 pour",
+          "startFrame": 208,
+          "endFrame": 226
+        },
+        {
+          "text": "limiter",
+          "startFrame": 226,
+          "endFrame": 248
+        },
+        {
+          "text": "le",
+          "startFrame": 248,
+          "endFrame": 253
+        },
+        {
+          "text": "nombre",
+          "startFrame": 253,
+          "endFrame": 269
+        },
+        {
+          "text": "de",
+          "startFrame": 269,
+          "endFrame": 274
+        },
+        {
+          "text": "questions",
+          "startFrame": 274,
+          "endFrame": 300
+        },
+        {
+          "text": "Puis",
+          "startFrame": 346,
+          "endFrame": 357
+        },
+        {
+          "text": "fit",
+          "startFrame": 356,
+          "endFrame": 373
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Six heures de révision, sept heures de sommeil ? predict répond 1 : réussi. Et le score est de cent pour cent.",
+      "audioFile": "decision-tree/audio/segment_06.mp3",
+      "startFrame": 1988,
+      "durationInFrames": 404,
+      "durationSeconds": 6.72,
+      "words": [
+        {
+          "text": "Six",
+          "startFrame": 5,
+          "endFrame": 19
+        },
+        {
+          "text": "heures",
+          "startFrame": 19,
+          "endFrame": 28
+        },
+        {
+          "text": "de",
+          "startFrame": 28,
+          "endFrame": 34
+        },
+        {
+          "text": "révision",
+          "startFrame": 34,
+          "endFrame": 63
+        },
+        {
+          "text": "sept",
+          "startFrame": 78,
+          "endFrame": 90
+        },
+        {
+          "text": "heures",
+          "startFrame": 90,
+          "endFrame": 96
+        },
+        {
+          "text": "de",
+          "startFrame": 96,
+          "endFrame": 103
+        },
+        {
+          "text": "sommeil",
+          "startFrame": 103,
+          "endFrame": 131
+        },
+        {
+          "text": "predict",
+          "startFrame": 176,
+          "endFrame": 200
+        },
+        {
+          "text": "répond",
+          "startFrame": 200,
+          "endFrame": 217
+        },
+        {
+          "text": "1",
+          "startFrame": 217,
+          "endFrame": 223
+        },
+        {
+          "text": "réussi",
+          "startFrame": 234,
+          "endFrame": 263
+        },
+        {
+          "text": "Et",
+          "startFrame": 309,
+          "endFrame": 317
+        },
+        {
+          "text": "le",
+          "startFrame": 316,
+          "endFrame": 324
+        },
+        {
+          "text": "score",
+          "startFrame": 324,
+          "endFrame": 340
+        },
+        {
+          "text": "est",
+          "startFrame": 340,
+          "endFrame": 342
+        },
+        {
+          "text": "de",
+          "startFrame": 342,
+          "endFrame": 350
+        },
+        {
+          "text": "cent",
+          "startFrame": 350,
+          "endFrame": 359
+        },
+        {
+          "text": "pour",
+          "startFrame": 359,
+          "endFrame": 371
+        },
+        {
+          "text": "cent",
+          "startFrame": 371,
+          "endFrame": 386
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "À retenir : c'est facile à lire, mais un arbre trop profond apprend par cœur. Et toi, quel algo tu veux voir ensuite ? Dis-le en commentaire, et abonne-toi !",
+      "audioFile": "decision-tree/audio/segment_07.mp3",
+      "startFrame": 2398,
+      "durationInFrames": 575,
+      "durationSeconds": 9.576,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 46
+        },
+        {
+          "text": "c'est",
+          "startFrame": 56,
+          "endFrame": 64
+        },
+        {
+          "text": "facile",
+          "startFrame": 63,
+          "endFrame": 84
+        },
+        {
+          "text": "à",
+          "startFrame": 84,
+          "endFrame": 86
+        },
+        {
+          "text": "lire",
+          "startFrame": 86,
+          "endFrame": 102
+        },
+        {
+          "text": "mais",
+          "startFrame": 120,
+          "endFrame": 127
+        },
+        {
+          "text": "un",
+          "startFrame": 127,
+          "endFrame": 132
+        },
+        {
+          "text": "arbre",
+          "startFrame": 132,
+          "endFrame": 149
+        },
+        {
+          "text": "trop",
+          "startFrame": 148,
+          "endFrame": 160
+        },
+        {
+          "text": "profond",
+          "startFrame": 160,
+          "endFrame": 180
+        },
+        {
+          "text": "apprend",
+          "startFrame": 179,
+          "endFrame": 195
+        },
+        {
+          "text": "par",
+          "startFrame": 195,
+          "endFrame": 206
+        },
+        {
+          "text": "cœur",
+          "startFrame": 205,
+          "endFrame": 231
+        },
+        {
+          "text": "Et",
+          "startFrame": 276,
+          "endFrame": 285
+        },
+        {
+          "text": "toi",
+          "startFrame": 285,
+          "endFrame": 303
+        },
+        {
+          "text": "quel",
+          "startFrame": 318,
+          "endFrame": 328
+        },
+        {
+          "text": "algo",
+          "startFrame": 328,
+          "endFrame": 342
+        },
+        {
+          "text": "tu",
+          "startFrame": 342,
+          "endFrame": 350
+        },
+        {
+          "text": "veux",
+          "startFrame": 350,
+          "endFrame": 357
+        },
+        {
+          "text": "voir",
+          "startFrame": 357,
+          "endFrame": 368
+        },
+        {
+          "text": "ensuite",
+          "startFrame": 368,
+          "endFrame": 399
+        },
+        {
+          "text": "Dis-le",
+          "startFrame": 444,
+          "endFrame": 462
+        },
+        {
+          "text": "en",
+          "startFrame": 462,
+          "endFrame": 467
+        },
+        {
+          "text": "commentaire",
+          "startFrame": 467,
+          "endFrame": 504
+        },
+        {
+          "text": "et",
+          "startFrame": 519,
+          "endFrame": 524
+        },
+        {
+          "text": "abonne-toi",
+          "startFrame": 524,
+          "endFrame": 558
+        }
+      ]
+    }
+  ]
+}

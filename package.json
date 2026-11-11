@@ -9,6 +9,7 @@
     "build:list-comprehension": "remotion render ListComprehension out/list-comprehension.mp4",
     "build:linear-regression": "remotion render LinearRegression out/linear-regression.mp4",
     "build:gradient-descent": "remotion render GradientDescent out/gradient-descent.mp4",
+    "build:series": "remotion render Ep1LogisticRegression out/ep1-regression-logistique.mp4 && remotion render Ep2Knn out/ep2-knn.mp4 && remotion render Ep3DecisionTree out/ep3-arbre-de-decision.mp4",
     "upgrade": "remotion upgrade",
     "lint": "tsc --noEmit"
   },

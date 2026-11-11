@@ -22,7 +22,7 @@ import { getSegmentWindows, SegmentWindow, TimedVideoProps } from "../../lib/tim
 import { COLORS, FONT_CODE, FONT_UI } from "../../theme";
 import { FILE_NAME, FIT_CODE, PREDICT_CODE, R2, TERMINAL_COMMAND, TERMINAL_OUTPUT } from "./code";
 import { BEST_FIT, INITIAL_GUESS, X, Y, fr, mse } from "./data";
-import { InfoCard } from "./InfoCard";
+import { InfoCard } from "../../components/InfoCard";
 import { A_COLOR, B_COLOR, ChartState, RegressionChart } from "./RegressionChart";
 
 export const LINEAR_REGRESSION_ID = "linear-regression";

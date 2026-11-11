@@ -104,6 +104,69 @@ VIDEOS: dict[str, dict] = {
             "Réponds A ou B en commentaire, et abonne-toi pour avoir la réponse !",
         ],
     },
+    # ---- Series "ML en 1 minute" (one video per day, each standalone) --------
+    # Segments: 1 hook, 2 example data, 3 idea, 4 decision, 5 sklearn fit,
+    # 6 predict + real output, 7 takeaway + teaser for the next episode.
+    "logistic-regression": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+12%",
+        "segments": [
+            "Ce mail, c'est un spam ou pas ? Ton IA répond avec un seul algo : "
+            "la régression logistique. Je t'explique en une minute !",
+            "Exemple : pour chaque mail, on compte les liens. "
+            "En bas, les vrais mails. En haut, les spams.",
+            "Une droite ne marche pas ici. Alors on trace une courbe en S, la sigmoïde : "
+            "elle donne une probabilité, entre zéro et cent pour cent.",
+            "Ensuite, on fixe un seuil à cinquante pour cent. "
+            "Au-dessus, c'est un spam. En dessous, c'est un vrai mail.",
+            "Avec scikit-learn, c'est trois lignes : on importe Logistic Regression, "
+            "on crée le modèle, et on l'entraîne avec fit.",
+            "Un mail avec sept liens ? predict répond 1 : spam ! "
+            "Et predict proba donne la probabilité : quatre-vingt-seize pour cent.",
+            "À retenir : malgré son nom, c'est un algo de classification. "
+            "Demain, épisode deux : le KNN. Abonne-toi pour ne pas le rater !",
+        ],
+    },
+    "knn": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+12%",
+        "segments": [
+            "Chat ou chien ? Pour décider, cet algo regarde juste… tes voisins. "
+            "C'est le KNN, et je te l'explique en une minute !",
+            "Exemple : des animaux, avec leur poids et leur taille. "
+            "En bleu les chats, en orange les chiens.",
+            "Un nouvel animal arrive : six kilos, vingt-huit centimètres. "
+            "On cherche ses trois voisins les plus proches.",
+            "Puis on fait voter les voisins : deux chats contre un chien. "
+            "Verdict : c'est un chat !",
+            "Avec scikit-learn : on importe K Neighbors Classifier, "
+            "on choisit trois voisins, et on appelle fit.",
+            "predict répond : chat. Et predict proba montre le vote : "
+            "deux tiers chat, un tiers chien.",
+            "À retenir : le KNN n'apprend rien, il mémorise tout. Prends un k impair, "
+            "et mets tes données à la même échelle. Demain, épisode trois : l'arbre de décision !",
+        ],
+    },
+    "decision-tree": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+12%",
+        "segments": [
+            "Akinator devine ton personnage en posant des questions. "
+            "L'arbre de décision fait pareil ! Je te montre en une minute.",
+            "Exemple : on veut prédire si un élève réussit son examen, "
+            "avec ses heures de révision et de sommeil.",
+            "L'arbre cherche la meilleure question. D'abord : as-tu révisé plus de quatre heures ? "
+            "Si non : raté.",
+            "Si oui, deuxième question : as-tu dormi plus de cinq heures ? "
+            "Si oui : réussi ! Chaque question coupe le graphique en deux.",
+            "Avec scikit-learn : Decision Tree Classifier, avec max depth égal 2 "
+            "pour limiter le nombre de questions. Puis fit.",
+            "Six heures de révision, sept heures de sommeil ? predict répond 1 : réussi. "
+            "Et le score est de cent pour cent.",
+            "À retenir : c'est facile à lire, mais un arbre trop profond apprend par cœur. "
+            "Et toi, quel algo tu veux voir ensuite ? Dis-le en commentaire, et abonne-toi !",
+        ],
+    },
 }
 
 

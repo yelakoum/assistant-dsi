@@ -9,6 +9,9 @@ Format : 1080x1920, 60 fps, H.264, `yuv420p` (BT.709), CRF 18, audio 320k — vo
 | `ListComprehension` | List comprehension vs boucle `for` (~20 s) | anglais | `src/videos/list-comprehension/` |
 | `LinearRegression` | Régression linéaire + exemple scikit-learn (~58 s) | français | `src/videos/linear-regression/` |
 | `GradientDescent` | Partie 2 : formule, score d'erreur, descente de gradient, quiz (~79 s) | français | `src/videos/gradient-descent/` |
+| `Ep1LogisticRegression` | Série « ML en 1 minute » #1 : régression logistique, spam ou pas (~51 s) | français | `src/videos/logistic-regression/` |
+| `Ep2Knn` | Série #2 : KNN, chat ou chien (~44 s) | français | `src/videos/knn/` |
+| `Ep3DecisionTree` | Série #3 : arbre de décision, réussir son examen (~50 s) | français | `src/videos/decision-tree/` |
 
 ```bash
 npm install                      # dépendances Remotion
@@ -16,6 +19,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements-video.txt
 npm run dev                      # Remotion Studio (zones TikTok en rouge)
 npm run build:linear-regression  # -> out/linear-regression.mp4
 npm run build:gradient-descent   # -> out/gradient-descent.mp4
+npm run build:series             # les 3 épisodes « ML en 1 minute » -> out/ep1-…, ep2-…, ep3-…
 npm run build                    # toutes les vidéos
 ```
 
@@ -32,6 +36,11 @@ npm run build                    # toutes les vidéos
 - Watermark « ML avec Youssef » sur toutes les vidéos (`src/components/Watermark.tsx`) : il change de coin
   toutes les 10 s pour ne pas pouvoir être masqué d'un seul coup. Texte modifiable via la prop `watermark`
   (dans `src/Root.tsx` ou le panneau Props du Studio ; vide = pas de watermark).
+- Série « ML en 1 minute » : 7 segments par épisode (accroche, données, idée, décision, code,
+  résultat, à retenir + teaser du lendemain). Pièces communes : `src/components/Episode.tsx`
+  (habillage, badge de série), `Plot.tsx` (graphique), `CodeRun.tsx` (éditeur + terminal),
+  `src/lib/episode.ts` (animations calées sur les mots). Le code montré est dans
+  `scripts/video/{logistic_regression,knn,decision_tree}_demo.py` et sa vraie sortie dans chaque `data.ts`.
 - Composants partagés dans `src/components/` (`TikTokSafeArea`, éditeur, terminal, sous-titres…).
   Les zones rouges de l'interface TikTok ne s'affichent que dans le Studio, jamais dans le rendu.
 - Durées : `.venv/bin/python scripts/video/audio_duration.py public/<video>/audio/*.mp3`
