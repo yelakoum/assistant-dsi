@@ -147,24 +147,31 @@ VIDEOS: dict[str, dict] = {
             "et mets tes données à la même échelle. Demain, épisode trois : l'arbre de décision !",
         ],
     },
+    # Episode 3, entropy version: 1 hook, 2 data, 3 what entropy is, 4 formula
+    # + class value, 5 test "revised > 4 h", 6 test "slept > 5 h" + choice,
+    # 7 second level / finished tree, 8 sklearn code + export_text, 9 takeaway.
     "decision-tree": {
         "voice": "fr-FR-HenriNeural",
-        "rate": "+12%",
+        "rate": "+14%",
         "segments": [
-            "Akinator devine ton personnage en posant des questions. "
-            "L'arbre de décision fait pareil ! Je te montre en une minute.",
-            "Exemple : on veut prédire si un élève réussit son examen, "
-            "avec ses heures de révision et de sommeil.",
-            "L'arbre cherche la meilleure question. D'abord : as-tu révisé plus de quatre heures ? "
-            "Si non : raté.",
-            "Si oui, deuxième question : as-tu dormi plus de cinq heures ? "
-            "Si oui : réussi ! Chaque question coupe le graphique en deux.",
-            "Avec scikit-learn : Decision Tree Classifier, avec max depth égal 2 "
-            "pour limiter le nombre de questions. Puis fit.",
-            "Six heures de révision, sept heures de sommeil ? predict répond 1 : réussi. "
-            "Et le score est de cent pour cent.",
-            "À retenir : c'est facile à lire, mais un arbre trop profond apprend par cœur. "
-            "Et toi, quel algo tu veux voir ensuite ? Dis-le en commentaire, et abonne-toi !",
+            "Comment un arbre de décision choisit ses questions ? Pas au hasard : "
+            "il calcule l'entropie. Je t'explique tout en une minute.",
+            "On veut prédire si un élève réussit son examen, avec ses heures de révision et de sommeil. "
+            "Dans notre classe : quatre réussis, six ratés.",
+            "L'entropie mesure le désordre d'un groupe. Si tout le monde a le même résultat, "
+            "elle vaut zéro : le groupe est pur. À cinquante-cinquante, elle vaut un : c'est le chaos total.",
+            "La formule : moins la somme de p fois log deux de p. Pour notre classe, "
+            "quatre réussis sur dix : l'entropie vaut zéro virgule quatre-vingt-dix-sept. Presque le chaos.",
+            "L'arbre teste chaque question possible. Révisé plus de quatre heures ? "
+            "À gauche, que des ratés : entropie zéro. En moyenne, elle tombe à zéro virgule cinquante-cinq.",
+            "Dormi plus de cinq heures ? Elle ne tombe qu'à zéro virgule soixante-neuf. "
+            "Le gain d'information est plus petit : l'arbre choisit donc la révision.",
+            "Puis il recommence sur le groupe encore mélangé. Dormi plus de cinq heures ? "
+            "Cette fois, les deux groupes sont purs : entropie zéro. L'arbre est terminé !",
+            "Avec scikit-learn : Decision Tree Classifier, avec criterion égal entropy. "
+            "Un fit, et export text affiche l'arbre : exactement nos deux questions.",
+            "À retenir : l'arbre choisit toujours la question qui fait le plus baisser l'entropie. "
+            "Abonne-toi, et dis-moi en commentaire quel algo tu veux voir !",
         ],
     },
 }

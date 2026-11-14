@@ -11,7 +11,7 @@ Format : 1080x1920, 60 fps, H.264, `yuv420p` (BT.709), CRF 18, audio 320k — vo
 | `GradientDescent` | Partie 2 : formule, score d'erreur, descente de gradient, quiz (~79 s) | français | `src/videos/gradient-descent/` |
 | `Ep1LogisticRegression` | Série « ML en 1 minute » #1 : régression logistique, spam ou pas (~51 s) | français | `src/videos/logistic-regression/` |
 | `Ep2Knn` | Série #2 : KNN, chat ou chien (~44 s) | français | `src/videos/knn/` |
-| `Ep3DecisionTree` | Série #3 : arbre de décision, réussir son examen (~50 s) | français | `src/videos/decision-tree/` |
+| `Ep3DecisionTree` | Série #3 : arbre de décision et entropie, réussir son examen (~78 s, avec bruitages) | français | `src/videos/decision-tree/` |
 
 ```bash
 npm install                      # dépendances Remotion
@@ -41,6 +41,9 @@ npm run build                    # toutes les vidéos
   (habillage, badge de série), `Plot.tsx` (graphique), `CodeRun.tsx` (éditeur + terminal),
   `src/lib/episode.ts` (animations calées sur les mots). Le code montré est dans
   `scripts/video/{logistic_regression,knn,decision_tree}_demo.py` et sa vraie sortie dans chaque `data.ts`.
+- Bruitages (`src/components/Sfx.tsx`, fichiers `public/sfx/*.wav`) : pop, whoosh, clavier, ding, tick,
+  synthétisés avec ffmpeg (originaux, libres de droits). Dans une scène : `const { events, cue } = createCues()`,
+  `cue(frame, "pop")` puis `<SfxTrack events={events} />`. Utilisés dans l'épisode #3.
 - Composants partagés dans `src/components/` (`TikTokSafeArea`, éditeur, terminal, sous-titres…).
   Les zones rouges de l'interface TikTok ne s'affichent que dans le Studio, jamais dans le rendu.
 - Durées : `.venv/bin/python scripts/video/audio_duration.py public/<video>/audio/*.mp3`
