@@ -104,6 +104,54 @@ VIDEOS: dict[str, dict] = {
             "Réponds A ou B en commentaire, et abonne-toi pour avoir la réponse !",
         ],
     },
+    # Long-form explainer (~2 min 30): entropy in detail. One segment per visual beat:
+    # 1 hook, 2 plan, 3-5 surprise (coins), 6-8 information (8-card game, bits),
+    # 9-13 entropy (formula, coins, curve, more classes), 14-15 decision tree +
+    # pointer to episode 3, 16 Python, 17 recap, 18 quiz.
+    "entropy": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+10%",
+        "segments": [
+            "Entropie. Le mot qui fait peur en machine learning. Pourtant, l'idée est super simple. "
+            "Dans cette vidéo, on prend le temps : à la fin, tu vas vraiment la comprendre.",
+            "On va voir quatre étapes : la surprise, l'information, l'entropie, "
+            "et à quoi elle sert dans un arbre de décision.",
+            "Commençons par une pièce truquée, qui tombe toujours sur pile. Tu la lances : pile. "
+            "Aucune surprise. Tu connaissais déjà le résultat.",
+            "Maintenant, une pièce normale : pile ou face, cinquante-cinquante. "
+            "Impossible de prévoir. Là, il y a de l'incertitude.",
+            "L'entropie, c'est exactement ça : une mesure de l'incertitude. "
+            "Zéro quand tout est prévisible, et maximale quand tout est imprévisible.",
+            "Mais comment la mesurer ? Avec un jeu. Je cache une carte parmi huit. "
+            "Tu as droit à des questions oui ou non. Combien en faut-il ?",
+            "Est-elle dans la moitié gauche ? Oui. Dans la première paire ? Non. "
+            "Est-ce la troisième ? Oui, trouvé ! Trois questions. On dit que l'information vaut trois bits.",
+            "En fait, c'est log deux de huit. Et plus un événement est rare, plus il apporte d'information : "
+            "moins log deux de p. Probabilité un : zéro bit. Un demi : un bit. Un huitième : trois bits.",
+            "L'entropie, c'est la moyenne de cette information, pondérée par les probabilités : "
+            "H égale moins la somme de p fois log deux de p.",
+            "Pour la pièce normale : un demi fois un bit, plus un demi fois un bit. "
+            "Résultat : un bit. C'est le maximum pour deux résultats.",
+            "Et une pièce truquée à quatre-vingt-dix pour cent ? Zéro virgule neuf fois zéro virgule quinze, "
+            "plus zéro virgule un fois trois virgule trois. Environ zéro virgule quarante-sept bit. Moins d'incertitude.",
+            "Si on trace l'entropie selon la probabilité de pile, on obtient cette courbe en cloche : "
+            "zéro aux extrémités, un bit pile au milieu.",
+            "Et avec plus de choix ? Deux couleurs à égalité : un bit. Quatre couleurs : deux bits. "
+            "Huit couleurs : trois bits. Plus il y a de possibilités, plus l'incertitude grandit.",
+            "Et dans un arbre de décision ? L'arbre veut des groupes purs, avec une entropie proche de zéro. "
+            "À chaque étape, il choisit la question qui fait le plus baisser l'entropie : c'est le gain d'information.",
+            "L'exemple complet, avec les élèves et leur examen, est dans l'épisode trois de la série "
+            "ML en une minute. Va le voir juste après !",
+            "En Python, une ligne suffit : entropy de scipy, avec base égale deux. "
+            "Un demi, un demi : un bit. Zéro virgule neuf, zéro virgule un : zéro virgule quarante-sept. "
+            "Quatre couleurs égales : deux bits.",
+            "À retenir : l'entropie mesure l'incertitude. Zéro, c'est prévisible. "
+            "Le maximum, c'est le chaos.",
+            "Petit défi : un sac avec quatre couleurs, mais une couleur sort neuf fois sur dix. "
+            "L'entropie est-elle plus grande ou plus petite que deux bits ? "
+            "Réponds en commentaire, et abonne-toi pour la suite !",
+        ],
+    },
     # ---- Series "ML en 1 minute" (one video per day, each standalone) --------
     # Segments: 1 hook, 2 example data, 3 idea, 4 decision, 5 sklearn fit,
     # 6 predict + real output, 7 takeaway + teaser for the next episode.

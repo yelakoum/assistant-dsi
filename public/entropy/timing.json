@@ -1,0 +1,2455 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+10%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 10282,
+  "totalDurationSeconds": 171.367,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Entropie. Le mot qui fait peur en machine learning. Pourtant, l'idée est super simple. Dans cette vidéo, on prend le temps : à la fin, tu vas vraiment la comprendre.",
+      "audioFile": "entropy/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 630,
+      "durationSeconds": 10.488,
+      "words": [
+        {
+          "text": "Entropie",
+          "startFrame": 5,
+          "endFrame": 42
+        },
+        {
+          "text": "Le",
+          "startFrame": 89,
+          "endFrame": 100
+        },
+        {
+          "text": "mot",
+          "startFrame": 100,
+          "endFrame": 108
+        },
+        {
+          "text": "qui",
+          "startFrame": 108,
+          "endFrame": 118
+        },
+        {
+          "text": "fait",
+          "startFrame": 117,
+          "endFrame": 127
+        },
+        {
+          "text": "peur",
+          "startFrame": 127,
+          "endFrame": 138
+        },
+        {
+          "text": "en",
+          "startFrame": 137,
+          "endFrame": 141
+        },
+        {
+          "text": "machine",
+          "startFrame": 141,
+          "endFrame": 161
+        },
+        {
+          "text": "learning",
+          "startFrame": 160,
+          "endFrame": 192
+        },
+        {
+          "text": "Pourtant",
+          "startFrame": 238,
+          "endFrame": 264
+        },
+        {
+          "text": "l'idée",
+          "startFrame": 280,
+          "endFrame": 296
+        },
+        {
+          "text": "est",
+          "startFrame": 295,
+          "endFrame": 300
+        },
+        {
+          "text": "super",
+          "startFrame": 300,
+          "endFrame": 320
+        },
+        {
+          "text": "simple",
+          "startFrame": 320,
+          "endFrame": 343
+        },
+        {
+          "text": "Dans",
+          "startFrame": 390,
+          "endFrame": 403
+        },
+        {
+          "text": "cette",
+          "startFrame": 403,
+          "endFrame": 416
+        },
+        {
+          "text": "vidéo",
+          "startFrame": 415,
+          "endFrame": 442
+        },
+        {
+          "text": "on",
+          "startFrame": 453,
+          "endFrame": 457
+        },
+        {
+          "text": "prend",
+          "startFrame": 457,
+          "endFrame": 468
+        },
+        {
+          "text": "le",
+          "startFrame": 468,
+          "endFrame": 475
+        },
+        {
+          "text": "temps",
+          "startFrame": 475,
+          "endFrame": 489
+        },
+        {
+          "text": "à",
+          "startFrame": 499,
+          "endFrame": 502
+        },
+        {
+          "text": "la",
+          "startFrame": 501,
+          "endFrame": 508
+        },
+        {
+          "text": "fin",
+          "startFrame": 508,
+          "endFrame": 525
+        },
+        {
+          "text": "tu",
+          "startFrame": 539,
+          "endFrame": 547
+        },
+        {
+          "text": "vas",
+          "startFrame": 546,
+          "endFrame": 553
+        },
+        {
+          "text": "vraiment",
+          "startFrame": 553,
+          "endFrame": 571
+        },
+        {
+          "text": "la",
+          "startFrame": 571,
+          "endFrame": 577
+        },
+        {
+          "text": "comprendre",
+          "startFrame": 576,
+          "endFrame": 615
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "On va voir quatre étapes : la surprise, l'information, l'entropie, et à quoi elle sert dans un arbre de décision.",
+      "audioFile": "entropy/audio/segment_02.mp3",
+      "startFrame": 636,
+      "durationInFrames": 365,
+      "durationSeconds": 6.072,
+      "words": [
+        {
+          "text": "On",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "va",
+          "startFrame": 14,
+          "endFrame": 22
+        },
+        {
+          "text": "voir",
+          "startFrame": 22,
+          "endFrame": 35
+        },
+        {
+          "text": "quatre",
+          "startFrame": 35,
+          "endFrame": 50
+        },
+        {
+          "text": "étapes",
+          "startFrame": 50,
+          "endFrame": 68
+        },
+        {
+          "text": "la",
+          "startFrame": 79,
+          "endFrame": 87
+        },
+        {
+          "text": "surprise",
+          "startFrame": 86,
+          "endFrame": 119
+        },
+        {
+          "text": "l'information",
+          "startFrame": 133,
+          "endFrame": 175
+        },
+        {
+          "text": "l'entropie",
+          "startFrame": 192,
+          "endFrame": 224
+        },
+        {
+          "text": "et",
+          "startFrame": 243,
+          "endFrame": 248
+        },
+        {
+          "text": "à",
+          "startFrame": 248,
+          "endFrame": 253
+        },
+        {
+          "text": "quoi",
+          "startFrame": 253,
+          "endFrame": 264
+        },
+        {
+          "text": "elle",
+          "startFrame": 264,
+          "endFrame": 270
+        },
+        {
+          "text": "sert",
+          "startFrame": 270,
+          "endFrame": 282
+        },
+        {
+          "text": "dans",
+          "startFrame": 281,
+          "endFrame": 288
+        },
+        {
+          "text": "un",
+          "startFrame": 288,
+          "endFrame": 295
+        },
+        {
+          "text": "arbre",
+          "startFrame": 295,
+          "endFrame": 312
+        },
+        {
+          "text": "de",
+          "startFrame": 312,
+          "endFrame": 317
+        },
+        {
+          "text": "décision",
+          "startFrame": 317,
+          "endFrame": 348
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Commençons par une pièce truquée, qui tombe toujours sur pile. Tu la lances : pile. Aucune surprise. Tu connaissais déjà le résultat.",
+      "audioFile": "entropy/audio/segment_03.mp3",
+      "startFrame": 1007,
+      "durationInFrames": 551,
+      "durationSeconds": 9.168,
+      "words": [
+        {
+          "text": "Commençons",
+          "startFrame": 5,
+          "endFrame": 33
+        },
+        {
+          "text": "par",
+          "startFrame": 33,
+          "endFrame": 42
+        },
+        {
+          "text": "une",
+          "startFrame": 42,
+          "endFrame": 49
+        },
+        {
+          "text": "pièce",
+          "startFrame": 49,
+          "endFrame": 63
+        },
+        {
+          "text": "truquée",
+          "startFrame": 63,
+          "endFrame": 87
+        },
+        {
+          "text": "qui",
+          "startFrame": 103,
+          "endFrame": 112
+        },
+        {
+          "text": "tombe",
+          "startFrame": 112,
+          "endFrame": 125
+        },
+        {
+          "text": "toujours",
+          "startFrame": 125,
+          "endFrame": 145
+        },
+        {
+          "text": "sur",
+          "startFrame": 145,
+          "endFrame": 154
+        },
+        {
+          "text": "pile",
+          "startFrame": 154,
+          "endFrame": 177
+        },
+        {
+          "text": "Tu",
+          "startFrame": 224,
+          "endFrame": 234
+        },
+        {
+          "text": "la",
+          "startFrame": 233,
+          "endFrame": 240
+        },
+        {
+          "text": "lances",
+          "startFrame": 240,
+          "endFrame": 263
+        },
+        {
+          "text": "pile",
+          "startFrame": 271,
+          "endFrame": 295
+        },
+        {
+          "text": "Aucune",
+          "startFrame": 341,
+          "endFrame": 363
+        },
+        {
+          "text": "surprise",
+          "startFrame": 362,
+          "endFrame": 397
+        },
+        {
+          "text": "Tu",
+          "startFrame": 444,
+          "endFrame": 453
+        },
+        {
+          "text": "connaissais",
+          "startFrame": 453,
+          "endFrame": 477
+        },
+        {
+          "text": "déjà",
+          "startFrame": 477,
+          "endFrame": 493
+        },
+        {
+          "text": "le",
+          "startFrame": 493,
+          "endFrame": 499
+        },
+        {
+          "text": "résultat",
+          "startFrame": 499,
+          "endFrame": 533
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Maintenant, une pièce normale : pile ou face, cinquante-cinquante. Impossible de prévoir. Là, il y a de l'incertitude.",
+      "audioFile": "entropy/audio/segment_04.mp3",
+      "startFrame": 1564,
+      "durationInFrames": 502,
+      "durationSeconds": 8.352,
+      "words": [
+        {
+          "text": "Maintenant",
+          "startFrame": 5,
+          "endFrame": 39
+        },
+        {
+          "text": "une",
+          "startFrame": 52,
+          "endFrame": 59
+        },
+        {
+          "text": "pièce",
+          "startFrame": 58,
+          "endFrame": 74
+        },
+        {
+          "text": "normale",
+          "startFrame": 73,
+          "endFrame": 100
+        },
+        {
+          "text": "pile",
+          "startFrame": 109,
+          "endFrame": 119
+        },
+        {
+          "text": "ou",
+          "startFrame": 119,
+          "endFrame": 123
+        },
+        {
+          "text": "face",
+          "startFrame": 123,
+          "endFrame": 148
+        },
+        {
+          "text": "cinquante-cinquante",
+          "startFrame": 159,
+          "endFrame": 216
+        },
+        {
+          "text": "Impossible",
+          "startFrame": 262,
+          "endFrame": 297
+        },
+        {
+          "text": "de",
+          "startFrame": 297,
+          "endFrame": 303
+        },
+        {
+          "text": "prévoir",
+          "startFrame": 303,
+          "endFrame": 339
+        },
+        {
+          "text": "Là",
+          "startFrame": 386,
+          "endFrame": 403
+        },
+        {
+          "text": "il",
+          "startFrame": 418,
+          "endFrame": 424
+        },
+        {
+          "text": "y",
+          "startFrame": 424,
+          "endFrame": 429
+        },
+        {
+          "text": "a",
+          "startFrame": 429,
+          "endFrame": 432
+        },
+        {
+          "text": "de",
+          "startFrame": 432,
+          "endFrame": 438
+        },
+        {
+          "text": "l'incertitude",
+          "startFrame": 437,
+          "endFrame": 485
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "L'entropie, c'est exactement ça : une mesure de l'incertitude. Zéro quand tout est prévisible, et maximale quand tout est imprévisible.",
+      "audioFile": "entropy/audio/segment_05.mp3",
+      "startFrame": 2072,
+      "durationInFrames": 458,
+      "durationSeconds": 7.632,
+      "words": [
+        {
+          "text": "L'entropie",
+          "startFrame": 5,
+          "endFrame": 41
+        },
+        {
+          "text": "c'est",
+          "startFrame": 56,
+          "endFrame": 65
+        },
+        {
+          "text": "exactement",
+          "startFrame": 65,
+          "endFrame": 95
+        },
+        {
+          "text": "ça",
+          "startFrame": 95,
+          "endFrame": 111
+        },
+        {
+          "text": "une",
+          "startFrame": 120,
+          "endFrame": 126
+        },
+        {
+          "text": "mesure",
+          "startFrame": 125,
+          "endFrame": 143
+        },
+        {
+          "text": "de",
+          "startFrame": 143,
+          "endFrame": 149
+        },
+        {
+          "text": "l'incertitude",
+          "startFrame": 148,
+          "endFrame": 195
+        },
+        {
+          "text": "Zéro",
+          "startFrame": 241,
+          "endFrame": 262
+        },
+        {
+          "text": "quand",
+          "startFrame": 262,
+          "endFrame": 272
+        },
+        {
+          "text": "tout",
+          "startFrame": 272,
+          "endFrame": 281
+        },
+        {
+          "text": "est",
+          "startFrame": 281,
+          "endFrame": 289
+        },
+        {
+          "text": "prévisible",
+          "startFrame": 289,
+          "endFrame": 322
+        },
+        {
+          "text": "et",
+          "startFrame": 338,
+          "endFrame": 341
+        },
+        {
+          "text": "maximale",
+          "startFrame": 340,
+          "endFrame": 369
+        },
+        {
+          "text": "quand",
+          "startFrame": 369,
+          "endFrame": 379
+        },
+        {
+          "text": "tout",
+          "startFrame": 379,
+          "endFrame": 388
+        },
+        {
+          "text": "est",
+          "startFrame": 388,
+          "endFrame": 395
+        },
+        {
+          "text": "imprévisible",
+          "startFrame": 395,
+          "endFrame": 442
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Mais comment la mesurer ? Avec un jeu. Je cache une carte parmi huit. Tu as droit à des questions oui ou non. Combien en faut-il ?",
+      "audioFile": "entropy/audio/segment_06.mp3",
+      "startFrame": 2536,
+      "durationInFrames": 545,
+      "durationSeconds": 9.072,
+      "words": [
+        {
+          "text": "Mais",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "comment",
+          "startFrame": 18,
+          "endFrame": 32
+        },
+        {
+          "text": "la",
+          "startFrame": 32,
+          "endFrame": 38
+        },
+        {
+          "text": "mesurer",
+          "startFrame": 37,
+          "endFrame": 66
+        },
+        {
+          "text": "Avec",
+          "startFrame": 112,
+          "endFrame": 132
+        },
+        {
+          "text": "un",
+          "startFrame": 132,
+          "endFrame": 137
+        },
+        {
+          "text": "jeu",
+          "startFrame": 137,
+          "endFrame": 153
+        },
+        {
+          "text": "Je",
+          "startFrame": 200,
+          "endFrame": 213
+        },
+        {
+          "text": "cache",
+          "startFrame": 213,
+          "endFrame": 228
+        },
+        {
+          "text": "une",
+          "startFrame": 228,
+          "endFrame": 235
+        },
+        {
+          "text": "carte",
+          "startFrame": 235,
+          "endFrame": 251
+        },
+        {
+          "text": "parmi",
+          "startFrame": 250,
+          "endFrame": 267
+        },
+        {
+          "text": "huit",
+          "startFrame": 267,
+          "endFrame": 291
+        },
+        {
+          "text": "Tu",
+          "startFrame": 338,
+          "endFrame": 349
+        },
+        {
+          "text": "as",
+          "startFrame": 349,
+          "endFrame": 352
+        },
+        {
+          "text": "droit",
+          "startFrame": 352,
+          "endFrame": 368
+        },
+        {
+          "text": "à",
+          "startFrame": 368,
+          "endFrame": 371
+        },
+        {
+          "text": "des",
+          "startFrame": 370,
+          "endFrame": 377
+        },
+        {
+          "text": "questions",
+          "startFrame": 377,
+          "endFrame": 400
+        },
+        {
+          "text": "oui",
+          "startFrame": 400,
+          "endFrame": 410
+        },
+        {
+          "text": "ou",
+          "startFrame": 409,
+          "endFrame": 414
+        },
+        {
+          "text": "non",
+          "startFrame": 413,
+          "endFrame": 428
+        },
+        {
+          "text": "Combien",
+          "startFrame": 475,
+          "endFrame": 495
+        },
+        {
+          "text": "en",
+          "startFrame": 495,
+          "endFrame": 499
+        },
+        {
+          "text": "faut-il",
+          "startFrame": 499,
+          "endFrame": 529
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Est-elle dans la moitié gauche ? Oui. Dans la première paire ? Non. Est-ce la troisième ? Oui, trouvé ! Trois questions. On dit que l'information vaut trois bits.",
+      "audioFile": "entropy/audio/segment_07.mp3",
+      "startFrame": 3087,
+      "durationInFrames": 777,
+      "durationSeconds": 12.936,
+      "words": [
+        {
+          "text": "Est-elle",
+          "startFrame": 5,
+          "endFrame": 25
+        },
+        {
+          "text": "dans",
+          "startFrame": 25,
+          "endFrame": 31
+        },
+        {
+          "text": "la",
+          "startFrame": 31,
+          "endFrame": 36
+        },
+        {
+          "text": "moitié",
+          "startFrame": 36,
+          "endFrame": 55
+        },
+        {
+          "text": "gauche",
+          "startFrame": 54,
+          "endFrame": 84
+        },
+        {
+          "text": "Oui",
+          "startFrame": 130,
+          "endFrame": 153
+        },
+        {
+          "text": "Dans",
+          "startFrame": 199,
+          "endFrame": 210
+        },
+        {
+          "text": "la",
+          "startFrame": 210,
+          "endFrame": 216
+        },
+        {
+          "text": "première",
+          "startFrame": 216,
+          "endFrame": 235
+        },
+        {
+          "text": "paire",
+          "startFrame": 235,
+          "endFrame": 258
+        },
+        {
+          "text": "Non",
+          "startFrame": 304,
+          "endFrame": 324
+        },
+        {
+          "text": "Est-ce",
+          "startFrame": 370,
+          "endFrame": 384
+        },
+        {
+          "text": "la",
+          "startFrame": 383,
+          "endFrame": 390
+        },
+        {
+          "text": "troisième",
+          "startFrame": 390,
+          "endFrame": 423
+        },
+        {
+          "text": "Oui",
+          "startFrame": 470,
+          "endFrame": 487
+        },
+        {
+          "text": "trouvé",
+          "startFrame": 498,
+          "endFrame": 526
+        },
+        {
+          "text": "Trois",
+          "startFrame": 572,
+          "endFrame": 586
+        },
+        {
+          "text": "questions",
+          "startFrame": 586,
+          "endFrame": 613
+        },
+        {
+          "text": "On",
+          "startFrame": 660,
+          "endFrame": 670
+        },
+        {
+          "text": "dit",
+          "startFrame": 670,
+          "endFrame": 679
+        },
+        {
+          "text": "que",
+          "startFrame": 679,
+          "endFrame": 686
+        },
+        {
+          "text": "l'information",
+          "startFrame": 685,
+          "endFrame": 719
+        },
+        {
+          "text": "vaut",
+          "startFrame": 719,
+          "endFrame": 726
+        },
+        {
+          "text": "trois",
+          "startFrame": 726,
+          "endFrame": 737
+        },
+        {
+          "text": "bits",
+          "startFrame": 737,
+          "endFrame": 761
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "En fait, c'est log deux de huit. Et plus un événement est rare, plus il apporte d'information : moins log deux de p. Probabilité un : zéro bit. Un demi : un bit. Un huitième : trois bits.",
+      "audioFile": "entropy/audio/segment_08.mp3",
+      "startFrame": 3870,
+      "durationInFrames": 782,
+      "durationSeconds": 13.032,
+      "words": [
+        {
+          "text": "En",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "fait",
+          "startFrame": 15,
+          "endFrame": 34
+        },
+        {
+          "text": "c'est",
+          "startFrame": 49,
+          "endFrame": 59
+        },
+        {
+          "text": "log",
+          "startFrame": 58,
+          "endFrame": 69
+        },
+        {
+          "text": "deux",
+          "startFrame": 69,
+          "endFrame": 76
+        },
+        {
+          "text": "de",
+          "startFrame": 76,
+          "endFrame": 83
+        },
+        {
+          "text": "huit",
+          "startFrame": 82,
+          "endFrame": 107
+        },
+        {
+          "text": "Et",
+          "startFrame": 154,
+          "endFrame": 163
+        },
+        {
+          "text": "plus",
+          "startFrame": 163,
+          "endFrame": 178
+        },
+        {
+          "text": "un",
+          "startFrame": 178,
+          "endFrame": 183
+        },
+        {
+          "text": "événement",
+          "startFrame": 182,
+          "endFrame": 204
+        },
+        {
+          "text": "est",
+          "startFrame": 204,
+          "endFrame": 208
+        },
+        {
+          "text": "rare",
+          "startFrame": 208,
+          "endFrame": 227
+        },
+        {
+          "text": "plus",
+          "startFrame": 242,
+          "endFrame": 251
+        },
+        {
+          "text": "il",
+          "startFrame": 250,
+          "endFrame": 257
+        },
+        {
+          "text": "apporte",
+          "startFrame": 257,
+          "endFrame": 275
+        },
+        {
+          "text": "d'information",
+          "startFrame": 275,
+          "endFrame": 315
+        },
+        {
+          "text": "moins",
+          "startFrame": 324,
+          "endFrame": 333
+        },
+        {
+          "text": "log",
+          "startFrame": 333,
+          "endFrame": 343
+        },
+        {
+          "text": "deux",
+          "startFrame": 342,
+          "endFrame": 350
+        },
+        {
+          "text": "de",
+          "startFrame": 349,
+          "endFrame": 356
+        },
+        {
+          "text": "p",
+          "startFrame": 356,
+          "endFrame": 373
+        },
+        {
+          "text": "Probabilité",
+          "startFrame": 420,
+          "endFrame": 460
+        },
+        {
+          "text": "un",
+          "startFrame": 460,
+          "endFrame": 466
+        },
+        {
+          "text": "zéro",
+          "startFrame": 477,
+          "endFrame": 493
+        },
+        {
+          "text": "bit",
+          "startFrame": 492,
+          "endFrame": 518
+        },
+        {
+          "text": "Un",
+          "startFrame": 565,
+          "endFrame": 575
+        },
+        {
+          "text": "demi",
+          "startFrame": 575,
+          "endFrame": 595
+        },
+        {
+          "text": "un",
+          "startFrame": 606,
+          "endFrame": 611
+        },
+        {
+          "text": "bit",
+          "startFrame": 610,
+          "endFrame": 636
+        },
+        {
+          "text": "Un",
+          "startFrame": 683,
+          "endFrame": 693
+        },
+        {
+          "text": "huitième",
+          "startFrame": 693,
+          "endFrame": 720
+        },
+        {
+          "text": "trois",
+          "startFrame": 730,
+          "endFrame": 742
+        },
+        {
+          "text": "bits",
+          "startFrame": 742,
+          "endFrame": 767
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "L'entropie, c'est la moyenne de cette information, pondérée par les probabilités : H égale moins la somme de p fois log deux de p.",
+      "audioFile": "entropy/audio/segment_09.mp3",
+      "startFrame": 4658,
+      "durationInFrames": 384,
+      "durationSeconds": 6.384,
+      "words": [
+        {
+          "text": "L'entropie",
+          "startFrame": 5,
+          "endFrame": 40
+        },
+        {
+          "text": "c'est",
+          "startFrame": 57,
+          "endFrame": 65
+        },
+        {
+          "text": "la",
+          "startFrame": 65,
+          "endFrame": 70
+        },
+        {
+          "text": "moyenne",
+          "startFrame": 69,
+          "endFrame": 89
+        },
+        {
+          "text": "de",
+          "startFrame": 89,
+          "endFrame": 97
+        },
+        {
+          "text": "cette",
+          "startFrame": 97,
+          "endFrame": 107
+        },
+        {
+          "text": "information",
+          "startFrame": 107,
+          "endFrame": 143
+        },
+        {
+          "text": "pondérée",
+          "startFrame": 160,
+          "endFrame": 182
+        },
+        {
+          "text": "par",
+          "startFrame": 182,
+          "endFrame": 192
+        },
+        {
+          "text": "les",
+          "startFrame": 191,
+          "endFrame": 196
+        },
+        {
+          "text": "probabilités",
+          "startFrame": 196,
+          "endFrame": 237
+        },
+        {
+          "text": "H",
+          "startFrame": 248,
+          "endFrame": 257
+        },
+        {
+          "text": "égale",
+          "startFrame": 257,
+          "endFrame": 273
+        },
+        {
+          "text": "moins",
+          "startFrame": 273,
+          "endFrame": 283
+        },
+        {
+          "text": "la",
+          "startFrame": 283,
+          "endFrame": 289
+        },
+        {
+          "text": "somme",
+          "startFrame": 289,
+          "endFrame": 303
+        },
+        {
+          "text": "de",
+          "startFrame": 303,
+          "endFrame": 310
+        },
+        {
+          "text": "p",
+          "startFrame": 309,
+          "endFrame": 318
+        },
+        {
+          "text": "fois",
+          "startFrame": 318,
+          "endFrame": 328
+        },
+        {
+          "text": "log",
+          "startFrame": 328,
+          "endFrame": 338
+        },
+        {
+          "text": "deux",
+          "startFrame": 337,
+          "endFrame": 344
+        },
+        {
+          "text": "de",
+          "startFrame": 344,
+          "endFrame": 351
+        },
+        {
+          "text": "p",
+          "startFrame": 351,
+          "endFrame": 368
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Pour la pièce normale : un demi fois un bit, plus un demi fois un bit. Résultat : un bit. C'est le maximum pour deux résultats.",
+      "audioFile": "entropy/audio/segment_10.mp3",
+      "startFrame": 5048,
+      "durationInFrames": 497,
+      "durationSeconds": 8.28,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "la",
+          "startFrame": 15,
+          "endFrame": 21
+        },
+        {
+          "text": "pièce",
+          "startFrame": 21,
+          "endFrame": 36
+        },
+        {
+          "text": "normale",
+          "startFrame": 35,
+          "endFrame": 59
+        },
+        {
+          "text": "un",
+          "startFrame": 71,
+          "endFrame": 74
+        },
+        {
+          "text": "demi",
+          "startFrame": 74,
+          "endFrame": 88
+        },
+        {
+          "text": "fois",
+          "startFrame": 88,
+          "endFrame": 100
+        },
+        {
+          "text": "un",
+          "startFrame": 99,
+          "endFrame": 104
+        },
+        {
+          "text": "bit",
+          "startFrame": 103,
+          "endFrame": 119
+        },
+        {
+          "text": "plus",
+          "startFrame": 134,
+          "endFrame": 150
+        },
+        {
+          "text": "un",
+          "startFrame": 150,
+          "endFrame": 154
+        },
+        {
+          "text": "demi",
+          "startFrame": 154,
+          "endFrame": 168
+        },
+        {
+          "text": "fois",
+          "startFrame": 168,
+          "endFrame": 179
+        },
+        {
+          "text": "un",
+          "startFrame": 178,
+          "endFrame": 183
+        },
+        {
+          "text": "bit",
+          "startFrame": 183,
+          "endFrame": 207
+        },
+        {
+          "text": "Résultat",
+          "startFrame": 253,
+          "endFrame": 292
+        },
+        {
+          "text": "un",
+          "startFrame": 302,
+          "endFrame": 307
+        },
+        {
+          "text": "bit",
+          "startFrame": 307,
+          "endFrame": 331
+        },
+        {
+          "text": "C'est",
+          "startFrame": 378,
+          "endFrame": 391
+        },
+        {
+          "text": "le",
+          "startFrame": 391,
+          "endFrame": 396
+        },
+        {
+          "text": "maximum",
+          "startFrame": 396,
+          "endFrame": 428
+        },
+        {
+          "text": "pour",
+          "startFrame": 428,
+          "endFrame": 439
+        },
+        {
+          "text": "deux",
+          "startFrame": 439,
+          "endFrame": 446
+        },
+        {
+          "text": "résultats",
+          "startFrame": 445,
+          "endFrame": 480
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Et une pièce truquée à quatre-vingt-dix pour cent ? Zéro virgule neuf fois zéro virgule quinze, plus zéro virgule un fois trois virgule trois. Environ zéro virgule quarante-sept bit. Moins d'incertitude.",
+      "audioFile": "entropy/audio/segment_11.mp3",
+      "startFrame": 5551,
+      "durationInFrames": 699,
+      "durationSeconds": 11.64,
+      "words": [
+        {
+          "text": "Et",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "une",
+          "startFrame": 13,
+          "endFrame": 21
+        },
+        {
+          "text": "pièce",
+          "startFrame": 20,
+          "endFrame": 34
+        },
+        {
+          "text": "truquée",
+          "startFrame": 34,
+          "endFrame": 52
+        },
+        {
+          "text": "à",
+          "startFrame": 52,
+          "endFrame": 56
+        },
+        {
+          "text": "quatre-vingt-dix",
+          "startFrame": 56,
+          "endFrame": 89
+        },
+        {
+          "text": "pour",
+          "startFrame": 89,
+          "endFrame": 100
+        },
+        {
+          "text": "cent",
+          "startFrame": 100,
+          "endFrame": 115
+        },
+        {
+          "text": "Zéro",
+          "startFrame": 162,
+          "endFrame": 183
+        },
+        {
+          "text": "virgule",
+          "startFrame": 183,
+          "endFrame": 202
+        },
+        {
+          "text": "neuf",
+          "startFrame": 201,
+          "endFrame": 213
+        },
+        {
+          "text": "fois",
+          "startFrame": 213,
+          "endFrame": 223
+        },
+        {
+          "text": "zéro",
+          "startFrame": 223,
+          "endFrame": 238
+        },
+        {
+          "text": "virgule",
+          "startFrame": 238,
+          "endFrame": 257
+        },
+        {
+          "text": "quinze",
+          "startFrame": 257,
+          "endFrame": 281
+        },
+        {
+          "text": "plus",
+          "startFrame": 295,
+          "endFrame": 311
+        },
+        {
+          "text": "zéro",
+          "startFrame": 310,
+          "endFrame": 326
+        },
+        {
+          "text": "virgule",
+          "startFrame": 325,
+          "endFrame": 345
+        },
+        {
+          "text": "un",
+          "startFrame": 345,
+          "endFrame": 350
+        },
+        {
+          "text": "fois",
+          "startFrame": 349,
+          "endFrame": 361
+        },
+        {
+          "text": "trois",
+          "startFrame": 361,
+          "endFrame": 373
+        },
+        {
+          "text": "virgule",
+          "startFrame": 372,
+          "endFrame": 391
+        },
+        {
+          "text": "trois",
+          "startFrame": 391,
+          "endFrame": 414
+        },
+        {
+          "text": "Environ",
+          "startFrame": 460,
+          "endFrame": 485
+        },
+        {
+          "text": "zéro",
+          "startFrame": 485,
+          "endFrame": 501
+        },
+        {
+          "text": "virgule",
+          "startFrame": 501,
+          "endFrame": 521
+        },
+        {
+          "text": "quarante-sept",
+          "startFrame": 520,
+          "endFrame": 549
+        },
+        {
+          "text": "bit",
+          "startFrame": 548,
+          "endFrame": 573
+        },
+        {
+          "text": "Moins",
+          "startFrame": 619,
+          "endFrame": 634
+        },
+        {
+          "text": "d'incertitude",
+          "startFrame": 634,
+          "endFrame": 682
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Si on trace l'entropie selon la probabilité de pile, on obtient cette courbe en cloche : zéro aux extrémités, un bit pile au milieu.",
+      "audioFile": "entropy/audio/segment_12.mp3",
+      "startFrame": 6256,
+      "durationInFrames": 388,
+      "durationSeconds": 6.456,
+      "words": [
+        {
+          "text": "Si",
+          "startFrame": 5,
+          "endFrame": 21
+        },
+        {
+          "text": "on",
+          "startFrame": 20,
+          "endFrame": 25
+        },
+        {
+          "text": "trace",
+          "startFrame": 24,
+          "endFrame": 42
+        },
+        {
+          "text": "l'entropie",
+          "startFrame": 41,
+          "endFrame": 68
+        },
+        {
+          "text": "selon",
+          "startFrame": 68,
+          "endFrame": 81
+        },
+        {
+          "text": "la",
+          "startFrame": 81,
+          "endFrame": 87
+        },
+        {
+          "text": "probabilité",
+          "startFrame": 87,
+          "endFrame": 120
+        },
+        {
+          "text": "de",
+          "startFrame": 120,
+          "endFrame": 128
+        },
+        {
+          "text": "pile",
+          "startFrame": 127,
+          "endFrame": 143
+        },
+        {
+          "text": "on",
+          "startFrame": 156,
+          "endFrame": 160
+        },
+        {
+          "text": "obtient",
+          "startFrame": 159,
+          "endFrame": 181
+        },
+        {
+          "text": "cette",
+          "startFrame": 180,
+          "endFrame": 192
+        },
+        {
+          "text": "courbe",
+          "startFrame": 191,
+          "endFrame": 207
+        },
+        {
+          "text": "en",
+          "startFrame": 206,
+          "endFrame": 211
+        },
+        {
+          "text": "cloche",
+          "startFrame": 211,
+          "endFrame": 235
+        },
+        {
+          "text": "zéro",
+          "startFrame": 244,
+          "endFrame": 258
+        },
+        {
+          "text": "aux",
+          "startFrame": 258,
+          "endFrame": 263
+        },
+        {
+          "text": "extrémités",
+          "startFrame": 263,
+          "endFrame": 302
+        },
+        {
+          "text": "un",
+          "startFrame": 318,
+          "endFrame": 323
+        },
+        {
+          "text": "bit",
+          "startFrame": 323,
+          "endFrame": 334
+        },
+        {
+          "text": "pile",
+          "startFrame": 334,
+          "endFrame": 345
+        },
+        {
+          "text": "au",
+          "startFrame": 345,
+          "endFrame": 347
+        },
+        {
+          "text": "milieu",
+          "startFrame": 347,
+          "endFrame": 371
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Et avec plus de choix ? Deux couleurs à égalité : un bit. Quatre couleurs : deux bits. Huit couleurs : trois bits. Plus il y a de possibilités, plus l'incertitude grandit.",
+      "audioFile": "entropy/audio/segment_13.mp3",
+      "startFrame": 6650,
+      "durationInFrames": 709,
+      "durationSeconds": 11.808,
+      "words": [
+        {
+          "text": "Et",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "avec",
+          "startFrame": 14,
+          "endFrame": 26
+        },
+        {
+          "text": "plus",
+          "startFrame": 26,
+          "endFrame": 39
+        },
+        {
+          "text": "de",
+          "startFrame": 39,
+          "endFrame": 48
+        },
+        {
+          "text": "choix",
+          "startFrame": 48,
+          "endFrame": 66
+        },
+        {
+          "text": "Deux",
+          "startFrame": 113,
+          "endFrame": 127
+        },
+        {
+          "text": "couleurs",
+          "startFrame": 126,
+          "endFrame": 144
+        },
+        {
+          "text": "à",
+          "startFrame": 144,
+          "endFrame": 148
+        },
+        {
+          "text": "égalité",
+          "startFrame": 147,
+          "endFrame": 180
+        },
+        {
+          "text": "un",
+          "startFrame": 192,
+          "endFrame": 197
+        },
+        {
+          "text": "bit",
+          "startFrame": 197,
+          "endFrame": 221
+        },
+        {
+          "text": "Quatre",
+          "startFrame": 268,
+          "endFrame": 288
+        },
+        {
+          "text": "couleurs",
+          "startFrame": 287,
+          "endFrame": 313
+        },
+        {
+          "text": "deux",
+          "startFrame": 321,
+          "endFrame": 330
+        },
+        {
+          "text": "bits",
+          "startFrame": 330,
+          "endFrame": 354
+        },
+        {
+          "text": "Huit",
+          "startFrame": 400,
+          "endFrame": 413
+        },
+        {
+          "text": "couleurs",
+          "startFrame": 413,
+          "endFrame": 438
+        },
+        {
+          "text": "trois",
+          "startFrame": 445,
+          "endFrame": 458
+        },
+        {
+          "text": "bits",
+          "startFrame": 458,
+          "endFrame": 484
+        },
+        {
+          "text": "Plus",
+          "startFrame": 531,
+          "endFrame": 540
+        },
+        {
+          "text": "il",
+          "startFrame": 540,
+          "endFrame": 550
+        },
+        {
+          "text": "y",
+          "startFrame": 550,
+          "endFrame": 555
+        },
+        {
+          "text": "a",
+          "startFrame": 555,
+          "endFrame": 558
+        },
+        {
+          "text": "de",
+          "startFrame": 558,
+          "endFrame": 566
+        },
+        {
+          "text": "possibilités",
+          "startFrame": 565,
+          "endFrame": 609
+        },
+        {
+          "text": "plus",
+          "startFrame": 623,
+          "endFrame": 632
+        },
+        {
+          "text": "l'incertitude",
+          "startFrame": 632,
+          "endFrame": 667
+        },
+        {
+          "text": "grandit",
+          "startFrame": 667,
+          "endFrame": 693
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Et dans un arbre de décision ? L'arbre veut des groupes purs, avec une entropie proche de zéro. À chaque étape, il choisit la question qui fait le plus baisser l'entropie : c'est le gain d'information.",
+      "audioFile": "entropy/audio/segment_14.mp3",
+      "startFrame": 7365,
+      "durationInFrames": 627,
+      "durationSeconds": 10.44,
+      "words": [
+        {
+          "text": "Et",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "dans",
+          "startFrame": 14,
+          "endFrame": 22
+        },
+        {
+          "text": "un",
+          "startFrame": 22,
+          "endFrame": 29
+        },
+        {
+          "text": "arbre",
+          "startFrame": 28,
+          "endFrame": 46
+        },
+        {
+          "text": "de",
+          "startFrame": 45,
+          "endFrame": 51
+        },
+        {
+          "text": "décision",
+          "startFrame": 51,
+          "endFrame": 83
+        },
+        {
+          "text": "L'arbre",
+          "startFrame": 128,
+          "endFrame": 151
+        },
+        {
+          "text": "veut",
+          "startFrame": 151,
+          "endFrame": 159
+        },
+        {
+          "text": "des",
+          "startFrame": 159,
+          "endFrame": 165
+        },
+        {
+          "text": "groupes",
+          "startFrame": 165,
+          "endFrame": 179
+        },
+        {
+          "text": "purs",
+          "startFrame": 179,
+          "endFrame": 195
+        },
+        {
+          "text": "avec",
+          "startFrame": 212,
+          "endFrame": 224
+        },
+        {
+          "text": "une",
+          "startFrame": 224,
+          "endFrame": 231
+        },
+        {
+          "text": "entropie",
+          "startFrame": 231,
+          "endFrame": 252
+        },
+        {
+          "text": "proche",
+          "startFrame": 252,
+          "endFrame": 267
+        },
+        {
+          "text": "de",
+          "startFrame": 267,
+          "endFrame": 275
+        },
+        {
+          "text": "zéro",
+          "startFrame": 275,
+          "endFrame": 298
+        },
+        {
+          "text": "À",
+          "startFrame": 345,
+          "endFrame": 354
+        },
+        {
+          "text": "chaque",
+          "startFrame": 354,
+          "endFrame": 369
+        },
+        {
+          "text": "étape",
+          "startFrame": 368,
+          "endFrame": 388
+        },
+        {
+          "text": "il",
+          "startFrame": 407,
+          "endFrame": 414
+        },
+        {
+          "text": "choisit",
+          "startFrame": 414,
+          "endFrame": 431
+        },
+        {
+          "text": "la",
+          "startFrame": 431,
+          "endFrame": 437
+        },
+        {
+          "text": "question",
+          "startFrame": 437,
+          "endFrame": 459
+        },
+        {
+          "text": "qui",
+          "startFrame": 459,
+          "endFrame": 469
+        },
+        {
+          "text": "fait",
+          "startFrame": 469,
+          "endFrame": 476
+        },
+        {
+          "text": "le",
+          "startFrame": 475,
+          "endFrame": 482
+        },
+        {
+          "text": "plus",
+          "startFrame": 482,
+          "endFrame": 491
+        },
+        {
+          "text": "baisser",
+          "startFrame": 491,
+          "endFrame": 506
+        },
+        {
+          "text": "l'entropie",
+          "startFrame": 506,
+          "endFrame": 535
+        },
+        {
+          "text": "c'est",
+          "startFrame": 547,
+          "endFrame": 554
+        },
+        {
+          "text": "le",
+          "startFrame": 554,
+          "endFrame": 560
+        },
+        {
+          "text": "gain",
+          "startFrame": 560,
+          "endFrame": 569
+        },
+        {
+          "text": "d'information",
+          "startFrame": 569,
+          "endFrame": 609
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "L'exemple complet, avec les élèves et leur examen, est dans l'épisode trois de la série ML en une minute. Va le voir juste après !",
+      "audioFile": "entropy/audio/segment_15.mp3",
+      "startFrame": 7998,
+      "durationInFrames": 432,
+      "durationSeconds": 7.2,
+      "words": [
+        {
+          "text": "L'exemple",
+          "startFrame": 5,
+          "endFrame": 37
+        },
+        {
+          "text": "complet",
+          "startFrame": 37,
+          "endFrame": 63
+        },
+        {
+          "text": "avec",
+          "startFrame": 79,
+          "endFrame": 96
+        },
+        {
+          "text": "les",
+          "startFrame": 95,
+          "endFrame": 102
+        },
+        {
+          "text": "élèves",
+          "startFrame": 101,
+          "endFrame": 119
+        },
+        {
+          "text": "et",
+          "startFrame": 119,
+          "endFrame": 121
+        },
+        {
+          "text": "leur",
+          "startFrame": 121,
+          "endFrame": 130
+        },
+        {
+          "text": "examen",
+          "startFrame": 129,
+          "endFrame": 156
+        },
+        {
+          "text": "est",
+          "startFrame": 171,
+          "endFrame": 177
+        },
+        {
+          "text": "dans",
+          "startFrame": 176,
+          "endFrame": 183
+        },
+        {
+          "text": "l'épisode",
+          "startFrame": 183,
+          "endFrame": 209
+        },
+        {
+          "text": "trois",
+          "startFrame": 208,
+          "endFrame": 220
+        },
+        {
+          "text": "de",
+          "startFrame": 219,
+          "endFrame": 225
+        },
+        {
+          "text": "la",
+          "startFrame": 225,
+          "endFrame": 231
+        },
+        {
+          "text": "série",
+          "startFrame": 231,
+          "endFrame": 250
+        },
+        {
+          "text": "ML",
+          "startFrame": 249,
+          "endFrame": 263
+        },
+        {
+          "text": "en",
+          "startFrame": 263,
+          "endFrame": 266
+        },
+        {
+          "text": "une",
+          "startFrame": 266,
+          "endFrame": 274
+        },
+        {
+          "text": "minute",
+          "startFrame": 274,
+          "endFrame": 303
+        },
+        {
+          "text": "Va",
+          "startFrame": 349,
+          "endFrame": 361
+        },
+        {
+          "text": "le",
+          "startFrame": 361,
+          "endFrame": 367
+        },
+        {
+          "text": "voir",
+          "startFrame": 366,
+          "endFrame": 378
+        },
+        {
+          "text": "juste",
+          "startFrame": 378,
+          "endFrame": 394
+        },
+        {
+          "text": "après",
+          "startFrame": 394,
+          "endFrame": 416
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "En Python, une ligne suffit : entropy de scipy, avec base égale deux. Un demi, un demi : un bit. Zéro virgule neuf, zéro virgule un : zéro virgule quarante-sept. Quatre couleurs égales : deux bits.",
+      "audioFile": "entropy/audio/segment_16.mp3",
+      "startFrame": 8436,
+      "durationInFrames": 752,
+      "durationSeconds": 12.528,
+      "words": [
+        {
+          "text": "En",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "Python",
+          "startFrame": 15,
+          "endFrame": 38
+        },
+        {
+          "text": "une",
+          "startFrame": 55,
+          "endFrame": 61
+        },
+        {
+          "text": "ligne",
+          "startFrame": 61,
+          "endFrame": 74
+        },
+        {
+          "text": "suffit",
+          "startFrame": 73,
+          "endFrame": 96
+        },
+        {
+          "text": "entropy",
+          "startFrame": 109,
+          "endFrame": 130
+        },
+        {
+          "text": "de",
+          "startFrame": 129,
+          "endFrame": 138
+        },
+        {
+          "text": "scipy",
+          "startFrame": 138,
+          "endFrame": 160
+        },
+        {
+          "text": "avec",
+          "startFrame": 173,
+          "endFrame": 190
+        },
+        {
+          "text": "base",
+          "startFrame": 189,
+          "endFrame": 202
+        },
+        {
+          "text": "égale",
+          "startFrame": 202,
+          "endFrame": 218
+        },
+        {
+          "text": "deux",
+          "startFrame": 217,
+          "endFrame": 233
+        },
+        {
+          "text": "Un",
+          "startFrame": 279,
+          "endFrame": 290
+        },
+        {
+          "text": "demi",
+          "startFrame": 289,
+          "endFrame": 310
+        },
+        {
+          "text": "un",
+          "startFrame": 323,
+          "endFrame": 328
+        },
+        {
+          "text": "demi",
+          "startFrame": 328,
+          "endFrame": 348
+        },
+        {
+          "text": "un",
+          "startFrame": 358,
+          "endFrame": 363
+        },
+        {
+          "text": "bit",
+          "startFrame": 363,
+          "endFrame": 388
+        },
+        {
+          "text": "Zéro",
+          "startFrame": 435,
+          "endFrame": 456
+        },
+        {
+          "text": "virgule",
+          "startFrame": 456,
+          "endFrame": 475
+        },
+        {
+          "text": "neuf",
+          "startFrame": 475,
+          "endFrame": 496
+        },
+        {
+          "text": "zéro",
+          "startFrame": 512,
+          "endFrame": 527
+        },
+        {
+          "text": "virgule",
+          "startFrame": 527,
+          "endFrame": 547
+        },
+        {
+          "text": "un",
+          "startFrame": 546,
+          "endFrame": 553
+        },
+        {
+          "text": "zéro",
+          "startFrame": 565,
+          "endFrame": 580
+        },
+        {
+          "text": "virgule",
+          "startFrame": 580,
+          "endFrame": 598
+        },
+        {
+          "text": "quarante-sept",
+          "startFrame": 597,
+          "endFrame": 628
+        },
+        {
+          "text": "Quatre",
+          "startFrame": 632,
+          "endFrame": 649
+        },
+        {
+          "text": "couleurs",
+          "startFrame": 649,
+          "endFrame": 665
+        },
+        {
+          "text": "égales",
+          "startFrame": 665,
+          "endFrame": 693
+        },
+        {
+          "text": "deux",
+          "startFrame": 702,
+          "endFrame": 712
+        },
+        {
+          "text": "bits",
+          "startFrame": 711,
+          "endFrame": 736
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "À retenir : l'entropie mesure l'incertitude. Zéro, c'est prévisible. Le maximum, c'est le chaos.",
+      "audioFile": "entropy/audio/segment_17.mp3",
+      "startFrame": 9194,
+      "durationInFrames": 432,
+      "durationSeconds": 7.2,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 46
+        },
+        {
+          "text": "l'entropie",
+          "startFrame": 56,
+          "endFrame": 82
+        },
+        {
+          "text": "mesure",
+          "startFrame": 82,
+          "endFrame": 98
+        },
+        {
+          "text": "l'incertitude",
+          "startFrame": 98,
+          "endFrame": 145
+        },
+        {
+          "text": "Zéro",
+          "startFrame": 191,
+          "endFrame": 218
+        },
+        {
+          "text": "c'est",
+          "startFrame": 231,
+          "endFrame": 238
+        },
+        {
+          "text": "prévisible",
+          "startFrame": 238,
+          "endFrame": 277
+        },
+        {
+          "text": "Le",
+          "startFrame": 323,
+          "endFrame": 334
+        },
+        {
+          "text": "maximum",
+          "startFrame": 334,
+          "endFrame": 369
+        },
+        {
+          "text": "c'est",
+          "startFrame": 381,
+          "endFrame": 388
+        },
+        {
+          "text": "le",
+          "startFrame": 388,
+          "endFrame": 395
+        },
+        {
+          "text": "chaos",
+          "startFrame": 394,
+          "endFrame": 416
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Petit défi : un sac avec quatre couleurs, mais une couleur sort neuf fois sur dix. L'entropie est-elle plus grande ou plus petite que deux bits ? Réponds en commentaire, et abonne-toi pour la suite !",
+      "audioFile": "entropy/audio/segment_18.mp3",
+      "startFrame": 9632,
+      "durationInFrames": 650,
+      "durationSeconds": 10.824,
+      "words": [
+        {
+          "text": "Petit",
+          "startFrame": 5,
+          "endFrame": 21
+        },
+        {
+          "text": "défi",
+          "startFrame": 21,
+          "endFrame": 43
+        },
+        {
+          "text": "un",
+          "startFrame": 57,
+          "endFrame": 61
+        },
+        {
+          "text": "sac",
+          "startFrame": 61,
+          "endFrame": 76
+        },
+        {
+          "text": "avec",
+          "startFrame": 75,
+          "endFrame": 87
+        },
+        {
+          "text": "quatre",
+          "startFrame": 87,
+          "endFrame": 104
+        },
+        {
+          "text": "couleurs",
+          "startFrame": 104,
+          "endFrame": 129
+        },
+        {
+          "text": "mais",
+          "startFrame": 146,
+          "endFrame": 153
+        },
+        {
+          "text": "une",
+          "startFrame": 153,
+          "endFrame": 162
+        },
+        {
+          "text": "couleur",
+          "startFrame": 162,
+          "endFrame": 180
+        },
+        {
+          "text": "sort",
+          "startFrame": 180,
+          "endFrame": 190
+        },
+        {
+          "text": "neuf",
+          "startFrame": 190,
+          "endFrame": 199
+        },
+        {
+          "text": "fois",
+          "startFrame": 199,
+          "endFrame": 209
+        },
+        {
+          "text": "sur",
+          "startFrame": 209,
+          "endFrame": 220
+        },
+        {
+          "text": "dix",
+          "startFrame": 219,
+          "endFrame": 248
+        },
+        {
+          "text": "L'entropie",
+          "startFrame": 295,
+          "endFrame": 326
+        },
+        {
+          "text": "est-elle",
+          "startFrame": 326,
+          "endFrame": 341
+        },
+        {
+          "text": "plus",
+          "startFrame": 340,
+          "endFrame": 350
+        },
+        {
+          "text": "grande",
+          "startFrame": 349,
+          "endFrame": 364
+        },
+        {
+          "text": "ou",
+          "startFrame": 364,
+          "endFrame": 368
+        },
+        {
+          "text": "plus",
+          "startFrame": 368,
+          "endFrame": 378
+        },
+        {
+          "text": "petite",
+          "startFrame": 377,
+          "endFrame": 397
+        },
+        {
+          "text": "que",
+          "startFrame": 396,
+          "endFrame": 404
+        },
+        {
+          "text": "deux",
+          "startFrame": 404,
+          "endFrame": 412
+        },
+        {
+          "text": "bits",
+          "startFrame": 411,
+          "endFrame": 435
+        },
+        {
+          "text": "Réponds",
+          "startFrame": 482,
+          "endFrame": 504
+        },
+        {
+          "text": "en",
+          "startFrame": 504,
+          "endFrame": 510
+        },
+        {
+          "text": "commentaire",
+          "startFrame": 510,
+          "endFrame": 548
+        },
+        {
+          "text": "et",
+          "startFrame": 563,
+          "endFrame": 568
+        },
+        {
+          "text": "abonne-toi",
+          "startFrame": 567,
+          "endFrame": 594
+        },
+        {
+          "text": "pour",
+          "startFrame": 593,
+          "endFrame": 603
+        },
+        {
+          "text": "la",
+          "startFrame": 602,
+          "endFrame": 608
+        },
+        {
+          "text": "suite",
+          "startFrame": 608,
+          "endFrame": 634
+        }
+      ]
+    }
+  ]
+}

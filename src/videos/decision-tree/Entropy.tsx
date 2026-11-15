@@ -19,16 +19,41 @@ export const EntropyJar: React.FC<{
   valueIn: number;
   width: number;
   height?: number;
-}> = ({ passed, failed, label, h, amount, balls, valueIn, width, height = 300 }) => {
+  /** Explicit ball colours (overrides passed / failed). */
+  colors?: string[];
+  ballRadius?: number;
+  perRow?: number;
+  /** Text after the value, e.g. " bit". */
+  unit?: string;
+  /** Value used for the colour (defaults to h, clamped to 0..1). */
+  accentValue?: number;
+}> = ({
+  passed,
+  failed,
+  label,
+  h,
+  amount,
+  balls,
+  valueIn,
+  width,
+  height = 300,
+  colors: customColors,
+  ballRadius,
+  perRow: customPerRow,
+  unit = "",
+  accentValue,
+}) => {
   if (amount <= 0) return null;
-  const total = passed + failed;
-  const perRow = total > 6 ? 5 : 3;
-  const r = total > 6 ? 22 : 44;
-  const gap = total > 6 ? 8 : 14;
+  const colors = customColors ?? [...Array(passed).fill(PASS), ...Array(failed).fill(FAIL)];
+  const total = colors.length;
+  const perRow = customPerRow ?? (total > 6 ? 5 : 3);
+  const r = ballRadius ?? (total > 6 ? 22 : 44);
+  const gap = ballRadius ? Math.round(r * 0.32) : total > 6 ? 8 : 14;
   const jarW = perRow * (2 * r + gap) + 30;
-  const jarH = total > 6 ? 170 : 300;
-  const colors = [...Array(passed).fill(PASS), ...Array(failed).fill(FAIL)];
-  const accent = h === null ? COLORS.blue : interpolateColors(h, [0, 0.5, 1], [PASS, COLORS.yellow, FAIL]);
+  const rows = Math.ceil(total / perRow);
+  const jarH = ballRadius ? rows * (2 * r + gap) + 24 : total > 6 ? 170 : 300;
+  const accent =
+    h === null ? COLORS.blue : interpolateColors(Math.min(1, accentValue ?? h), [0, 0.5, 1], [PASS, COLORS.yellow, FAIL]);
 
   return (
     <div
@@ -74,7 +99,7 @@ export const EntropyJar: React.FC<{
             transform: `scale(${0.6 + 0.4 * Math.min(1, valueIn)})`,
           }}
         >
-          H = {fr(h, h === 0 || h === 1 ? 0 : 2)}
+          H = {fr(h, Number.isInteger(h) ? 0 : 2)}{unit}
         </div>
       ) : null}
     </div>
@@ -82,12 +107,16 @@ export const EntropyJar: React.FC<{
 };
 
 /** Horizontal 0 → 1 gauge from "pur" (green) to "chaos" (red) with a needle. */
-export const EntropyGauge: React.FC<{ value: number; amount: number; width: number; caption?: string }> = ({
-  value,
-  amount,
-  width,
-  caption,
-}) => {
+export const EntropyGauge: React.FC<{
+  value: number;
+  amount: number;
+  width: number;
+  caption?: string;
+  title?: string;
+  leftLabel?: string;
+  rightLabel?: string;
+  unit?: string;
+}> = ({ value, amount, width, caption, title = "ENTROPIE", leftLabel = "0 · PUR", rightLabel = "1 · CHAOS", unit = "" }) => {
   if (amount <= 0) return null;
   const barW = width - 80;
   const x = 40 + barW * Math.max(0, Math.min(1, value));
@@ -106,7 +135,7 @@ export const EntropyGauge: React.FC<{ value: number; amount: number; width: numb
       }}
     >
       <div style={{ position: "absolute", left: 40, top: 18, fontFamily: FONT_UI, fontWeight: 900, fontSize: 24, letterSpacing: 2, color: "#c9d1d9" }}>
-        ENTROPIE {caption ? <span style={{ color }}>· {caption}</span> : null}
+        {title} {caption ? <span style={{ color }}>· {caption}</span> : null}
       </div>
       <div
         style={{
@@ -144,9 +173,10 @@ export const EntropyGauge: React.FC<{ value: number; amount: number; width: numb
         }}
       >
         {fr(value, 2)}
+        {unit}
       </div>
-      <div style={{ position: "absolute", left: 40, top: 118, fontFamily: FONT_UI, fontWeight: 800, fontSize: 22, color: PASS }}>0 · PUR</div>
-      <div style={{ position: "absolute", right: 40, top: 118, fontFamily: FONT_UI, fontWeight: 800, fontSize: 22, color: FAIL }}>1 · CHAOS</div>
+      <div style={{ position: "absolute", left: 40, top: 118, fontFamily: FONT_UI, fontWeight: 800, fontSize: 22, color: PASS }}>{leftLabel}</div>
+      <div style={{ position: "absolute", right: 40, top: 118, fontFamily: FONT_UI, fontWeight: 800, fontSize: 22, color: FAIL }}>{rightLabel}</div>
     </div>
   );
 };
