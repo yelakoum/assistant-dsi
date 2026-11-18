@@ -13,6 +13,7 @@ Format : 1080x1920, 60 fps, H.264, `yuv420p` (BT.709), CRF 18, audio 320k — vo
 | `Ep2Knn` | Série #2 : KNN, chat ou chien (~44 s) | français | `src/videos/knn/` |
 | `Ep3DecisionTree` | Série #3 : arbre de décision et entropie, réussir son examen (~78 s, avec bruitages) | français | `src/videos/decision-tree/` |
 | `Entropie` | Vidéo longue : l'entropie expliquée en détail, 4 chapitres (~2 min 52, avec bruitages) | français | `src/videos/entropy/` |
+| `SVM` | Vidéo longue : le SVM en profondeur (intro + code, x₊/x₋, marge = 2/‖w‖, optimisation) (~2 min 40) | français | `src/videos/svm/` |
 
 ```bash
 npm install                      # dépendances Remotion
@@ -22,6 +23,7 @@ npm run build:linear-regression  # -> out/linear-regression.mp4
 npm run build:gradient-descent   # -> out/gradient-descent.mp4
 npm run build:series             # les 3 épisodes « ML en 1 minute » -> out/ep1-…, ep2-…, ep3-…
 npm run build:entropie           # vidéo longue sur l'entropie -> out/entropie-explication.mp4
+npm run build:svm                # vidéo longue sur le SVM -> out/svm-explication.mp4
 npm run build                    # toutes les vidéos
 ```
 

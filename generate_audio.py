@@ -152,6 +152,52 @@ VIDEOS: dict[str, dict] = {
             "Réponds en commentaire, et abonne-toi pour la suite !",
         ],
     },
+    # Long-form explainer: the SVM in depth. 1 intro ("tu veux apprendre le ML ?"),
+    # 2 code teaser, 3 plan, 4-7 the idea (data, many lines, widest road, support
+    # vectors), 8-11 the margin (w.x + b, sign, +-1 edges, width question), 12-14
+    # the maths (projection, subtraction, 2/||w||), 15-16 optimisation + numbers,
+    # 17 code, 18 recap, 19 kernel teaser + quiz.
+    "svm": {
+        "voice": "fr-FR-HenriNeural",
+        "rate": "+12%",
+        "segments": [
+            "Tu veux apprendre le machine learning ? Alors tu es au bon endroit. "
+            "Aujourd'hui, on apprend un nouvel algorithme, en profondeur : le SVM, la machine à vecteurs de support.",
+            "En Python, il tient en trois lignes : on importe SVC, on crée le modèle, et on appelle fit. "
+            "Mais que se passe-t-il vraiment à l'intérieur ? C'est ce qu'on va découvrir.",
+            "Quatre étapes : l'idée, la marge, le calcul de la distance, et l'optimisation.",
+            "Reprenons nos mails. En bleu les vrais mails, en rouge les spams, "
+            "selon le nombre de liens et de mots en majuscules. On veut une frontière entre les deux.",
+            "Problème : il existe une infinité de droites qui les séparent. Celle-ci, celle-là… Laquelle choisir ?",
+            "L'idée du SVM : prendre la droite qui passe le plus loin possible des deux groupes. "
+            "Comme la route la plus large possible entre deux villages.",
+            "Les points qui touchent les bords de la route sont les vecteurs de support. "
+            "Ce sont eux, et eux seuls, qui fixent la frontière. On les appelle x plus et x moins.",
+            "La frontière a une équation : w point x, plus b, égale zéro. "
+            "w est un vecteur perpendiculaire à la frontière, et b la décale.",
+            "Pour classer un mail, on regarde le signe. Positif : c'est un spam. Négatif : c'est un vrai mail.",
+            "Les deux bords de la route, on les fixe à plus un et moins un. "
+            "Donc : w point x plus, plus b, égale un. Et w point x moins, plus b, égale moins un.",
+            "Maintenant, la vraie question : quelle est la largeur de la route ? "
+            "C'est la distance entre x plus et x moins, mesurée perpendiculairement à la frontière.",
+            "Pour ça, on projette le vecteur x plus moins x moins sur la direction de w, "
+            "ramenée à une longueur de un : w divisé par la norme de w.",
+            "On soustrait les équations des deux bords : les b s'annulent. "
+            "Il reste : w point, x plus moins x moins, égale deux.",
+            "Donc la largeur de la marge vaut deux divisé par la norme de w. C'est la formule clé du SVM.",
+            "Pour la route la plus large, il faut rendre la norme de w la plus petite possible, "
+            "en gardant chaque point du bon côté : y fois, w point x plus b, supérieur ou égal à un.",
+            "Dans notre exemple : w vaut zéro virgule cinq, zéro virgule cinq, et b vaut moins trois. "
+            "La marge vaut deux sur zéro virgule soixante et onze : deux virgule quatre-vingt-trois. "
+            "Exactement la distance entre x plus et x moins !",
+            "En Python : SVC avec un noyau linéaire. coef et intercept donnent w et b, "
+            "support vectors donne nos deux points. Un mail avec six liens et trois majuscules ? Spam !",
+            "À retenir : le SVM cherche la frontière avec la plus grande marge. "
+            "Seuls les vecteurs de support comptent. Et la marge vaut deux sur la norme de w.",
+            "Et si une droite ne suffit pas ? C'est le kernel trick, dans la prochaine vidéo. "
+            "Petit défi : si on double w, que devient la marge ? Réponds en commentaire, et abonne-toi !",
+        ],
+    },
     # ---- Series "ML en 1 minute" (one video per day, each standalone) --------
     # Segments: 1 hook, 2 example data, 3 idea, 4 decision, 5 sklearn fit,
     # 6 predict + real output, 7 takeaway + teaser for the next episode.

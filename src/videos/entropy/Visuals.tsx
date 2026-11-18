@@ -8,16 +8,17 @@ import { PALETTE } from "./data";
 export const CHAPTERS = ["SURPRISE", "INFORMATION", "ENTROPIE", "ARBRE"];
 
 /** 4 chapter chips + a thin progress line for the whole video. */
-export const ChapterBar: React.FC<{ active: number; done: number; progress: number; amount: number }> = ({
+export const ChapterBar: React.FC<{ active: number; done: number; progress: number; amount: number; chapters?: string[] }> = ({
   active,
   done,
   progress,
   amount,
+  chapters = CHAPTERS,
 }) =>
   amount > 0 ? (
     <div style={{ opacity: Math.min(1, amount * 1.4) }}>
       <div style={{ display: "flex", gap: 8 }}>
-        {CHAPTERS.map((c, i) => {
+        {chapters.map((c, i) => {
           const isActive = i === active;
           const isDone = i < done;
           return (
@@ -147,13 +148,15 @@ export const ChaosBox: React.FC<{ width: number; height: number; amount: number;
 };
 
 /** The 4-step plan. */
-export const ChapterList: React.FC<{ ins: number[] }> = ({ ins }) => {
-  const items = [
-    { title: "LA SURPRISE", detail: "Pile ou face ?", icon: "◐" },
-    { title: "L'INFORMATION", detail: "Combien de questions oui / non ?", icon: "?" },
-    { title: "L'ENTROPIE", detail: "La formule, pas à pas", icon: "Σ" },
-    { title: "L'ARBRE DE DÉCISION", detail: "À quoi elle sert", icon: "⑂" },
-  ];
+export type ChapterItem = { title: string; detail: string; icon: string };
+const ENTROPY_ITEMS: ChapterItem[] = [
+  { title: "LA SURPRISE", detail: "Pile ou face ?", icon: "◐" },
+  { title: "L'INFORMATION", detail: "Combien de questions oui / non ?", icon: "?" },
+  { title: "L'ENTROPIE", detail: "La formule, pas à pas", icon: "Σ" },
+  { title: "L'ARBRE DE DÉCISION", detail: "À quoi elle sert", icon: "⑂" },
+];
+
+export const ChapterList: React.FC<{ ins: number[]; items?: ChapterItem[] }> = ({ ins, items = ENTROPY_ITEMS }) => {
   const colors = [COLORS.blue, COLORS.yellow, COLORS.green, "#ff9f43"];
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 30 }}>

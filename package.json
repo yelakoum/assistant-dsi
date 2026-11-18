@@ -11,6 +11,7 @@
     "build:gradient-descent": "remotion render GradientDescent out/gradient-descent.mp4",
     "build:series": "remotion render Ep1LogisticRegression out/ep1-regression-logistique.mp4 && remotion render Ep2Knn out/ep2-knn.mp4 && remotion render Ep3DecisionTree out/ep3-arbre-de-decision.mp4",
     "build:entropie": "remotion render Entropie out/entropie-explication.mp4",
+    "build:svm": "remotion render SVM out/svm-explication.mp4",
     "upgrade": "remotion upgrade",
     "lint": "tsc --noEmit"
   },

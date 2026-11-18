@@ -1,0 +1,2705 @@
+{
+  "fps": 60,
+  "voice": "fr-FR-HenriNeural",
+  "rate": "+12%",
+  "gapFrames": 6,
+  "totalDurationInFrames": 9597,
+  "totalDurationSeconds": 159.95,
+  "segments": [
+    {
+      "id": 1,
+      "text": "Tu veux apprendre le machine learning ? Alors tu es au bon endroit. Aujourd'hui, on apprend un nouvel algorithme, en profondeur : le SVM, la machine à vecteurs de support.",
+      "audioFile": "svm/audio/segment_01.mp3",
+      "startFrame": 0,
+      "durationInFrames": 602,
+      "durationSeconds": 10.032,
+      "words": [
+        {
+          "text": "Tu",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "veux",
+          "startFrame": 15,
+          "endFrame": 22
+        },
+        {
+          "text": "apprendre",
+          "startFrame": 22,
+          "endFrame": 45
+        },
+        {
+          "text": "le",
+          "startFrame": 45,
+          "endFrame": 49
+        },
+        {
+          "text": "machine",
+          "startFrame": 49,
+          "endFrame": 68
+        },
+        {
+          "text": "learning",
+          "startFrame": 67,
+          "endFrame": 99
+        },
+        {
+          "text": "Alors",
+          "startFrame": 144,
+          "endFrame": 163
+        },
+        {
+          "text": "tu",
+          "startFrame": 163,
+          "endFrame": 173
+        },
+        {
+          "text": "es",
+          "startFrame": 173,
+          "endFrame": 177
+        },
+        {
+          "text": "au",
+          "startFrame": 177,
+          "endFrame": 186
+        },
+        {
+          "text": "bon",
+          "startFrame": 186,
+          "endFrame": 196
+        },
+        {
+          "text": "endroit",
+          "startFrame": 196,
+          "endFrame": 220
+        },
+        {
+          "text": "Aujourd'hui",
+          "startFrame": 265,
+          "endFrame": 298
+        },
+        {
+          "text": "on",
+          "startFrame": 316,
+          "endFrame": 321
+        },
+        {
+          "text": "apprend",
+          "startFrame": 320,
+          "endFrame": 339
+        },
+        {
+          "text": "un",
+          "startFrame": 338,
+          "endFrame": 342
+        },
+        {
+          "text": "nouvel",
+          "startFrame": 342,
+          "endFrame": 355
+        },
+        {
+          "text": "algorithme",
+          "startFrame": 355,
+          "endFrame": 384
+        },
+        {
+          "text": "en",
+          "startFrame": 399,
+          "endFrame": 403
+        },
+        {
+          "text": "profondeur",
+          "startFrame": 403,
+          "endFrame": 440
+        },
+        {
+          "text": "le",
+          "startFrame": 449,
+          "endFrame": 455
+        },
+        {
+          "text": "SVM",
+          "startFrame": 454,
+          "endFrame": 483
+        },
+        {
+          "text": "la",
+          "startFrame": 499,
+          "endFrame": 506
+        },
+        {
+          "text": "machine",
+          "startFrame": 506,
+          "endFrame": 526
+        },
+        {
+          "text": "à",
+          "startFrame": 526,
+          "endFrame": 529
+        },
+        {
+          "text": "vecteurs",
+          "startFrame": 529,
+          "endFrame": 547
+        },
+        {
+          "text": "de",
+          "startFrame": 547,
+          "endFrame": 554
+        },
+        {
+          "text": "support",
+          "startFrame": 554,
+          "endFrame": 588
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "En Python, il tient en trois lignes : on importe SVC, on crée le modèle, et on appelle fit. Mais que se passe-t-il vraiment à l'intérieur ? C'est ce qu'on va découvrir.",
+      "audioFile": "svm/audio/segment_02.mp3",
+      "startFrame": 608,
+      "durationInFrames": 575,
+      "durationSeconds": 9.576,
+      "words": [
+        {
+          "text": "En",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "Python",
+          "startFrame": 15,
+          "endFrame": 38
+        },
+        {
+          "text": "il",
+          "startFrame": 54,
+          "endFrame": 61
+        },
+        {
+          "text": "tient",
+          "startFrame": 61,
+          "endFrame": 72
+        },
+        {
+          "text": "en",
+          "startFrame": 71,
+          "endFrame": 76
+        },
+        {
+          "text": "trois",
+          "startFrame": 75,
+          "endFrame": 89
+        },
+        {
+          "text": "lignes",
+          "startFrame": 88,
+          "endFrame": 105
+        },
+        {
+          "text": "on",
+          "startFrame": 112,
+          "endFrame": 116
+        },
+        {
+          "text": "importe",
+          "startFrame": 116,
+          "endFrame": 137
+        },
+        {
+          "text": "SVC",
+          "startFrame": 136,
+          "endFrame": 166
+        },
+        {
+          "text": "on",
+          "startFrame": 181,
+          "endFrame": 185
+        },
+        {
+          "text": "crée",
+          "startFrame": 185,
+          "endFrame": 196
+        },
+        {
+          "text": "le",
+          "startFrame": 196,
+          "endFrame": 201
+        },
+        {
+          "text": "modèle",
+          "startFrame": 201,
+          "endFrame": 224
+        },
+        {
+          "text": "et",
+          "startFrame": 240,
+          "endFrame": 245
+        },
+        {
+          "text": "on",
+          "startFrame": 244,
+          "endFrame": 248
+        },
+        {
+          "text": "appelle",
+          "startFrame": 248,
+          "endFrame": 265
+        },
+        {
+          "text": "fit",
+          "startFrame": 264,
+          "endFrame": 281
+        },
+        {
+          "text": "Mais",
+          "startFrame": 326,
+          "endFrame": 339
+        },
+        {
+          "text": "que",
+          "startFrame": 338,
+          "endFrame": 347
+        },
+        {
+          "text": "se",
+          "startFrame": 347,
+          "endFrame": 355
+        },
+        {
+          "text": "passe-t-il",
+          "startFrame": 354,
+          "endFrame": 378
+        },
+        {
+          "text": "vraiment",
+          "startFrame": 377,
+          "endFrame": 397
+        },
+        {
+          "text": "à",
+          "startFrame": 397,
+          "endFrame": 400
+        },
+        {
+          "text": "l'intérieur",
+          "startFrame": 399,
+          "endFrame": 438
+        },
+        {
+          "text": "C'est",
+          "startFrame": 484,
+          "endFrame": 499
+        },
+        {
+          "text": "ce",
+          "startFrame": 498,
+          "endFrame": 507
+        },
+        {
+          "text": "qu'on",
+          "startFrame": 506,
+          "endFrame": 515
+        },
+        {
+          "text": "va",
+          "startFrame": 515,
+          "endFrame": 521
+        },
+        {
+          "text": "découvrir",
+          "startFrame": 521,
+          "endFrame": 560
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Quatre étapes : l'idée, la marge, le calcul de la distance, et l'optimisation.",
+      "audioFile": "svm/audio/segment_03.mp3",
+      "startFrame": 1189,
+      "durationInFrames": 278,
+      "durationSeconds": 4.632,
+      "words": [
+        {
+          "text": "Quatre",
+          "startFrame": 5,
+          "endFrame": 22
+        },
+        {
+          "text": "étapes",
+          "startFrame": 21,
+          "endFrame": 40
+        },
+        {
+          "text": "l'idée",
+          "startFrame": 49,
+          "endFrame": 68
+        },
+        {
+          "text": "la",
+          "startFrame": 82,
+          "endFrame": 90
+        },
+        {
+          "text": "marge",
+          "startFrame": 90,
+          "endFrame": 111
+        },
+        {
+          "text": "le",
+          "startFrame": 126,
+          "endFrame": 134
+        },
+        {
+          "text": "calcul",
+          "startFrame": 134,
+          "endFrame": 157
+        },
+        {
+          "text": "de",
+          "startFrame": 157,
+          "endFrame": 162
+        },
+        {
+          "text": "la",
+          "startFrame": 162,
+          "endFrame": 168
+        },
+        {
+          "text": "distance",
+          "startFrame": 167,
+          "endFrame": 203
+        },
+        {
+          "text": "et",
+          "startFrame": 215,
+          "endFrame": 217
+        },
+        {
+          "text": "l'optimisation",
+          "startFrame": 217,
+          "endFrame": 261
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Reprenons nos mails. En bleu les vrais mails, en rouge les spams, selon le nombre de liens et de mots en majuscules. On veut une frontière entre les deux.",
+      "audioFile": "svm/audio/segment_04.mp3",
+      "startFrame": 1473,
+      "durationInFrames": 486,
+      "durationSeconds": 8.088,
+      "words": [
+        {
+          "text": "Reprenons",
+          "startFrame": 5,
+          "endFrame": 35
+        },
+        {
+          "text": "nos",
+          "startFrame": 35,
+          "endFrame": 42
+        },
+        {
+          "text": "mails",
+          "startFrame": 42,
+          "endFrame": 58
+        },
+        {
+          "text": "En",
+          "startFrame": 103,
+          "endFrame": 114
+        },
+        {
+          "text": "bleu",
+          "startFrame": 113,
+          "endFrame": 123
+        },
+        {
+          "text": "les",
+          "startFrame": 123,
+          "endFrame": 128
+        },
+        {
+          "text": "vrais",
+          "startFrame": 128,
+          "endFrame": 140
+        },
+        {
+          "text": "mails",
+          "startFrame": 139,
+          "endFrame": 153
+        },
+        {
+          "text": "en",
+          "startFrame": 168,
+          "endFrame": 173
+        },
+        {
+          "text": "rouge",
+          "startFrame": 172,
+          "endFrame": 185
+        },
+        {
+          "text": "les",
+          "startFrame": 185,
+          "endFrame": 192
+        },
+        {
+          "text": "spams",
+          "startFrame": 192,
+          "endFrame": 213
+        },
+        {
+          "text": "selon",
+          "startFrame": 229,
+          "endFrame": 245
+        },
+        {
+          "text": "le",
+          "startFrame": 245,
+          "endFrame": 250
+        },
+        {
+          "text": "nombre",
+          "startFrame": 250,
+          "endFrame": 267
+        },
+        {
+          "text": "de",
+          "startFrame": 267,
+          "endFrame": 272
+        },
+        {
+          "text": "liens",
+          "startFrame": 271,
+          "endFrame": 284
+        },
+        {
+          "text": "et",
+          "startFrame": 284,
+          "endFrame": 287
+        },
+        {
+          "text": "de",
+          "startFrame": 287,
+          "endFrame": 294
+        },
+        {
+          "text": "mots",
+          "startFrame": 293,
+          "endFrame": 302
+        },
+        {
+          "text": "en",
+          "startFrame": 302,
+          "endFrame": 307
+        },
+        {
+          "text": "majuscules",
+          "startFrame": 306,
+          "endFrame": 346
+        },
+        {
+          "text": "On",
+          "startFrame": 391,
+          "endFrame": 401
+        },
+        {
+          "text": "veut",
+          "startFrame": 401,
+          "endFrame": 409
+        },
+        {
+          "text": "une",
+          "startFrame": 409,
+          "endFrame": 416
+        },
+        {
+          "text": "frontière",
+          "startFrame": 415,
+          "endFrame": 438
+        },
+        {
+          "text": "entre",
+          "startFrame": 437,
+          "endFrame": 449
+        },
+        {
+          "text": "les",
+          "startFrame": 449,
+          "endFrame": 455
+        },
+        {
+          "text": "deux",
+          "startFrame": 454,
+          "endFrame": 469
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Problème : il existe une infinité de droites qui les séparent. Celle-ci, celle-là… Laquelle choisir ?",
+      "audioFile": "svm/audio/segment_05.mp3",
+      "startFrame": 1965,
+      "durationInFrames": 398,
+      "durationSeconds": 6.624,
+      "words": [
+        {
+          "text": "Problème",
+          "startFrame": 5,
+          "endFrame": 32
+        },
+        {
+          "text": "il",
+          "startFrame": 43,
+          "endFrame": 49
+        },
+        {
+          "text": "existe",
+          "startFrame": 49,
+          "endFrame": 69
+        },
+        {
+          "text": "une",
+          "startFrame": 69,
+          "endFrame": 75
+        },
+        {
+          "text": "infinité",
+          "startFrame": 75,
+          "endFrame": 101
+        },
+        {
+          "text": "de",
+          "startFrame": 100,
+          "endFrame": 108
+        },
+        {
+          "text": "droites",
+          "startFrame": 108,
+          "endFrame": 122
+        },
+        {
+          "text": "qui",
+          "startFrame": 122,
+          "endFrame": 129
+        },
+        {
+          "text": "les",
+          "startFrame": 129,
+          "endFrame": 135
+        },
+        {
+          "text": "séparent",
+          "startFrame": 134,
+          "endFrame": 167
+        },
+        {
+          "text": "Celle-ci",
+          "startFrame": 212,
+          "endFrame": 243
+        },
+        {
+          "text": "celle-là",
+          "startFrame": 255,
+          "endFrame": 282
+        },
+        {
+          "text": "Laquelle",
+          "startFrame": 328,
+          "endFrame": 351
+        },
+        {
+          "text": "choisir",
+          "startFrame": 350,
+          "endFrame": 382
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "L'idée du SVM : prendre la droite qui passe le plus loin possible des deux groupes. Comme la route la plus large possible entre deux villages.",
+      "audioFile": "svm/audio/segment_06.mp3",
+      "startFrame": 2369,
+      "durationInFrames": 415,
+      "durationSeconds": 6.912,
+      "words": [
+        {
+          "text": "L'idée",
+          "startFrame": 5,
+          "endFrame": 26
+        },
+        {
+          "text": "du",
+          "startFrame": 25,
+          "endFrame": 33
+        },
+        {
+          "text": "SVM",
+          "startFrame": 33,
+          "endFrame": 62
+        },
+        {
+          "text": "prendre",
+          "startFrame": 73,
+          "endFrame": 91
+        },
+        {
+          "text": "la",
+          "startFrame": 90,
+          "endFrame": 96
+        },
+        {
+          "text": "droite",
+          "startFrame": 96,
+          "endFrame": 111
+        },
+        {
+          "text": "qui",
+          "startFrame": 110,
+          "endFrame": 119
+        },
+        {
+          "text": "passe",
+          "startFrame": 118,
+          "endFrame": 132
+        },
+        {
+          "text": "le",
+          "startFrame": 132,
+          "endFrame": 140
+        },
+        {
+          "text": "plus",
+          "startFrame": 140,
+          "endFrame": 149
+        },
+        {
+          "text": "loin",
+          "startFrame": 148,
+          "endFrame": 160
+        },
+        {
+          "text": "possible",
+          "startFrame": 160,
+          "endFrame": 186
+        },
+        {
+          "text": "des",
+          "startFrame": 185,
+          "endFrame": 192
+        },
+        {
+          "text": "deux",
+          "startFrame": 192,
+          "endFrame": 200
+        },
+        {
+          "text": "groupes",
+          "startFrame": 199,
+          "endFrame": 219
+        },
+        {
+          "text": "Comme",
+          "startFrame": 265,
+          "endFrame": 278
+        },
+        {
+          "text": "la",
+          "startFrame": 277,
+          "endFrame": 283
+        },
+        {
+          "text": "route",
+          "startFrame": 283,
+          "endFrame": 294
+        },
+        {
+          "text": "la",
+          "startFrame": 294,
+          "endFrame": 301
+        },
+        {
+          "text": "plus",
+          "startFrame": 301,
+          "endFrame": 311
+        },
+        {
+          "text": "large",
+          "startFrame": 310,
+          "endFrame": 324
+        },
+        {
+          "text": "possible",
+          "startFrame": 324,
+          "endFrame": 349
+        },
+        {
+          "text": "entre",
+          "startFrame": 348,
+          "endFrame": 361
+        },
+        {
+          "text": "deux",
+          "startFrame": 360,
+          "endFrame": 368
+        },
+        {
+          "text": "villages",
+          "startFrame": 368,
+          "endFrame": 399
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Les points qui touchent les bords de la route sont les vecteurs de support. Ce sont eux, et eux seuls, qui fixent la frontière. On les appelle x plus et x moins.",
+      "audioFile": "svm/audio/segment_07.mp3",
+      "startFrame": 2790,
+      "durationInFrames": 520,
+      "durationSeconds": 8.664,
+      "words": [
+        {
+          "text": "Les",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "points",
+          "startFrame": 17,
+          "endFrame": 30
+        },
+        {
+          "text": "qui",
+          "startFrame": 29,
+          "endFrame": 38
+        },
+        {
+          "text": "touchent",
+          "startFrame": 38,
+          "endFrame": 53
+        },
+        {
+          "text": "les",
+          "startFrame": 53,
+          "endFrame": 60
+        },
+        {
+          "text": "bords",
+          "startFrame": 60,
+          "endFrame": 72
+        },
+        {
+          "text": "de",
+          "startFrame": 72,
+          "endFrame": 78
+        },
+        {
+          "text": "la",
+          "startFrame": 78,
+          "endFrame": 83
+        },
+        {
+          "text": "route",
+          "startFrame": 83,
+          "endFrame": 95
+        },
+        {
+          "text": "sont",
+          "startFrame": 94,
+          "endFrame": 102
+        },
+        {
+          "text": "les",
+          "startFrame": 102,
+          "endFrame": 107
+        },
+        {
+          "text": "vecteurs",
+          "startFrame": 107,
+          "endFrame": 126
+        },
+        {
+          "text": "de",
+          "startFrame": 126,
+          "endFrame": 133
+        },
+        {
+          "text": "support",
+          "startFrame": 133,
+          "endFrame": 167
+        },
+        {
+          "text": "Ce",
+          "startFrame": 212,
+          "endFrame": 226
+        },
+        {
+          "text": "sont",
+          "startFrame": 226,
+          "endFrame": 236
+        },
+        {
+          "text": "eux",
+          "startFrame": 236,
+          "endFrame": 246
+        },
+        {
+          "text": "et",
+          "startFrame": 262,
+          "endFrame": 266
+        },
+        {
+          "text": "eux",
+          "startFrame": 266,
+          "endFrame": 271
+        },
+        {
+          "text": "seuls",
+          "startFrame": 271,
+          "endFrame": 290
+        },
+        {
+          "text": "qui",
+          "startFrame": 305,
+          "endFrame": 313
+        },
+        {
+          "text": "fixent",
+          "startFrame": 313,
+          "endFrame": 326
+        },
+        {
+          "text": "la",
+          "startFrame": 326,
+          "endFrame": 333
+        },
+        {
+          "text": "frontière",
+          "startFrame": 332,
+          "endFrame": 368
+        },
+        {
+          "text": "On",
+          "startFrame": 414,
+          "endFrame": 422
+        },
+        {
+          "text": "les",
+          "startFrame": 422,
+          "endFrame": 428
+        },
+        {
+          "text": "appelle",
+          "startFrame": 428,
+          "endFrame": 447
+        },
+        {
+          "text": "x",
+          "startFrame": 447,
+          "endFrame": 457
+        },
+        {
+          "text": "plus",
+          "startFrame": 457,
+          "endFrame": 473
+        },
+        {
+          "text": "et",
+          "startFrame": 472,
+          "endFrame": 476
+        },
+        {
+          "text": "x",
+          "startFrame": 476,
+          "endFrame": 487
+        },
+        {
+          "text": "moins",
+          "startFrame": 486,
+          "endFrame": 504
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "La frontière a une équation : w point x, plus b, égale zéro. w est un vecteur perpendiculaire à la frontière, et b la décale.",
+      "audioFile": "svm/audio/segment_08.mp3",
+      "startFrame": 3316,
+      "durationInFrames": 489,
+      "durationSeconds": 8.136,
+      "words": [
+        {
+          "text": "La",
+          "startFrame": 5,
+          "endFrame": 17
+        },
+        {
+          "text": "frontière",
+          "startFrame": 17,
+          "endFrame": 41
+        },
+        {
+          "text": "a",
+          "startFrame": 41,
+          "endFrame": 44
+        },
+        {
+          "text": "une",
+          "startFrame": 43,
+          "endFrame": 51
+        },
+        {
+          "text": "équation",
+          "startFrame": 51,
+          "endFrame": 81
+        },
+        {
+          "text": "w",
+          "startFrame": 88,
+          "endFrame": 110
+        },
+        {
+          "text": "point",
+          "startFrame": 110,
+          "endFrame": 123
+        },
+        {
+          "text": "x",
+          "startFrame": 123,
+          "endFrame": 139
+        },
+        {
+          "text": "plus",
+          "startFrame": 151,
+          "endFrame": 160
+        },
+        {
+          "text": "b",
+          "startFrame": 160,
+          "endFrame": 172
+        },
+        {
+          "text": "égale",
+          "startFrame": 187,
+          "endFrame": 203
+        },
+        {
+          "text": "zéro",
+          "startFrame": 203,
+          "endFrame": 227
+        },
+        {
+          "text": "w",
+          "startFrame": 272,
+          "endFrame": 300
+        },
+        {
+          "text": "est",
+          "startFrame": 300,
+          "endFrame": 303
+        },
+        {
+          "text": "un",
+          "startFrame": 303,
+          "endFrame": 311
+        },
+        {
+          "text": "vecteur",
+          "startFrame": 311,
+          "endFrame": 331
+        },
+        {
+          "text": "perpendiculaire",
+          "startFrame": 330,
+          "endFrame": 372
+        },
+        {
+          "text": "à",
+          "startFrame": 372,
+          "endFrame": 374
+        },
+        {
+          "text": "la",
+          "startFrame": 374,
+          "endFrame": 380
+        },
+        {
+          "text": "frontière",
+          "startFrame": 380,
+          "endFrame": 411
+        },
+        {
+          "text": "et",
+          "startFrame": 427,
+          "endFrame": 430
+        },
+        {
+          "text": "b",
+          "startFrame": 430,
+          "endFrame": 436
+        },
+        {
+          "text": "la",
+          "startFrame": 436,
+          "endFrame": 442
+        },
+        {
+          "text": "décale",
+          "startFrame": 441,
+          "endFrame": 472
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Pour classer un mail, on regarde le signe. Positif : c'est un spam. Négatif : c'est un vrai mail.",
+      "audioFile": "svm/audio/segment_09.mp3",
+      "startFrame": 3811,
+      "durationInFrames": 424,
+      "durationSeconds": 7.056,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 17
+        },
+        {
+          "text": "classer",
+          "startFrame": 17,
+          "endFrame": 38
+        },
+        {
+          "text": "un",
+          "startFrame": 38,
+          "endFrame": 43
+        },
+        {
+          "text": "mail",
+          "startFrame": 43,
+          "endFrame": 58
+        },
+        {
+          "text": "on",
+          "startFrame": 70,
+          "endFrame": 74
+        },
+        {
+          "text": "regarde",
+          "startFrame": 73,
+          "endFrame": 94
+        },
+        {
+          "text": "le",
+          "startFrame": 94,
+          "endFrame": 101
+        },
+        {
+          "text": "signe",
+          "startFrame": 100,
+          "endFrame": 125
+        },
+        {
+          "text": "Positif",
+          "startFrame": 171,
+          "endFrame": 209
+        },
+        {
+          "text": "c'est",
+          "startFrame": 218,
+          "endFrame": 225
+        },
+        {
+          "text": "un",
+          "startFrame": 225,
+          "endFrame": 234
+        },
+        {
+          "text": "spam",
+          "startFrame": 234,
+          "endFrame": 260
+        },
+        {
+          "text": "Négatif",
+          "startFrame": 306,
+          "endFrame": 348
+        },
+        {
+          "text": "c'est",
+          "startFrame": 357,
+          "endFrame": 365
+        },
+        {
+          "text": "un",
+          "startFrame": 365,
+          "endFrame": 375
+        },
+        {
+          "text": "vrai",
+          "startFrame": 375,
+          "endFrame": 386
+        },
+        {
+          "text": "mail",
+          "startFrame": 386,
+          "endFrame": 407
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Les deux bords de la route, on les fixe à plus un et moins un. Donc : w point x plus, plus b, égale un. Et w point x moins, plus b, égale moins un.",
+      "audioFile": "svm/audio/segment_10.mp3",
+      "startFrame": 4241,
+      "durationInFrames": 588,
+      "durationSeconds": 9.792,
+      "words": [
+        {
+          "text": "Les",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "deux",
+          "startFrame": 17,
+          "endFrame": 26
+        },
+        {
+          "text": "bords",
+          "startFrame": 25,
+          "endFrame": 37
+        },
+        {
+          "text": "de",
+          "startFrame": 37,
+          "endFrame": 42
+        },
+        {
+          "text": "la",
+          "startFrame": 41,
+          "endFrame": 47
+        },
+        {
+          "text": "route",
+          "startFrame": 47,
+          "endFrame": 62
+        },
+        {
+          "text": "on",
+          "startFrame": 77,
+          "endFrame": 81
+        },
+        {
+          "text": "les",
+          "startFrame": 80,
+          "endFrame": 87
+        },
+        {
+          "text": "fixe",
+          "startFrame": 87,
+          "endFrame": 102
+        },
+        {
+          "text": "à",
+          "startFrame": 102,
+          "endFrame": 106
+        },
+        {
+          "text": "plus",
+          "startFrame": 106,
+          "endFrame": 121
+        },
+        {
+          "text": "un",
+          "startFrame": 121,
+          "endFrame": 127
+        },
+        {
+          "text": "et",
+          "startFrame": 126,
+          "endFrame": 129
+        },
+        {
+          "text": "moins",
+          "startFrame": 129,
+          "endFrame": 141
+        },
+        {
+          "text": "un",
+          "startFrame": 140,
+          "endFrame": 154
+        },
+        {
+          "text": "Donc",
+          "startFrame": 200,
+          "endFrame": 222
+        },
+        {
+          "text": "w",
+          "startFrame": 231,
+          "endFrame": 254
+        },
+        {
+          "text": "point",
+          "startFrame": 253,
+          "endFrame": 266
+        },
+        {
+          "text": "x",
+          "startFrame": 266,
+          "endFrame": 275
+        },
+        {
+          "text": "plus",
+          "startFrame": 275,
+          "endFrame": 299
+        },
+        {
+          "text": "plus",
+          "startFrame": 312,
+          "endFrame": 321
+        },
+        {
+          "text": "b",
+          "startFrame": 320,
+          "endFrame": 333
+        },
+        {
+          "text": "égale",
+          "startFrame": 346,
+          "endFrame": 363
+        },
+        {
+          "text": "un",
+          "startFrame": 362,
+          "endFrame": 370
+        },
+        {
+          "text": "Et",
+          "startFrame": 416,
+          "endFrame": 425
+        },
+        {
+          "text": "w",
+          "startFrame": 425,
+          "endFrame": 447
+        },
+        {
+          "text": "point",
+          "startFrame": 447,
+          "endFrame": 460
+        },
+        {
+          "text": "x",
+          "startFrame": 460,
+          "endFrame": 469
+        },
+        {
+          "text": "moins",
+          "startFrame": 469,
+          "endFrame": 486
+        },
+        {
+          "text": "plus",
+          "startFrame": 498,
+          "endFrame": 509
+        },
+        {
+          "text": "b",
+          "startFrame": 508,
+          "endFrame": 521
+        },
+        {
+          "text": "égale",
+          "startFrame": 536,
+          "endFrame": 552
+        },
+        {
+          "text": "moins",
+          "startFrame": 551,
+          "endFrame": 563
+        },
+        {
+          "text": "un",
+          "startFrame": 563,
+          "endFrame": 570
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Maintenant, la vraie question : quelle est la largeur de la route ? C'est la distance entre x plus et x moins, mesurée perpendiculairement à la frontière.",
+      "audioFile": "svm/audio/segment_11.mp3",
+      "startFrame": 4835,
+      "durationInFrames": 476,
+      "durationSeconds": 7.92,
+      "words": [
+        {
+          "text": "Maintenant",
+          "startFrame": 5,
+          "endFrame": 37
+        },
+        {
+          "text": "la",
+          "startFrame": 53,
+          "endFrame": 60
+        },
+        {
+          "text": "vraie",
+          "startFrame": 60,
+          "endFrame": 70
+        },
+        {
+          "text": "question",
+          "startFrame": 70,
+          "endFrame": 96
+        },
+        {
+          "text": "quelle",
+          "startFrame": 106,
+          "endFrame": 117
+        },
+        {
+          "text": "est",
+          "startFrame": 116,
+          "endFrame": 119
+        },
+        {
+          "text": "la",
+          "startFrame": 118,
+          "endFrame": 123
+        },
+        {
+          "text": "largeur",
+          "startFrame": 122,
+          "endFrame": 142
+        },
+        {
+          "text": "de",
+          "startFrame": 142,
+          "endFrame": 147
+        },
+        {
+          "text": "la",
+          "startFrame": 146,
+          "endFrame": 151
+        },
+        {
+          "text": "route",
+          "startFrame": 151,
+          "endFrame": 175
+        },
+        {
+          "text": "C'est",
+          "startFrame": 220,
+          "endFrame": 233
+        },
+        {
+          "text": "la",
+          "startFrame": 233,
+          "endFrame": 238
+        },
+        {
+          "text": "distance",
+          "startFrame": 238,
+          "endFrame": 264
+        },
+        {
+          "text": "entre",
+          "startFrame": 264,
+          "endFrame": 276
+        },
+        {
+          "text": "x",
+          "startFrame": 275,
+          "endFrame": 284
+        },
+        {
+          "text": "plus",
+          "startFrame": 284,
+          "endFrame": 299
+        },
+        {
+          "text": "et",
+          "startFrame": 299,
+          "endFrame": 303
+        },
+        {
+          "text": "x",
+          "startFrame": 303,
+          "endFrame": 314
+        },
+        {
+          "text": "moins",
+          "startFrame": 314,
+          "endFrame": 331
+        },
+        {
+          "text": "mesurée",
+          "startFrame": 347,
+          "endFrame": 368
+        },
+        {
+          "text": "perpendiculairement",
+          "startFrame": 368,
+          "endFrame": 415
+        },
+        {
+          "text": "à",
+          "startFrame": 415,
+          "endFrame": 418
+        },
+        {
+          "text": "la",
+          "startFrame": 417,
+          "endFrame": 424
+        },
+        {
+          "text": "frontière",
+          "startFrame": 423,
+          "endFrame": 461
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Pour ça, on projette le vecteur x plus moins x moins sur la direction de w, ramenée à une longueur de un : w divisé par la norme de w.",
+      "audioFile": "svm/audio/segment_12.mp3",
+      "startFrame": 5317,
+      "durationInFrames": 437,
+      "durationSeconds": 7.272,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 18
+        },
+        {
+          "text": "ça",
+          "startFrame": 18,
+          "endFrame": 30
+        },
+        {
+          "text": "on",
+          "startFrame": 46,
+          "endFrame": 50
+        },
+        {
+          "text": "projette",
+          "startFrame": 50,
+          "endFrame": 74
+        },
+        {
+          "text": "le",
+          "startFrame": 74,
+          "endFrame": 81
+        },
+        {
+          "text": "vecteur",
+          "startFrame": 80,
+          "endFrame": 101
+        },
+        {
+          "text": "x",
+          "startFrame": 101,
+          "endFrame": 111
+        },
+        {
+          "text": "plus",
+          "startFrame": 110,
+          "endFrame": 119
+        },
+        {
+          "text": "moins",
+          "startFrame": 119,
+          "endFrame": 130
+        },
+        {
+          "text": "x",
+          "startFrame": 130,
+          "endFrame": 140
+        },
+        {
+          "text": "moins",
+          "startFrame": 140,
+          "endFrame": 151
+        },
+        {
+          "text": "sur",
+          "startFrame": 151,
+          "endFrame": 160
+        },
+        {
+          "text": "la",
+          "startFrame": 160,
+          "endFrame": 165
+        },
+        {
+          "text": "direction",
+          "startFrame": 165,
+          "endFrame": 190
+        },
+        {
+          "text": "de",
+          "startFrame": 190,
+          "endFrame": 197
+        },
+        {
+          "text": "w",
+          "startFrame": 197,
+          "endFrame": 225
+        },
+        {
+          "text": "ramenée",
+          "startFrame": 241,
+          "endFrame": 260
+        },
+        {
+          "text": "à",
+          "startFrame": 260,
+          "endFrame": 263
+        },
+        {
+          "text": "une",
+          "startFrame": 263,
+          "endFrame": 269
+        },
+        {
+          "text": "longueur",
+          "startFrame": 269,
+          "endFrame": 289
+        },
+        {
+          "text": "de",
+          "startFrame": 288,
+          "endFrame": 297
+        },
+        {
+          "text": "un",
+          "startFrame": 296,
+          "endFrame": 303
+        },
+        {
+          "text": "w",
+          "startFrame": 312,
+          "endFrame": 334
+        },
+        {
+          "text": "divisé",
+          "startFrame": 334,
+          "endFrame": 356
+        },
+        {
+          "text": "par",
+          "startFrame": 356,
+          "endFrame": 366
+        },
+        {
+          "text": "la",
+          "startFrame": 365,
+          "endFrame": 370
+        },
+        {
+          "text": "norme",
+          "startFrame": 369,
+          "endFrame": 384
+        },
+        {
+          "text": "de",
+          "startFrame": 384,
+          "endFrame": 391
+        },
+        {
+          "text": "w",
+          "startFrame": 390,
+          "endFrame": 421
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "On soustrait les équations des deux bords : les b s'annulent. Il reste : w point, x plus moins x moins, égale deux.",
+      "audioFile": "svm/audio/segment_13.mp3",
+      "startFrame": 5760,
+      "durationInFrames": 412,
+      "durationSeconds": 6.864,
+      "words": [
+        {
+          "text": "On",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "soustrait",
+          "startFrame": 15,
+          "endFrame": 36
+        },
+        {
+          "text": "les",
+          "startFrame": 36,
+          "endFrame": 42
+        },
+        {
+          "text": "équations",
+          "startFrame": 42,
+          "endFrame": 70
+        },
+        {
+          "text": "des",
+          "startFrame": 70,
+          "endFrame": 78
+        },
+        {
+          "text": "deux",
+          "startFrame": 78,
+          "endFrame": 87
+        },
+        {
+          "text": "bords",
+          "startFrame": 87,
+          "endFrame": 104
+        },
+        {
+          "text": "les",
+          "startFrame": 113,
+          "endFrame": 119
+        },
+        {
+          "text": "b",
+          "startFrame": 118,
+          "endFrame": 126
+        },
+        {
+          "text": "s'annulent",
+          "startFrame": 126,
+          "endFrame": 153
+        },
+        {
+          "text": "Il",
+          "startFrame": 198,
+          "endFrame": 211
+        },
+        {
+          "text": "reste",
+          "startFrame": 210,
+          "endFrame": 227
+        },
+        {
+          "text": "w",
+          "startFrame": 236,
+          "endFrame": 258
+        },
+        {
+          "text": "point",
+          "startFrame": 258,
+          "endFrame": 276
+        },
+        {
+          "text": "x",
+          "startFrame": 291,
+          "endFrame": 301
+        },
+        {
+          "text": "plus",
+          "startFrame": 301,
+          "endFrame": 310
+        },
+        {
+          "text": "moins",
+          "startFrame": 310,
+          "endFrame": 321
+        },
+        {
+          "text": "x",
+          "startFrame": 320,
+          "endFrame": 331
+        },
+        {
+          "text": "moins",
+          "startFrame": 331,
+          "endFrame": 348
+        },
+        {
+          "text": "égale",
+          "startFrame": 363,
+          "endFrame": 381
+        },
+        {
+          "text": "deux",
+          "startFrame": 381,
+          "endFrame": 396
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Donc la largeur de la marge vaut deux divisé par la norme de w. C'est la formule clé du SVM.",
+      "audioFile": "svm/audio/segment_14.mp3",
+      "startFrame": 6178,
+      "durationInFrames": 335,
+      "durationSeconds": 5.568,
+      "words": [
+        {
+          "text": "Donc",
+          "startFrame": 5,
+          "endFrame": 25
+        },
+        {
+          "text": "la",
+          "startFrame": 25,
+          "endFrame": 30
+        },
+        {
+          "text": "largeur",
+          "startFrame": 29,
+          "endFrame": 50
+        },
+        {
+          "text": "de",
+          "startFrame": 49,
+          "endFrame": 55
+        },
+        {
+          "text": "la",
+          "startFrame": 55,
+          "endFrame": 60
+        },
+        {
+          "text": "marge",
+          "startFrame": 60,
+          "endFrame": 75
+        },
+        {
+          "text": "vaut",
+          "startFrame": 75,
+          "endFrame": 83
+        },
+        {
+          "text": "deux",
+          "startFrame": 83,
+          "endFrame": 91
+        },
+        {
+          "text": "divisé",
+          "startFrame": 90,
+          "endFrame": 113
+        },
+        {
+          "text": "par",
+          "startFrame": 113,
+          "endFrame": 123
+        },
+        {
+          "text": "la",
+          "startFrame": 122,
+          "endFrame": 127
+        },
+        {
+          "text": "norme",
+          "startFrame": 126,
+          "endFrame": 141
+        },
+        {
+          "text": "de",
+          "startFrame": 140,
+          "endFrame": 147
+        },
+        {
+          "text": "w",
+          "startFrame": 147,
+          "endFrame": 178
+        },
+        {
+          "text": "C'est",
+          "startFrame": 223,
+          "endFrame": 236
+        },
+        {
+          "text": "la",
+          "startFrame": 236,
+          "endFrame": 242
+        },
+        {
+          "text": "formule",
+          "startFrame": 242,
+          "endFrame": 264
+        },
+        {
+          "text": "clé",
+          "startFrame": 264,
+          "endFrame": 275
+        },
+        {
+          "text": "du",
+          "startFrame": 275,
+          "endFrame": 282
+        },
+        {
+          "text": "SVM",
+          "startFrame": 282,
+          "endFrame": 318
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Pour la route la plus large, il faut rendre la norme de w la plus petite possible, en gardant chaque point du bon côté : y fois, w point x plus b, supérieur ou égal à un.",
+      "audioFile": "svm/audio/segment_15.mp3",
+      "startFrame": 6519,
+      "durationInFrames": 512,
+      "durationSeconds": 8.52,
+      "words": [
+        {
+          "text": "Pour",
+          "startFrame": 5,
+          "endFrame": 16
+        },
+        {
+          "text": "la",
+          "startFrame": 16,
+          "endFrame": 20
+        },
+        {
+          "text": "route",
+          "startFrame": 20,
+          "endFrame": 32
+        },
+        {
+          "text": "la",
+          "startFrame": 31,
+          "endFrame": 38
+        },
+        {
+          "text": "plus",
+          "startFrame": 37,
+          "endFrame": 46
+        },
+        {
+          "text": "large",
+          "startFrame": 46,
+          "endFrame": 66
+        },
+        {
+          "text": "il",
+          "startFrame": 83,
+          "endFrame": 91
+        },
+        {
+          "text": "faut",
+          "startFrame": 91,
+          "endFrame": 99
+        },
+        {
+          "text": "rendre",
+          "startFrame": 99,
+          "endFrame": 112
+        },
+        {
+          "text": "la",
+          "startFrame": 112,
+          "endFrame": 116
+        },
+        {
+          "text": "norme",
+          "startFrame": 116,
+          "endFrame": 130
+        },
+        {
+          "text": "de",
+          "startFrame": 130,
+          "endFrame": 137
+        },
+        {
+          "text": "w",
+          "startFrame": 136,
+          "endFrame": 157
+        },
+        {
+          "text": "la",
+          "startFrame": 157,
+          "endFrame": 163
+        },
+        {
+          "text": "plus",
+          "startFrame": 163,
+          "endFrame": 172
+        },
+        {
+          "text": "petite",
+          "startFrame": 172,
+          "endFrame": 188
+        },
+        {
+          "text": "possible",
+          "startFrame": 188,
+          "endFrame": 214
+        },
+        {
+          "text": "en",
+          "startFrame": 226,
+          "endFrame": 230
+        },
+        {
+          "text": "gardant",
+          "startFrame": 230,
+          "endFrame": 247
+        },
+        {
+          "text": "chaque",
+          "startFrame": 247,
+          "endFrame": 262
+        },
+        {
+          "text": "point",
+          "startFrame": 262,
+          "endFrame": 273
+        },
+        {
+          "text": "du",
+          "startFrame": 272,
+          "endFrame": 279
+        },
+        {
+          "text": "bon",
+          "startFrame": 279,
+          "endFrame": 289
+        },
+        {
+          "text": "côté",
+          "startFrame": 288,
+          "endFrame": 314
+        },
+        {
+          "text": "y",
+          "startFrame": 323,
+          "endFrame": 327
+        },
+        {
+          "text": "fois",
+          "startFrame": 327,
+          "endFrame": 342
+        },
+        {
+          "text": "w",
+          "startFrame": 354,
+          "endFrame": 378
+        },
+        {
+          "text": "point",
+          "startFrame": 378,
+          "endFrame": 391
+        },
+        {
+          "text": "x",
+          "startFrame": 390,
+          "endFrame": 399
+        },
+        {
+          "text": "plus",
+          "startFrame": 399,
+          "endFrame": 409
+        },
+        {
+          "text": "b",
+          "startFrame": 408,
+          "endFrame": 420
+        },
+        {
+          "text": "supérieur",
+          "startFrame": 434,
+          "endFrame": 462
+        },
+        {
+          "text": "ou",
+          "startFrame": 462,
+          "endFrame": 466
+        },
+        {
+          "text": "égal",
+          "startFrame": 466,
+          "endFrame": 482
+        },
+        {
+          "text": "à",
+          "startFrame": 481,
+          "endFrame": 486
+        },
+        {
+          "text": "un",
+          "startFrame": 485,
+          "endFrame": 493
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Dans notre exemple : w vaut zéro virgule cinq, zéro virgule cinq, et b vaut moins trois. La marge vaut deux sur zéro virgule soixante et onze : deux virgule quatre-vingt-trois. Exactement la distance entre x plus et x moins !",
+      "audioFile": "svm/audio/segment_16.mp3",
+      "startFrame": 7037,
+      "durationInFrames": 733,
+      "durationSeconds": 12.216,
+      "words": [
+        {
+          "text": "Dans",
+          "startFrame": 5,
+          "endFrame": 19
+        },
+        {
+          "text": "notre",
+          "startFrame": 19,
+          "endFrame": 33
+        },
+        {
+          "text": "exemple",
+          "startFrame": 33,
+          "endFrame": 57
+        },
+        {
+          "text": "w",
+          "startFrame": 65,
+          "endFrame": 87
+        },
+        {
+          "text": "vaut",
+          "startFrame": 87,
+          "endFrame": 95
+        },
+        {
+          "text": "zéro",
+          "startFrame": 94,
+          "endFrame": 110
+        },
+        {
+          "text": "virgule",
+          "startFrame": 110,
+          "endFrame": 128
+        },
+        {
+          "text": "cinq",
+          "startFrame": 128,
+          "endFrame": 148
+        },
+        {
+          "text": "zéro",
+          "startFrame": 163,
+          "endFrame": 178
+        },
+        {
+          "text": "virgule",
+          "startFrame": 178,
+          "endFrame": 197
+        },
+        {
+          "text": "cinq",
+          "startFrame": 197,
+          "endFrame": 216
+        },
+        {
+          "text": "et",
+          "startFrame": 231,
+          "endFrame": 235
+        },
+        {
+          "text": "b",
+          "startFrame": 234,
+          "endFrame": 242
+        },
+        {
+          "text": "vaut",
+          "startFrame": 242,
+          "endFrame": 249
+        },
+        {
+          "text": "moins",
+          "startFrame": 248,
+          "endFrame": 259
+        },
+        {
+          "text": "trois",
+          "startFrame": 258,
+          "endFrame": 281
+        },
+        {
+          "text": "La",
+          "startFrame": 326,
+          "endFrame": 337
+        },
+        {
+          "text": "marge",
+          "startFrame": 337,
+          "endFrame": 353
+        },
+        {
+          "text": "vaut",
+          "startFrame": 352,
+          "endFrame": 361
+        },
+        {
+          "text": "deux",
+          "startFrame": 360,
+          "endFrame": 369
+        },
+        {
+          "text": "sur",
+          "startFrame": 369,
+          "endFrame": 380
+        },
+        {
+          "text": "zéro",
+          "startFrame": 379,
+          "endFrame": 395
+        },
+        {
+          "text": "virgule",
+          "startFrame": 395,
+          "endFrame": 413
+        },
+        {
+          "text": "soixante",
+          "startFrame": 413,
+          "endFrame": 436
+        },
+        {
+          "text": "et",
+          "startFrame": 436,
+          "endFrame": 440
+        },
+        {
+          "text": "onze",
+          "startFrame": 440,
+          "endFrame": 457
+        },
+        {
+          "text": "deux",
+          "startFrame": 466,
+          "endFrame": 475
+        },
+        {
+          "text": "virgule",
+          "startFrame": 475,
+          "endFrame": 493
+        },
+        {
+          "text": "quatre-vingt-trois",
+          "startFrame": 492,
+          "endFrame": 538
+        },
+        {
+          "text": "Exactement",
+          "startFrame": 583,
+          "endFrame": 617
+        },
+        {
+          "text": "la",
+          "startFrame": 616,
+          "endFrame": 623
+        },
+        {
+          "text": "distance",
+          "startFrame": 622,
+          "endFrame": 649
+        },
+        {
+          "text": "entre",
+          "startFrame": 648,
+          "endFrame": 660
+        },
+        {
+          "text": "x",
+          "startFrame": 660,
+          "endFrame": 669
+        },
+        {
+          "text": "plus",
+          "startFrame": 668,
+          "endFrame": 684
+        },
+        {
+          "text": "et",
+          "startFrame": 684,
+          "endFrame": 688
+        },
+        {
+          "text": "x",
+          "startFrame": 687,
+          "endFrame": 699
+        },
+        {
+          "text": "moins",
+          "startFrame": 699,
+          "endFrame": 718
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "En Python : SVC avec un noyau linéaire. coef et intercept donnent w et b, support vectors donne nos deux points. Un mail avec six liens et trois majuscules ? Spam !",
+      "audioFile": "svm/audio/segment_17.mp3",
+      "startFrame": 7776,
+      "durationInFrames": 633,
+      "durationSeconds": 10.536,
+      "words": [
+        {
+          "text": "En",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "Python",
+          "startFrame": 15,
+          "endFrame": 38
+        },
+        {
+          "text": "SVC",
+          "startFrame": 49,
+          "endFrame": 74
+        },
+        {
+          "text": "avec",
+          "startFrame": 74,
+          "endFrame": 88
+        },
+        {
+          "text": "un",
+          "startFrame": 88,
+          "endFrame": 92
+        },
+        {
+          "text": "noyau",
+          "startFrame": 92,
+          "endFrame": 108
+        },
+        {
+          "text": "linéaire",
+          "startFrame": 108,
+          "endFrame": 141
+        },
+        {
+          "text": "coef",
+          "startFrame": 186,
+          "endFrame": 205
+        },
+        {
+          "text": "et",
+          "startFrame": 205,
+          "endFrame": 210
+        },
+        {
+          "text": "intercept",
+          "startFrame": 210,
+          "endFrame": 238
+        },
+        {
+          "text": "donnent",
+          "startFrame": 238,
+          "endFrame": 250
+        },
+        {
+          "text": "w",
+          "startFrame": 250,
+          "endFrame": 274
+        },
+        {
+          "text": "et",
+          "startFrame": 273,
+          "endFrame": 278
+        },
+        {
+          "text": "b",
+          "startFrame": 277,
+          "endFrame": 290
+        },
+        {
+          "text": "support",
+          "startFrame": 306,
+          "endFrame": 325
+        },
+        {
+          "text": "vectors",
+          "startFrame": 325,
+          "endFrame": 346
+        },
+        {
+          "text": "donne",
+          "startFrame": 346,
+          "endFrame": 356
+        },
+        {
+          "text": "nos",
+          "startFrame": 356,
+          "endFrame": 363
+        },
+        {
+          "text": "deux",
+          "startFrame": 362,
+          "endFrame": 370
+        },
+        {
+          "text": "points",
+          "startFrame": 370,
+          "endFrame": 389
+        },
+        {
+          "text": "Un",
+          "startFrame": 434,
+          "endFrame": 444
+        },
+        {
+          "text": "mail",
+          "startFrame": 444,
+          "endFrame": 455
+        },
+        {
+          "text": "avec",
+          "startFrame": 455,
+          "endFrame": 466
+        },
+        {
+          "text": "six",
+          "startFrame": 466,
+          "endFrame": 474
+        },
+        {
+          "text": "liens",
+          "startFrame": 474,
+          "endFrame": 486
+        },
+        {
+          "text": "et",
+          "startFrame": 486,
+          "endFrame": 489
+        },
+        {
+          "text": "trois",
+          "startFrame": 489,
+          "endFrame": 501
+        },
+        {
+          "text": "majuscules",
+          "startFrame": 500,
+          "endFrame": 538
+        },
+        {
+          "text": "Spam",
+          "startFrame": 583,
+          "endFrame": 616
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "À retenir : le SVM cherche la frontière avec la plus grande marge. Seuls les vecteurs de support comptent. Et la marge vaut deux sur la norme de w.",
+      "audioFile": "svm/audio/segment_18.mp3",
+      "startFrame": 8415,
+      "durationInFrames": 512,
+      "durationSeconds": 8.52,
+      "words": [
+        {
+          "text": "À",
+          "startFrame": 5,
+          "endFrame": 14
+        },
+        {
+          "text": "retenir",
+          "startFrame": 14,
+          "endFrame": 46
+        },
+        {
+          "text": "le",
+          "startFrame": 56,
+          "endFrame": 62
+        },
+        {
+          "text": "SVM",
+          "startFrame": 61,
+          "endFrame": 83
+        },
+        {
+          "text": "cherche",
+          "startFrame": 83,
+          "endFrame": 102
+        },
+        {
+          "text": "la",
+          "startFrame": 102,
+          "endFrame": 109
+        },
+        {
+          "text": "frontière",
+          "startFrame": 109,
+          "endFrame": 132
+        },
+        {
+          "text": "avec",
+          "startFrame": 132,
+          "endFrame": 143
+        },
+        {
+          "text": "la",
+          "startFrame": 143,
+          "endFrame": 150
+        },
+        {
+          "text": "plus",
+          "startFrame": 150,
+          "endFrame": 159
+        },
+        {
+          "text": "grande",
+          "startFrame": 159,
+          "endFrame": 172
+        },
+        {
+          "text": "marge",
+          "startFrame": 171,
+          "endFrame": 196
+        },
+        {
+          "text": "Seuls",
+          "startFrame": 241,
+          "endFrame": 259
+        },
+        {
+          "text": "les",
+          "startFrame": 259,
+          "endFrame": 264
+        },
+        {
+          "text": "vecteurs",
+          "startFrame": 264,
+          "endFrame": 285
+        },
+        {
+          "text": "de",
+          "startFrame": 285,
+          "endFrame": 293
+        },
+        {
+          "text": "support",
+          "startFrame": 293,
+          "endFrame": 313
+        },
+        {
+          "text": "comptent",
+          "startFrame": 313,
+          "endFrame": 339
+        },
+        {
+          "text": "Et",
+          "startFrame": 385,
+          "endFrame": 394
+        },
+        {
+          "text": "la",
+          "startFrame": 393,
+          "endFrame": 400
+        },
+        {
+          "text": "marge",
+          "startFrame": 399,
+          "endFrame": 414
+        },
+        {
+          "text": "vaut",
+          "startFrame": 414,
+          "endFrame": 422
+        },
+        {
+          "text": "deux",
+          "startFrame": 422,
+          "endFrame": 432
+        },
+        {
+          "text": "sur",
+          "startFrame": 431,
+          "endFrame": 440
+        },
+        {
+          "text": "la",
+          "startFrame": 439,
+          "endFrame": 445
+        },
+        {
+          "text": "norme",
+          "startFrame": 445,
+          "endFrame": 459
+        },
+        {
+          "text": "de",
+          "startFrame": 459,
+          "endFrame": 466
+        },
+        {
+          "text": "w",
+          "startFrame": 466,
+          "endFrame": 496
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Et si une droite ne suffit pas ? C'est le kernel trick, dans la prochaine vidéo. Petit défi : si on double w, que devient la marge ? Réponds en commentaire, et abonne-toi !",
+      "audioFile": "svm/audio/segment_19.mp3",
+      "startFrame": 8933,
+      "durationInFrames": 664,
+      "durationSeconds": 11.064,
+      "words": [
+        {
+          "text": "Et",
+          "startFrame": 5,
+          "endFrame": 15
+        },
+        {
+          "text": "si",
+          "startFrame": 15,
+          "endFrame": 24
+        },
+        {
+          "text": "une",
+          "startFrame": 24,
+          "endFrame": 30
+        },
+        {
+          "text": "droite",
+          "startFrame": 30,
+          "endFrame": 46
+        },
+        {
+          "text": "ne",
+          "startFrame": 45,
+          "endFrame": 54
+        },
+        {
+          "text": "suffit",
+          "startFrame": 53,
+          "endFrame": 70
+        },
+        {
+          "text": "pas",
+          "startFrame": 70,
+          "endFrame": 85
+        },
+        {
+          "text": "C'est",
+          "startFrame": 131,
+          "endFrame": 144
+        },
+        {
+          "text": "le",
+          "startFrame": 143,
+          "endFrame": 149
+        },
+        {
+          "text": "kernel",
+          "startFrame": 149,
+          "endFrame": 169
+        },
+        {
+          "text": "trick",
+          "startFrame": 169,
+          "endFrame": 191
+        },
+        {
+          "text": "dans",
+          "startFrame": 203,
+          "endFrame": 209
+        },
+        {
+          "text": "la",
+          "startFrame": 209,
+          "endFrame": 215
+        },
+        {
+          "text": "prochaine",
+          "startFrame": 214,
+          "endFrame": 236
+        },
+        {
+          "text": "vidéo",
+          "startFrame": 235,
+          "endFrame": 263
+        },
+        {
+          "text": "Petit",
+          "startFrame": 308,
+          "endFrame": 324
+        },
+        {
+          "text": "défi",
+          "startFrame": 324,
+          "endFrame": 345
+        },
+        {
+          "text": "si",
+          "startFrame": 357,
+          "endFrame": 367
+        },
+        {
+          "text": "on",
+          "startFrame": 367,
+          "endFrame": 372
+        },
+        {
+          "text": "double",
+          "startFrame": 372,
+          "endFrame": 388
+        },
+        {
+          "text": "w",
+          "startFrame": 387,
+          "endFrame": 416
+        },
+        {
+          "text": "que",
+          "startFrame": 430,
+          "endFrame": 438
+        },
+        {
+          "text": "devient",
+          "startFrame": 438,
+          "endFrame": 455
+        },
+        {
+          "text": "la",
+          "startFrame": 454,
+          "endFrame": 459
+        },
+        {
+          "text": "marge",
+          "startFrame": 459,
+          "endFrame": 484
+        },
+        {
+          "text": "Réponds",
+          "startFrame": 530,
+          "endFrame": 552
+        },
+        {
+          "text": "en",
+          "startFrame": 551,
+          "endFrame": 558
+        },
+        {
+          "text": "commentaire",
+          "startFrame": 557,
+          "endFrame": 594
+        },
+        {
+          "text": "et",
+          "startFrame": 610,
+          "endFrame": 615
+        },
+        {
+          "text": "abonne-toi",
+          "startFrame": 614,
+          "endFrame": 647
+        }
+      ]
+    }
+  ]
+}
